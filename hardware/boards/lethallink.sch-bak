@@ -1,0 +1,35 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L lethalbit-pcie:PCIe-x4 J1
+U 1 1 5ED41026
+P 6700 2750
+F 0 "J1" H 6700 3865 50  0000 C CNN
+F 1 "PCIe-x4" H 6700 3774 50  0000 C CNN
+F 2 "lethalbit-pcie:PCIe-x4-Card-FH" H 6850 3850 50  0001 C CNN
+F 3 "" H 6850 3850 50  0001 C CNN
+	1    6700 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1900 6100 1900
+Wire Wire Line
+	7200 4500 7350 4500
+Text Label 7350 4500 0    50   ~ 0
+PRSNT#
+Text Label 6100 1900 2    50   ~ 0
+PRSNT#
+$EndSCHEMATC

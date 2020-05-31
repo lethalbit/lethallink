@@ -1,4 +1,95 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L lethalbit-pcie:PCIe-x4 J1
+U 1 1 5ED41026
+P 6700 2750
+F 0 "J1" H 6700 3865 50  0000 C CNN
+F 1 "PCIe-x4" H 6700 3774 50  0000 C CNN
+F 2 "lethalbit-pcie:PCIe-x4-Card-FH" H 6850 3850 50  0001 C CNN
+F 3 "" H 6850 3850 50  0001 C CNN
+	1    6700 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1900 6100 1900
+Wire Wire Line
+	7200 4500 7350 4500
+Text Label 7350 4500 0    50   ~ 0
+PRSNT#
+Text Label 6100 1900 2    50   ~ 0
+PRSNT#
+$Comp
+L power:GND #PWR?
+U 1 1 5ED48DF0
+P 7700 2250
+F 0 "#PWR?" H 7700 2000 50  0001 C CNN
+F 1 "GND" H 7705 2077 50  0000 C CNN
+F 2 "" H 7700 2250 50  0001 C CNN
+F 3 "" H 7700 2250 50  0001 C CNN
+	1    7700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5ED49518
+P 7300 1650
+F 0 "#PWR?" H 7300 1500 50  0001 C CNN
+F 1 "+12V" H 7315 1823 50  0000 C CNN
+F 2 "" H 7300 1650 50  0001 C CNN
+F 3 "" H 7300 1650 50  0001 C CNN
+	1    7300 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5ED49C5D
+P 7550 1650
+F 0 "#PWR?" H 7550 1500 50  0001 C CNN
+F 1 "+3.3V" H 7565 1823 50  0000 C CNN
+F 2 "" H 7550 1650 50  0001 C CNN
+F 3 "" H 7550 1650 50  0001 C CNN
+	1    7550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5ED4A0C8
+P 7850 1650
+F 0 "#PWR?" H 7850 1500 50  0001 C CNN
+F 1 "+3.3VA" H 7865 1823 50  0000 C CNN
+F 2 "" H 7850 1650 50  0001 C CNN
+F 3 "" H 7850 1650 50  0001 C CNN
+	1    7850 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1900 7300 1900
+Wire Wire Line
+	7300 1900 7300 1650
+Wire Wire Line
+	7200 2000 7550 2000
+Wire Wire Line
+	7550 2000 7550 1650
+Wire Wire Line
+	7200 2100 7850 2100
+Wire Wire Line
+	7850 2100 7850 1650
+Wire Wire Line
+	7200 2200 7700 2200
+Wire Wire Line
+	7700 2200 7700 2250
 $EndSCHEMATC
