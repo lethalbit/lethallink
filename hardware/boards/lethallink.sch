@@ -436,21 +436,21 @@ Wire Wire Line
 	5200 1600 5200 1900
 Connection ~ 5200 1900
 Wire Wire Line
-	5200 1900 5700 1900
+	5200 1900 5600 1900
 $Sheet
-S 10150 1700 500  150 
+S 10150 1350 500  150 
 U 5EF66251
 F0 "Boot Config" 50
 F1 "BootConfig.sch" 50
 $EndSheet
 $Sheet
-S 10150 2100 500  150 
+S 10150 1750 500  150 
 U 5EF67D90
 F0 "Debug Interface" 50
 F1 "DebugInterface.sch" 50
 $EndSheet
 $Sheet
-S 10150 2450 500  150 
+S 10150 2100 500  150 
 U 5EF6A128
 F0 "External Interface" 50
 F1 "ExternalInterface.sch" 50
@@ -463,19 +463,49 @@ F 0 "U?" H 14200 348 50  0000 C CNN
 F 1 "ECP5UM5G-381caBGA" H 14200 257 50  0000 C CNN
 F 2 "" H 12850 150 50  0001 C CNN
 F 3 "" H 12850 150 50  0001 C CNN
+F 4 "Lattice" H 14200 0   50  0001 C CNN "MFR"
+F 5 "LFE5UM5G-85F-8BG381I" H 14200 0   50  0001 C CNN "MPN"
 	2    14200 0   
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 10150 2800 500  150 
+S 10150 2450 500  150 
 U 5F2CAFD2
 F0 "USB3 Interface" 50
 F1 "USB3Interface.sch" 50
 $EndSheet
 $Sheet
-S 10150 1350 500  150 
+S 7650 1750 650  500 
 U 5EF66188
 F0 "IC Power" 50
 F1 "ICPower.sch" 50
+F2 "3V3" I L 7650 2200 50 
+F3 "1V1" I L 7650 1800 50 
+F4 "1V8" I L 7650 2000 50 
+F5 "2V5" I L 7650 2100 50 
+F6 "1V2" I L 7650 1900 50 
 $EndSheet
+Wire Wire Line
+	6700 1800 7650 1800
+Connection ~ 6700 1800
+Wire Wire Line
+	6950 1900 7650 1900
+Connection ~ 6950 1900
+Wire Wire Line
+	7200 2000 7650 2000
+Connection ~ 7200 2000
+Wire Wire Line
+	7450 2100 7650 2100
+Connection ~ 7450 2100
+Wire Wire Line
+	5600 1900 5600 2350
+Wire Wire Line
+	5600 2350 6750 2350
+Wire Wire Line
+	6750 2350 6750 2200
+Wire Wire Line
+	6750 2200 7650 2200
+Connection ~ 5600 1900
+Wire Wire Line
+	5600 1900 5700 1900
 $EndSCHEMATC

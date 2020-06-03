@@ -158,6 +158,8 @@ F 0 "U?" H 5250 5731 50  0000 C CNN
 F 1 "ADP5050ACPZ-R7" H 5250 5640 50  0000 C CNN
 F 2 "lethalbit:QFN-48_EP_7x7_Pitch0.5mm" H 5250 4150 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5050.PDF" H 5250 4150 50  0001 C CNN
+F 4 "Analog Devices" H 5250 4100 50  0001 C CNN "MFR"
+F 5 " ADP5050ACPZ-R7 " H 5250 4100 50  0001 C CNN "MPN"
 	1    5250 4100
 	1    0    0    -1  
 $EndComp
