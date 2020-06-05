@@ -294,12 +294,6 @@ U 5EDF3898
 F0 "LPDDR3 Cache" 50
 F1 "LPDDR3Cache.sch" 50
 $EndSheet
-$Sheet
-S 10150 1000 500  150 
-U 5EDF8786
-F0 "FPGA Core" 50
-F1 "FPGACore.sch" 50
-$EndSheet
 Wire Wire Line
 	6700 1800 6700 1300
 Wire Wire Line
@@ -438,43 +432,6 @@ Connection ~ 5200 1900
 Wire Wire Line
 	5200 1900 5600 1900
 $Sheet
-S 10150 1350 500  150 
-U 5EF66251
-F0 "Boot Config" 50
-F1 "BootConfig.sch" 50
-$EndSheet
-$Sheet
-S 10150 1750 500  150 
-U 5EF67D90
-F0 "Debug Interface" 50
-F1 "DebugInterface.sch" 50
-$EndSheet
-$Sheet
-S 10150 2100 500  150 
-U 5EF6A128
-F0 "External Interface" 50
-F1 "ExternalInterface.sch" 50
-$EndSheet
-$Comp
-L lethalbit:ECP5UM5G-381caBGA U1
-U 2 1 5EF7DF2B
-P 14200 0
-F 0 "U1" H 14200 348 50  0000 C CNN
-F 1 "ECP5UM5G-381caBGA" H 14200 257 50  0000 C CNN
-F 2 "lethalbit:318caBGA" H 12850 150 50  0001 C CNN
-F 3 "" H 12850 150 50  0001 C CNN
-F 4 "Lattice" H 14200 0   50  0001 C CNN "MFR"
-F 5 "LFE5UM5G-85F-8BG381I" H 14200 0   50  0001 C CNN "MPN"
-	2    14200 0   
-	1    0    0    -1  
-$EndComp
-$Sheet
-S 10150 2450 500  150 
-U 5F2CAFD2
-F0 "USB3 Interface" 50
-F1 "USB3Interface.sch" 50
-$EndSheet
-$Sheet
 S 7650 1750 650  500 
 U 5EF66188
 F0 "IC Power" 50
@@ -508,4 +465,28 @@ Wire Wire Line
 Connection ~ 5600 1900
 Wire Wire Line
 	5600 1900 5700 1900
+$Sheet
+S 10150 2100 500  150 
+U 5F2CAFD2
+F0 "USB3 Interface" 50
+F1 "USB3Interface.sch" 50
+$EndSheet
+$Sheet
+S 10150 1750 500  150 
+U 5EF6A128
+F0 "External Interface" 50
+F1 "ExternalInterface.sch" 50
+$EndSheet
+$Sheet
+S 10150 1400 500  150 
+U 5EF67D90
+F0 "Debug Interface" 50
+F1 "DebugInterface.sch" 50
+$EndSheet
+$Sheet
+S 10150 1000 500  150 
+U 5EF66251
+F0 "Boot Config" 50
+F1 "BootConfig.sch" 50
+$EndSheet
 $EndSCHEMATC

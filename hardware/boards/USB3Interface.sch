@@ -25,6 +25,7 @@ F 2 "lethalbit:318caBGA" H 8450 1350 50  0001 C CNN
 F 3 "" H 8450 1350 50  0001 C CNN
 F 4 "Lattice" H 9800 1200 50  0001 C CNN "MFR"
 F 5 "LFE5UM5G-85F-8BG381I" H 9800 1200 50  0001 C CNN "MPN"
+F 6 "220-2112-ND" H 9800 1200 50  0001 C CNN "DIGIKEY_PN"
 	3    9800 1200
 	1    0    0    -1  
 $EndComp
@@ -38,6 +39,7 @@ F 2 "lethalbit:BGA-121_11x11_10.0x10.0mm" H 6400 4050 50  0001 C CNN
 F 3 "https://www.cypress.com/file/140296/download" H 6400 4050 50  0001 C CNN
 F 4 "Cypress" H 6400 3350 50  0001 C CNN "MFR"
 F 5 " CYUSB3014-BZXI" H 6400 3350 50  0001 C CNN "MPN"
+F 6 "428-3130-ND" H 6400 3350 50  0001 C CNN "DIGIKEY_PN"
 	2    6400 3350
 	1    0    0    -1  
 $EndComp
@@ -51,6 +53,7 @@ F 2 "lethalbit:BGA-121_11x11_10.0x10.0mm" H 3050 2400 50  0001 C CNN
 F 3 "https://www.cypress.com/file/140296/download" H 3050 2400 50  0001 C CNN
 F 4 "Cypress" H 3050 1700 50  0001 C CNN "MFR"
 F 5 " CYUSB3014-BZXI" H 3050 1700 50  0001 C CNN "MPN"
+F 6 "428-3130-ND" H 3050 1700 50  0001 C CNN "DIGIKEY_PN"
 	3    3050 1700
 	1    0    0    -1  
 $EndComp
@@ -63,7 +66,8 @@ F 1 "CYUSB3014" H 6950 2107 50  0000 C CNN
 F 2 "lethalbit:BGA-121_11x11_10.0x10.0mm" H 6950 2100 50  0001 C CNN
 F 3 "https://www.cypress.com/file/140296/download" H 6950 2100 50  0001 C CNN
 F 4 "Cypress" H 6950 1400 50  0001 C CNN "MFR"
-F 5 "https://www.cypress.com/file/140296/download" H 6950 1400 50  0001 C CNN "MPN"
+F 5 " CYUSB3014-BZXI" H 6950 1400 50  0001 C CNN "MPN"
+F 6 "428-3130-ND" H 6950 1400 50  0001 C CNN "DIGIKEY_PN"
 	4    6950 1400
 	1    0    0    -1  
 $EndComp
@@ -77,6 +81,7 @@ F 2 "lethalbit:USB3_Micro_B_Amphenol" H 3050 3050 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/gsb343k33hr.pdf" H 3050 3050 50  0001 C CNN
 F 4 "Amphenol" H 3050 3050 50  0001 C CNN "MFR"
 F 5 "GSB343K33HR" H 3050 3050 50  0001 C CNN "MPN"
+F 6 "GSB343K33HRCT-ND" H 3050 2600 50  0001 C CNN "DIGIKEY_PN"
 	1    3050 2600
 	1    0    0    -1  
 $EndComp
