@@ -1,2 +1,67 @@
-✔ Pick name @done (20-05-31 13:43)
-✔ Pick licenses @done (20-05-31 13:43)
+Project Setup:
+ ✔ Pick name @done (2020-05-31 13:43)
+ ✔ Pick licenses @done (2020-05-31 13:43)
+
+Hardware:
+ ☐ Finish power supply calculations
+   ☐ 1v2 rail
+   ☐ 1v5 rail
+   ☐ 1v8 rail
+   ☐ 2v5 rail
+
+ ☐ Initial routing of power supply
+
+ ☐ Start on the schematic component for the PCIe bus connection
+   ☐ Route PCIe traces
+
+ ☐ Find (Q)SPI flash module for gateware and firmware
+   ☐ Hook up flash to FPGA
+   ☐ Route flash
+
+ ☐ Find LPDDR3 module (8GiB?) for cache (ECC?) [Depends on LPDDR core]
+   ☐ Hook up RAM to FPGA
+   ☐ Route RAM (ugh)
+
+ ☐ Settle on data exfiltration interface (Just use USB3? Gigabit Serial?)
+
+ ☐ Design hardware debug interface (high speed level-shifters needed most likely) (Mezzanine boards?)
+   ☐ Generic GPIO based (JTAG, etc)
+   ☐ Specialized
+     ☐ Intel
+       ☐ SVT
+       ☐ ITP-XDP
+     ☐ AMD
+       ☐ ?????? (Need to figure that out)
+
+Gateware:
+ ☐ Sort out the RISC-V Management Core
+   ☐ Look into using Lambdasoc / Minerva
+
+ ☐ Sort out PCIe DMA engine
+   ☐ Look into litepcie (migen, would need port)
+
+ ☐ Sort out LPDDR3 core
+   ☐ Look into litedram (migen, would need port)
+
+ ☐ Integrate Management Core into PCIe and LPDDR3 cores (AXI? Wishbone?)
+
+ ☐ Sort out the USB3 bus to the CYUSB3014 (Some sort of DMA core?)
+
+ ☐ Hardware debug core design
+   ☐ JTAG
+
+   ☐ Intel
+     ☐ SVT
+     ☐ ITP-XDP
+   ☐ AMD
+     ☐ ?????
+
+   ☐ GDB Server (? Should be in Firmware not gateware, but I want to try to build a gateware version)
+
+Firmware:
+  ☐ Scaffold out the management core firmware
+
+  ☐ Bootstrap CYUSB3014 firmware
+
+Software:
+ ☐ Scaffold client software (Linux only, I don't really care about Windows)
