@@ -282,7 +282,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 6600 5850 6600
 Wire Wire Line
-	3700 7000 4700 7000
+	3700 7000 4300 7000
 Wire Wire Line
 	4700 7000 4700 6600
 Connection ~ 3700 7000
@@ -658,7 +658,7 @@ F 1 "?" V 7255 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7150 3800 50  0001 C CNN
 F 3 "~" H 7150 3800 50  0001 C CNN
 	1    7150 3800
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6650 3800 6950 3800
@@ -698,7 +698,7 @@ F 3 "~" H 7900 4150 50  0001 C CNN
 F 4 "KEMET" V 7900 4150 50  0001 C CNN "MFR"
 F 5 "" V 7900 4150 50  0001 C CNN "MPN"
 	1    7900 4150
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R25
@@ -741,7 +741,7 @@ F 1 "?" H 6959 4255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6900 4300 50  0001 C CNN
 F 3 "~" H 6900 4300 50  0001 C CNN
 	1    6900 4300
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R18
@@ -827,7 +827,7 @@ F 3 "~" H 7900 5200 50  0001 C CNN
 F 4 "KEMET" V 7900 5200 50  0001 C CNN "MFR"
 F 5 "" V 7900 5200 50  0001 C CNN "MPN"
 	1    7900 5200
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R26
@@ -894,7 +894,7 @@ F 1 "?" H 7141 4945 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7200 4900 50  0001 C CNN
 F 3 "~" H 7200 4900 50  0001 C CNN
 	1    7200 4900
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6950 4900 7100 4900
@@ -961,7 +961,7 @@ Connection ~ 7350 4700
 Wire Wire Line
 	7350 4700 7500 4700
 Wire Wire Line
-	6050 5900 6050 7000
+	6050 5850 6050 7000
 Wire Wire Line
 	6050 7000 5650 7000
 Connection ~ 5650 7000
@@ -985,7 +985,7 @@ F 1 "?" H 5609 5705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5550 5750 50  0001 C CNN
 F 3 "~" H 5550 5750 50  0001 C CNN
 	1    5550 5750
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5900 6300 5650 6300
@@ -1045,7 +1045,7 @@ F 3 "~" H 5250 6800 50  0001 C CNN
 F 4 "KEMET" V 5250 6800 50  0001 C CNN "MFR"
 F 5 "" V 5250 6800 50  0001 C CNN "MPN"
 	1    5250 6800
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5400 6700 5400 6600
@@ -1189,7 +1189,7 @@ F 3 "~" H 4300 6800 50  0001 C CNN
 F 4 "KEMET" V 4300 6800 50  0001 C CNN "MFR"
 F 5 "" V 4300 6800 50  0001 C CNN "MPN"
 	1    4300 6800
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4450 6700 4450 6600
@@ -1197,10 +1197,6 @@ Wire Wire Line
 	4300 6350 4300 6700
 Wire Wire Line
 	4450 6350 4450 6400
-Wire Wire Line
-	4450 6900 4450 7000
-Wire Wire Line
-	4300 6900 4300 7000
 Wire Wire Line
 	4300 6350 4450 6350
 Wire Wire Line
@@ -1302,19 +1298,6 @@ F 3 "~" H 10700 2000 50  0001 C CNN
 F 4 "Würth Elektronik" H 10700 2000 50  0001 C CNN "MFR"
 F 5 "150060GS75000" H 10700 2000 50  0001 C CNN "MPN"
 	1    10700 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D5
-U 1 1 5EFFCB3F
-P 10700 1550
-F 0 "D5" H 10700 1650 50  0000 R CNN
-F 1 "GRN" H 10750 1400 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 10700 1550 50  0001 C CNN
-F 3 "~" H 10700 1550 50  0001 C CNN
-F 4 "Würth Elektronik" H 10700 1550 50  0001 C CNN "MFR"
-F 5 "150060GS75000" H 10700 1550 50  0001 C CNN "MPN"
-	1    10700 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1556,6 +1539,29 @@ F 3 "~" H 10200 1050 50  0001 C CNN
 F 4 "Vishay Dale" H 10200 1050 50  0001 C CNN "MFR"
 F 5 "CRCW060310K0FKEA" H 10200 1050 50  0001 C CNN "MPN"
 	1    10200 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 6900 4450 7000
+Connection ~ 4450 7000
+Wire Wire Line
+	4450 7000 4700 7000
+Wire Wire Line
+	4300 6900 4300 7000
+Connection ~ 4300 7000
+Wire Wire Line
+	4300 7000 4450 7000
+$Comp
+L Device:LED D5
+U 1 1 5EFFCB3F
+P 10700 1550
+F 0 "D5" H 10700 1650 50  0000 R CNN
+F 1 "GRN " H 10750 1400 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 10700 1550 50  0001 C CNN
+F 3 "~" H 10700 1550 50  0001 C CNN
+F 4 "Würth Elektronik" H 10700 1550 50  0001 C CNN "MFR"
+F 5 "150060GS75000" H 10700 1550 50  0001 C CNN "MPN"
+	1    10700 1550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
