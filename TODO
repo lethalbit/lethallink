@@ -25,7 +25,7 @@ Hardware:
  ☐ Settle on data exfiltration interface (Just use USB3? Gigabit Serial?)
 
  ☐ Design hardware debug interface (high speed level-shifters needed most likely) (Mezzanine boards?)
-   ☐ Generic GPIO based (JTAG, etc)
+   ☐ Generic GPIO based (JTAG, etc. minimal Glasgow-like)
    ☐ Specialized
      ☐ Intel
        ☐ SVT
@@ -49,19 +49,21 @@ Gateware:
 
  ☐ Hardware debug core design
    ☐ JTAG
-
    ☐ Intel
      ☐ SVT
      ☐ ITP-XDP
    ☐ AMD
      ☐ ?????
-
    ☐ GDB Server (? Should be in Firmware not gateware, but I want to try to build a gateware version)
+   ☐ PCIe DMA watchpoints
 
 Firmware:
   ☐ Scaffold out the management core firmware
 
   ☐ Bootstrap CYUSB3014 firmware
 
+  ☐ GDB Server in management core?
+
 Software:
  ☐ Scaffold client software (Linux only, I don't really care about Windows)
+ ☐ GDB integration
