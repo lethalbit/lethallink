@@ -1,6 +1,8 @@
 # lethallink
 
-TODO DESC
+lethallink is a PCI-Express DMA engine with on board debugging machinery designed in an attempt to allow for mostly transparent access to a system under test with no software at all running on said system.
+
+All of the information is exfiltrated onto a control system that can then be used for analysis. The control system can also interact with lethallink to add things like memory watchpoints via the control software or GDB integration. 
 
 ## Licenses
 
