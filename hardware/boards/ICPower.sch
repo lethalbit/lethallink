@@ -629,4 +629,17 @@ F 5 "IS43TR16256B-125KBL" H 9400 3600 50  0001 C CNN "MPN"
 	1    9400 3600
 	1    0    0    -1  
 $EndComp
+$Comp
+L lethalbit-memory:W25N01GVZEIG U5
+U 1 1 5F208622
+P 12150 4600
+F 0 "U5" H 12150 4824 39  0000 C CNN
+F 1 "128MiB" H 12150 4749 39  0000 C CNN
+F 2 "lethalbit-memory:WSON-8-1EP-6.0x8.0mm" H 12150 4750 39  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/w25n01gv%20revl%20050918%20unsecured.pdf" H 12150 4750 39  0001 C CNN
+F 4 "Winbond" H 12150 4600 50  0001 C CNN "MFR"
+F 5 "W25N01GVZEIG TR" H 12150 4600 50  0001 C CNN "MPN"
+	1    12150 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

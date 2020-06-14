@@ -173,4 +173,17 @@ F 3 "" H 8500 1150 50  0001 C CNN
 	1    8500 1150
 	1    0    0    -1  
 $EndComp
+$Comp
+L lethalbit-memory:W25N01GVZEIG U5
+U 2 1 5F1F6855
+P 10800 1100
+F 0 "U5" H 10825 1324 39  0000 C CNN
+F 1 "128MiB" H 10825 1249 39  0000 C CNN
+F 2 "lethalbit-memory:WSON-8-1EP-6.0x8.0mm" H 10800 1250 39  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/w25n01gv%20revl%20050918%20unsecured.pdf" H 10800 1250 39  0001 C CNN
+F 4 "Winbond" H 10800 1100 50  0001 C CNN "MFR"
+F 5 "W25N01GVZEIG TR" H 10800 1100 50  0001 C CNN "MPN"
+	2    10800 1100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
