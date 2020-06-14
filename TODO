@@ -8,7 +8,7 @@ Hardware:
    ✔ 1v5 rail @done (2020-06-14 01:22)
    ✔ 1v8 rail @done (2020-06-14 01:22)
    ✔ 2v5 rail @done (2020-06-14 01:22)
- ☐ Run numbers for bank enable voltage dividers for proper poweron sequencing (R10/11, R15/16, R18/20, R17/19)
+ ☐ Run numbers for bank enable voltage dividers for proper power-on sequencing (R10/11, R15/16, R18/20, R17/19)
  ☐ Possibly re-do the supply schematic, it's messy.
  ☐ Double check power supply calculations
 
@@ -24,12 +24,13 @@ Hardware:
    ☐ Route PCIe traces
 
  ☐ Find (Q)SPI flash module for gateware and firmware
-   ☐ Hook up flash to FPGA
-   ☐ Route flash
+ ☐ Hook up flash to FPGA
+ ☐ Route flash
 
- ☐ Find LPDDR3 module (8GiB?) for cache (ECC?) [Depends on LPDDR core]
-   ☐ Hook up RAM to FPGA
-   ☐ Route RAM (ugh)
+ ✔ Find LPDDR3 module (8GiB?) for cache (ECC?) [Depends on LPDDR core] @done (2020-06-14 15:06)
+   SODIMM? Need a memory controller
+ ☐ Hook up RAM to FPGA
+ ☐ Route RAM (ugh)
 
  ☐ Settle on data exfiltration interface (Just use USB3? Gigabit Serial?)
 
