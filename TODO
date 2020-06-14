@@ -23,7 +23,7 @@ Hardware:
  ☐ Start on the schematic component for the PCIe bus connection
    ☐ Route PCIe traces
 
- ☐ Find (Q)SPI flash module for gateware and firmware
+ ✔ Find SPI flash module for gateware and firmware @done (2020-06-14 15:53)
  ☐ Hook up flash to FPGA
  ☐ Route flash
 
