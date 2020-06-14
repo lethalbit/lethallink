@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title "lethallink - PCIe Interface and Root Schematic"
 Date "2020-06-13"
 Rev "rev A"
@@ -283,7 +283,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 2800 4300 2800
 $Sheet
-S 10150 600  500  150 
+S 10100 600  500  150 
 U 5EDF3898
 F0 "LPDDR3 Cache" 50
 F1 "LPDDR3Cache.sch" 50
@@ -395,25 +395,25 @@ Connection ~ 5600 1900
 Wire Wire Line
 	5600 1900 5700 1900
 $Sheet
-S 10150 2100 500  150 
+S 10100 2100 500  150 
 U 5F2CAFD2
 F0 "USB3 Interface" 50
 F1 "USB3Interface.sch" 50
 $EndSheet
 $Sheet
-S 10150 1750 500  150 
+S 10100 1750 500  150 
 U 5EF6A128
 F0 "External Interface" 50
 F1 "ExternalInterface.sch" 50
 $EndSheet
 $Sheet
-S 10150 1400 500  150 
+S 10100 1400 500  150 
 U 5EF67D90
 F0 "Debug Interface" 50
 F1 "DebugInterface.sch" 50
 $EndSheet
 $Sheet
-S 10150 1000 500  150 
+S 10100 1000 500  150 
 U 5EF66251
 F0 "Boot Config" 50
 F1 "BootConfig.sch" 50
@@ -489,4 +489,10 @@ Wire Wire Line
 	4900 2100 5700 2100
 Wire Wire Line
 	5200 1900 5600 1900
+$Sheet
+S 10100 2500 500  150 
+U 5F55EF4C
+F0 "Mechanical / Graphics" 50
+F1 "MechanicalGraphic.sch" 50
+$EndSheet
 $EndSCHEMATC
