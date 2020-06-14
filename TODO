@@ -9,12 +9,16 @@ Hardware:
    ✔ 1v8 rail @done (2020-06-14 01:22)
    ✔ 2v5 rail @done (2020-06-14 01:22)
  ☐ Run numbers for bank enable voltage dividers for proper poweron sequencing (R10/11, R15/16, R18/20, R17/19)
-
+ ☐ Possibly re-do the supply schematic, it's messy.
  ☐ Double check power supply calculations
 
  ☐ Initial routing of power supply
 
  ☐ Source ESD diodes for USB lines
+ ☐ Figure out what to do with VBUS (Pull high?)
+   It's weird because we're a USB device, but like, self-powered, This also calls into question what to do with GND.
+
+ ☐ Figure out how on earth to bring up the FPGA
 
  ☐ Start on the schematic component for the PCIe bus connection
    ☐ Route PCIe traces
@@ -28,6 +32,7 @@ Hardware:
    ☐ Route RAM (ugh)
 
  ☐ Settle on data exfiltration interface (Just use USB3? Gigabit Serial?)
+
 
  ☐ Design hardware debug interface (high speed level-shifters needed most likely) (Mezzanine boards?)
    ☐ Generic GPIO based (JTAG, etc. minimal Glasgow-like)
