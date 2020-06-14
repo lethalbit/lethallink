@@ -1,0 +1,178 @@
+# ADP505 Based Supply Design Notes
+
+Needed rails:
+ * +1v2
+ * +1v5
+ * +1v8
+ * +2v5
+
+Freq: 700kHz ~~ 780kHz
+
+Fsw = 750kHz
+
+Rrt[kOhm] = (14288/750kHz)^1.081
+Rrt ~ 25.16569kOhm Closest match is 24.9kOhm
+
+Vref = 0v8
+Vin = 12v0
+Gm = 470μS
+
+ΔVout_uv = ΔVout_ov = ΔVout_ripple = 0v05
+Kuv = Kov = 2
+ΔIstep = 0.5A
+
+ΔIl = 15% * 2.5A For channels 1 and 2
+ΔIl = 25% * 1.2A For channels 3 and 4
+
+Ipeak = Iout + (ΔIl/2)
+Irms = sqrt(Iout^2 + ((ΔIl^2)/Vin))
+
+FBx Pin Formula:
+	Vout = Vref * (1 + (Rtop/Rbot)) =
+	Vout/Vref = 1 + (Rtop/Rbot)     =
+	(Vout/Vref - 1) = Rtop / Rbot   =
+	Rtop = (Vout/Vref - 1) * Rbot
+
+Inductor Selection Formula:
+	L = [(Vin - Vout) * D]/(ΔIl * Fsw)
+	Where D = (Vout / Vin) and
+	Where ΔIl = 15% * 2.5A || ΔIl = 15% * 1.2A  and
+	Where Vin = 12v0 ∴ For channels 1 and 2
+	L = [(Vin - Vout) * (Vout / Vin)]/((0.15 * 2.5A) * 750kHz) =
+	L = [(12V - Vout) * (Vout / 12V)]/(0.375A * 750kHz)
+	And ∴ For channels 3 and 4
+	L = [(Vin - Vout) * (Vout / Vin)]/((0.25 * 1.2A) * 750kHz) =
+	L = [(12V - Vout) * (Vout / 12V)]/(0.3A * 750kHz)
+
+Output Capacitor Selection:
+	Cout_ripple = (ΔIl)/(8 * Fsw * ΔVout_ripple)
+	Resr = ΔVout_ripple/ΔIl
+
+	Cout_uv = (Kuv * ΔIstep^2 * L)/(2*(Vin - Vout) * ΔVout_uv)
+	Cout_ov = (Kov * ΔIstep^2 * L)/((Vout + ΔVout_ov)^2 - Vout^2)
+
+Compensation Network Design:
+	Fc = Fsw / 10 = 750kHz / 10 = 75kHz
+	Rc = (2 * π * Vout * Cout * Fc) / (0.8V * Gm * Avi)
+	Where Avi = 10A/V || Avi = 3.33A/V and
+	Where Gm = 470μS ∴ for channels 1 and 2
+	Rc = (2 * π * Vout * Cout * Fc) / (0.8V * 470μS * 10A/V)
+	And ∴ for channels 2 and 4
+	Rc = (2 * π * Vout * Cout * Fc) / (0.8V * 470μS * 3.33A/V)
+
+	Cc = ((R + Resr) * Cout) / Rc)
+	Ccp = (Resr * Cout) / Rc
+
+Channel 1 (1v2):
+	Rilim1 = Float (4.4A Peak I) [Pin DL1 / 31]
+	FB1 Resistors:
+		Rtop: 5kOhm
+		Rbot: 10kOhm
+	Li ~ 3.84μH
+	Ipeak = 2.6875A
+	Irms = 2.5A
+
+	Inductor: XFL4020-332MEC
+		L = 3.3μH
+		Isat = 2.9A
+		Irms = 5.2A
+		DCR = 38.3mOhm
+
+	Output Cap: C1206C226K9PACTU
+		Cout_ripple = 1.25μF
+		Resr = 133.3333mOhm
+		Cout_uv = 1.527777μF
+		Cout_ov = 13.46938μF
+
+		Required Capacitance >= 13.5μF X5R
+		Actual: 22μF X5R
+
+	Compensation Network:
+		Rc ~ 3.308698kOhm = 3.3kOhm [CRCW06033K30FKEAHP]
+		Cc ~ 2.006666nF = 2.2nF [C0603C222J3RACTU]
+		Ccp ~ 6.666666pF = 10pF [C0603C100K5RAC7867]
+
+Channel 2 (1v5):
+	Rilim2 = Float (4.4A Peak I) [Pin DL2 / 29]
+	FB1: Resistors:
+		Rtop: 8.75kOhm
+		Rbot: 10kOhm
+	Li ~ 4.666666μH
+	Ipeak = 2.6875A
+	Irms = 2.5A
+
+	Inductor: XFL4020-472MEC
+		L = 4.7μH
+		Isat = 2.7A
+		Irms = 5A
+		DCR = 52.2mOhm
+
+	Output Cap: C1206C226K9PACTU
+		Cout_ripple = 1.25μF
+		Resr = 133.3333mOhm
+		Cout_uv = 2.238095μF
+		Cout_ov = 15.40983μF
+
+		Required Capacitance >= 15.5μF X5R
+		Actual: 22μF X5R
+
+	Compensation Network:
+		Rc ~ 4.135873kOhm = 4.22kOhm [CRCW06034K22FKEAHP]
+		Cc ~ 1.569194nF = 1.8nF [C0603C182J5RACTU]
+		Ccp ~ 5.213270pF = 10pF [C0603C100K5RAC7867]
+
+Channel 3 (1v8):
+	FB1: Resistors:
+		Rtop: 12.5kOhm
+		Rbot: 10kOhm
+	Li ~ 6.8μH
+	Ipeak = 1.35A
+	Irms = 1.20312A
+
+	Inductor: XAL4030-682MEC
+		L = 6.8μH
+		Isat = 3.6A
+		Irms = 3.9A
+		DCR = 67.4mOhm
+
+	Output Cap: C1206C226K9PACTU
+		Cout_ripple = 1μF
+		Resr = 166.6666mOhm
+		Cout_uv = 3.333333μF
+		Cout_ov = 18.63013μF
+
+		Required Capacitance >= 19μF X5R
+		Actual: 22μF X5R
+
+	Compensation Network:
+		Rc ~ 14.90404kOhm = 15kOhm [CRCW060315K0FKEAHP]
+		Cc ~ 441.4666pF = 470pF [C0603C471J5RACTU]
+		Ccp ~ 1.466666pF = 10pF [C0603C100K5RAC7867]
+
+Channel 4 (2v5):
+	FB1: Resistors:
+		Rtop: 21.25kOhm
+		Rbot: 10kOhm
+	Li ~ 8.796296μH
+	Ipeak = 1.35A
+	Irms = 1.20312A
+
+	Inductor: XAL4040-822MEC
+		L = 8.2μH
+		Isat = 3.4A
+		Irms =
+		DCR = 66.9mOhm
+
+	Output Cap: C1206C226K9PACTU
+		Cout_ripple = 1μF
+		Resr = 166.6666mOhm
+		Cout_uv = 4.315789μF
+		Cout_ov = 16.23762μF
+
+		Required Capacitance >= 16.5μF X5R
+		Actual: 22μF X5R
+
+	Compensation Network:
+		Rc ~ 20.70006kOhm = 21kOhm [CRCW060321K0FKEAHP]
+		Cc ~ 315.3333pF = 330pF [C0603C331J5RACTU]
+		Ccp ~ 1.047619pF = 10pF [C0603C100K5RAC7867]

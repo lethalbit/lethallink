@@ -3,11 +3,13 @@ Project Setup:
  ✔ Pick licenses @done (2020-05-31 13:43)
 
 Hardware:
- ☐ Finish power supply calculations
-   ☐ 1v2 rail
-   ☐ 1v5 rail
-   ☐ 1v8 rail
-   ☐ 2v5 rail
+ ✔ Finish power supply calculations @done (2020-06-14 01:22)
+   ✔ 1v2 rail @done (2020-06-14 01:22)
+   ✔ 1v5 rail @done (2020-06-14 01:22)
+   ✔ 1v8 rail @done (2020-06-14 01:22)
+   ✔ 2v5 rail @done (2020-06-14 01:22)
+
+ ☐ Double check power supply calculations
 
  ☐ Initial routing of power supply
 

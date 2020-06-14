@@ -1,4 +1,4 @@
-18404755975065605
+18406348077180605
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -80919,6 +80919,13 @@ SC_PAD_8_LEGACY
 0
 8
 8
+lethalbit
+Si7232DN
+
+
+0
+6
+6
 lethalbit
 USB3_Micro_B_Amphenol
 

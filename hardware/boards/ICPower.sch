@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 10 10
+Title "lethallink - IC Power Distribution"
+Date "2020-06-13"
+Rev "rev A"
+Comp "Aki Van Ness"
 Comment1 ""
 Comment2 ""
 Comment3 ""

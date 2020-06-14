@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "lethallink - PCIe Auxiliary Connections"
+Date "2020-06-13"
+Rev "rev A"
+Comp "Aki Van Ness"
 Comment1 ""
 Comment2 ""
 Comment3 ""

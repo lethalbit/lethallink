@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "lethallink - Power Supply"
+Date "2020-06-13"
+Rev "rev A"
+Comp "Aki Van Ness"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -111,19 +111,6 @@ Text HLabel 10400 900  2    50   Output ~ 0
 Text HLabel 10400 700  2    50   Output ~ 0
 1V2
 $Comp
-L lethalbit:ADP5050ACPZ-R7 U2
-U 1 1 5ED78A27
-P 5250 4100
-F 0 "U2" H 5250 5731 50  0000 C CNN
-F 1 "ADP5050ACPZ-R7" H 5250 5640 50  0000 C CNN
-F 2 "lethalbit:QFN-48_EP_7x7_Pitch0.5mm" H 5250 4150 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5050.PDF" H 5250 4150 50  0001 C CNN
-F 4 "Analog Devices" H 5250 4100 50  0001 C CNN "MFR"
-F 5 " ADP5050ACPZ-R7 " H 5250 4100 50  0001 C CNN "MPN"
-	1    5250 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0110
 U 1 1 5ED7BA52
 P 3700 7150
@@ -188,7 +175,7 @@ U 1 1 5ED86DD9
 P 7200 3400
 F 0 "L3" H 7200 3615 50  0000 C CNN
 F 1 "INDUCTOR" H 7200 3524 50  0000 C CNN
-F 2 "" H 7200 3400 50  0001 C CNN
+F 2 "Inductor_SMD:L_Coilcraft_XxL4040" H 7200 3400 50  0001 C CNN
 F 3 "~" H 7200 3400 50  0001 C CNN
 	1    7200 3400
 	1    0    0    -1  
@@ -199,7 +186,7 @@ U 1 1 5ED8BCEE
 P 5900 5950
 F 0 "L2" H 5900 6165 50  0000 C CNN
 F 1 "INDUCTOR" H 5900 6074 50  0000 C CNN
-F 2 "" H 5900 5950 50  0001 C CNN
+F 2 "Inductor_SMD:L_Coilcraft_XxL4040" H 5900 5950 50  0001 C CNN
 F 3 "~" H 5900 5950 50  0001 C CNN
 	1    5900 5950
 	0    -1   -1   0   
@@ -210,7 +197,7 @@ U 1 1 5ED8CD46
 P 4950 5950
 F 0 "L1" H 4950 6165 50  0000 C CNN
 F 1 "INDUCTOR" H 4950 6074 50  0000 C CNN
-F 2 "" H 4950 5950 50  0001 C CNN
+F 2 "Inductor_SMD:L_Coilcraft_XxL4040" H 4950 5950 50  0001 C CNN
 F 3 "~" H 4950 5950 50  0001 C CNN
 	1    4950 5950
 	0    -1   -1   0   
@@ -270,8 +257,6 @@ Wire Wire Line
 Wire Wire Line
 	8250 4500 8250 4550
 Wire Wire Line
-	5900 5450 5900 5650
-Wire Wire Line
 	4950 5450 4950 5650
 Wire Wire Line
 	4950 6200 4950 6300
@@ -298,9 +283,9 @@ Wire Wire Line
 Connection ~ 8250 4500
 Wire Wire Line
 	8250 3400 8450 3400
-Text Label 8450 3400 2    50   ~ 0
-_1V5
 Text Label 8450 4500 2    50   ~ 0
+_1V5
+Text Label 8450 3400 2    50   ~ 0
 _1V2
 Text Label 4950 7300 1    50   ~ 0
 _2V5
@@ -541,35 +526,15 @@ Wire Wire Line
 	8100 4850 8250 4850
 Connection ~ 8250 4850
 $Comp
-L Device:R_Small R9
-U 1 1 5EE54CFB
-P 4900 2300
-F 0 "R9" H 4959 2346 50  0000 L CNN
-F 1 "?" H 4959 2255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4900 2300 50  0001 C CNN
-F 3 "~" H 4900 2300 50  0001 C CNN
-	1    4900 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R8
-U 1 1 5EE575FF
-P 4800 2300
-F 0 "R8" H 4741 2254 50  0000 R CNN
-F 1 "?" H 4741 2345 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4800 2300 50  0001 C CNN
-F 3 "~" H 4800 2300 50  0001 C CNN
-	1    4800 2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R4
 U 1 1 5EE5B1B8
 P 3650 4400
 F 0 "R4" V 3454 4400 50  0000 C CNN
-F 1 "?" V 3545 4400 50  0000 C CNN
+F 1 "24k9" V 3545 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3650 4400 50  0001 C CNN
 F 3 "~" H 3650 4400 50  0001 C CNN
+F 4 "Vishay Dale" V 3650 4400 50  0001 C CNN "MFR"
+F 5 "CRCW060324K9FKEAC" V 3650 4400 50  0001 C CNN "MPN"
 	1    3650 4400
 	0    1    1    0   
 $EndComp
@@ -581,24 +546,8 @@ Connection ~ 3200 4400
 Wire Wire Line
 	3200 4400 3200 5250
 Wire Wire Line
-	4900 2400 4900 2650
-Wire Wire Line
-	4800 2400 4800 2650
-Wire Wire Line
-	4800 2050 4800 2200
-Connection ~ 4800 2050
-Wire Wire Line
-	4800 2050 3200 2050
-Wire Wire Line
-	4900 2050 4900 2200
-Connection ~ 4900 2050
-Wire Wire Line
-	4900 2050 4800 2050
-Wire Wire Line
 	5050 2650 5050 2050
 Connection ~ 5050 2050
-Wire Wire Line
-	5050 2050 4900 2050
 $Comp
 L Device:R_Small R17
 U 1 1 5EE8552C
@@ -622,10 +571,7 @@ F 3 "~" H 6850 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6650 3000 6650 3200
-Wire Wire Line
 	6650 3200 6750 3200
-Connection ~ 6650 3200
 Wire Wire Line
 	6950 3200 8100 3200
 Wire Wire Line
@@ -770,12 +716,8 @@ Wire Wire Line
 Connection ~ 6700 4300
 Connection ~ 6650 4500
 Wire Wire Line
-	6650 4500 6650 4600
-Wire Wire Line
 	6650 3350 6650 3400
 Connection ~ 6650 3400
-Wire Wire Line
-	6650 3400 6650 3500
 Connection ~ 8250 3400
 Wire Wire Line
 	7350 3600 7350 4050
@@ -794,7 +736,7 @@ U 1 1 5ED8A488
 P 7200 4500
 F 0 "L4" H 7200 4715 50  0000 C CNN
 F 1 "INDUCTOR" H 7200 4624 50  0000 C CNN
-F 2 "" H 7200 4500 50  0001 C CNN
+F 2 "Inductor_SMD:L_Coilcraft_XxL4040" H 7200 4500 50  0001 C CNN
 F 3 "~" H 7200 4500 50  0001 C CNN
 	1    7200 4500
 	1    0    0    -1  
@@ -1206,8 +1148,6 @@ Wire Wire Line
 Connection ~ 4450 6350
 NoConn ~ 2700 1100
 NoConn ~ 2700 1200
-NoConn ~ 3850 4750
-NoConn ~ 3850 4900
 Wire Wire Line
 	3850 5050 3700 5050
 Wire Wire Line
@@ -1564,4 +1504,128 @@ F 5 "150060GS75000" H 10700 1550 50  0001 C CNN "MPN"
 	1    10700 1550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3850 4900 3700 4900
+Wire Wire Line
+	3700 4900 3700 5050
+Connection ~ 3700 5050
+Wire Wire Line
+	3850 4750 3700 4750
+Wire Wire Line
+	3700 4750 3700 4900
+Connection ~ 3700 4900
+Text Notes 7150 4900 0    50   ~ 0
+BOT\n
+Text Notes 7150 3800 0    50   ~ 0
+BOT\n
+Text Notes 5550 5800 1    50   ~ 0
+BOT\n
+Text Notes 4600 5800 1    50   ~ 0
+BOT\n
+Text Notes 5100 6250 1    50   ~ 0
+BOT\n
+Text Notes 6050 5850 1    50   ~ 0
+BOT\n
+Text Notes 7000 4300 2    50   ~ 0
+BOT\n
+Text Notes 6950 3200 2    50   ~ 0
+BOT\n
+Wire Wire Line
+	3200 2050 5050 2050
+Connection ~ 6650 3200
+Wire Wire Line
+	6650 4500 6650 4600
+Wire Wire Line
+	6650 3400 6650 3500
+Wire Wire Line
+	6650 3000 6650 3200
+Wire Wire Line
+	5900 5450 5900 5650
+$Comp
+L lethalbit:ADP5050ACPZ-R7 U2
+U 1 1 5ED78A27
+P 5250 4100
+F 0 "U2" H 5250 5731 50  0000 C CNN
+F 1 "ADP5050ACPZ-R7" H 5250 5640 50  0000 C CNN
+F 2 "lethalbit:QFN-48_EP_7x7_Pitch0.5mm" H 5250 4150 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5050.PDF" H 5250 4150 50  0001 C CNN
+F 4 "Analog Devices" H 5250 4100 50  0001 C CNN "MFR"
+F 5 " ADP5050ACPZ-R7 " H 5250 4100 50  0001 C CNN "MPN"
+	1    5250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_DUAL_NMOS_S1G1D2S2G2D1 Q5
+U 2 1 5EF3AC59
+P 7850 2750
+F 0 "Q5" H 8055 2704 50  0000 L CNN
+F 1 "SI7232DN-T1-GE3" H 8055 2795 50  0000 L CNN
+F 2 "lethalbit:Si7232DN" H 8050 2750 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/68986/si7232dn.pdf" H 8050 2750 50  0001 C CNN
+F 4 "Vishay Siliconix" H 7850 2750 50  0001 C CNN "MFR"
+F 5 "SI7232DN-T1-GE3" H 7850 2750 50  0001 C CNN "MPN"
+	2    7850 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_DUAL_NMOS_S1G1D2S2G2D1 Q5
+U 1 1 5EF3BA04
+P 7400 1950
+F 0 "Q5" H 7605 1904 50  0000 L CNN
+F 1 "SI7232DN-T1-GE3" H 7605 1995 50  0000 L CNN
+F 2 "lethalbit:Si7232DN" H 7600 1950 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/68986/si7232dn.pdf" H 7600 1950 50  0001 C CNN
+F 4 "Vishay Siliconix" H 7400 1950 50  0001 C CNN "MFR"
+F 5 "SI7232DN-T1-GE3" H 7400 1950 50  0001 C CNN "MPN"
+	1    7400 1950
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7500 1750 7500 1550
+Wire Wire Line
+	7500 1550 7950 1550
+Wire Wire Line
+	7950 1550 7950 2400
+Wire Wire Line
+	7950 2400 8250 2400
+Wire Wire Line
+	8250 2400 8250 3200
+Wire Wire Line
+	8250 3200 8100 3200
+Connection ~ 7950 2400
+Wire Wire Line
+	7950 2400 7950 2550
+Connection ~ 8100 3200
+Wire Wire Line
+	4900 2650 4900 2200
+Wire Wire Line
+	4900 2200 7000 2200
+Wire Wire Line
+	7000 2200 7000 2750
+Wire Wire Line
+	7000 2750 7650 2750
+Wire Wire Line
+	4800 2650 4800 2150
+Wire Wire Line
+	4800 2150 7000 2150
+Wire Wire Line
+	7000 2150 7000 1950
+Wire Wire Line
+	7000 1950 7200 1950
+Wire Wire Line
+	6850 3400 6850 3300
+Wire Wire Line
+	6850 3300 7500 3300
+Wire Wire Line
+	7500 3300 7500 2150
+Wire Wire Line
+	6850 4500 6850 4400
+Wire Wire Line
+	6850 4400 7750 4400
+Wire Wire Line
+	7750 4400 7750 3050
+Wire Wire Line
+	7750 3050 7950 3050
+Wire Wire Line
+	7950 3050 7950 2950
 $EndSCHEMATC

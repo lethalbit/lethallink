@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "lethallink - PCIe Interface and Root Schematic"
+Date "2020-06-13"
+Rev "rev A"
+Comp "Aki Van Ness"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -400,17 +400,6 @@ Wire Wire Line
 Connection ~ 5200 1900
 Wire Wire Line
 	5200 1900 5600 1900
-$Sheet
-S 7650 1750 650  500 
-U 5EF66188
-F0 "IC Power" 50
-F1 "ICPower.sch" 50
-F2 "3V3" I L 7650 2200 50 
-F3 "1V8" I L 7650 2000 50 
-F4 "2V5" I L 7650 2100 50 
-F5 "1V2" I L 7650 1900 50 
-F6 "1V5" I L 7650 1800 50 
-$EndSheet
 Wire Wire Line
 	6700 1800 7650 1800
 Connection ~ 6700 1800
@@ -495,4 +484,15 @@ F 5 "BLM18AG221SN1D" H 5500 1500 50  0001 C CNN "MPN"
 	1    5500 1500
 	-1   0    0    1   
 $EndComp
+$Sheet
+S 7650 1750 650  500 
+U 5EF66188
+F0 "IC Power" 50
+F1 "ICPower.sch" 50
+F2 "3V3" I L 7650 2200 50 
+F3 "1V8" I L 7650 2000 50 
+F4 "2V5" I L 7650 2100 50 
+F5 "1V2" I L 7650 1900 50 
+F6 "1V5" I L 7650 1800 50 
+$EndSheet
 $EndSCHEMATC
