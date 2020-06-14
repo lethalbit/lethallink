@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 10 11
+Sheet 7 11
 Title "lethallink - IC Power Distribution"
 Date "2020-06-13"
 Rev "rev A"
@@ -616,4 +616,17 @@ Text Label 15050 2200 2    39   ~ 0
 _3V3
 Text Notes 14100 2800 0    39   ~ 0
 Bank 8 (Configuration) \nRuns on 3v3 logic\n
+$Comp
+L lethalbit-memory:IS43TR16256B-125KBL U4
+U 1 1 5F1E5A2E
+P 9400 3600
+F 0 "U4" H 9400 4074 39  0000 C CNN
+F 1 "IS43TR16256B-125KBL" H 9400 3999 39  0000 C CNN
+F 2 "Package_BGA:BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm" H 9400 4000 39  0001 C CNN
+F 3 "http://www.issi.com/WW/pdf/43-46TR16256B-85120BL.pdf" H 9400 4000 39  0001 C CNN
+F 4 "ISSI" H 9400 3600 50  0001 C CNN "MFR"
+F 5 "IS43TR16256B-125KBL" H 9400 3600 50  0001 C CNN "MPN"
+	1    9400 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
