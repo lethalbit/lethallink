@@ -14,6 +14,8 @@ Hardware:
 
  ☐ Initial routing of power supply
 
+ ☐ Source ESD diodes for USB lines
+
  ☐ Start on the schematic component for the PCIe bus connection
    ☐ Route PCIe traces
 
