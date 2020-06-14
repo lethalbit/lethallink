@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 11
+Sheet 8 11
 Title "lethallink - Power Supply"
 Date "2020-06-13"
 Rev "rev A"
@@ -1670,5 +1670,5 @@ Wire Wire Line
 	6050 3000 5550 3000
 Connection ~ 6050 3700
 Text Label 5550 3000 0    50   ~ 0
-_12v0
+_12V0
 $EndSCHEMATC
