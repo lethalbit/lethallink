@@ -528,4 +528,25 @@ Connection ~ 4900 950
 Connection ~ 4550 950 
 Wire Wire Line
 	9650 950  10150 950 
+NoConn ~ 2150 2200
+NoConn ~ 3250 2100
+NoConn ~ 3250 2200
+NoConn ~ 3250 2300
+NoConn ~ 3250 2400
+NoConn ~ 3250 2500
+NoConn ~ 3250 2600
+NoConn ~ 3250 2700
+NoConn ~ 3250 2800
+NoConn ~ 3250 2900
+NoConn ~ 3250 3000
+NoConn ~ 3250 3100
+NoConn ~ 8400 1500
+NoConn ~ 8400 1100
+NoConn ~ 9650 1300
+NoConn ~ 9650 1450
+NoConn ~ 9650 1600
+NoConn ~ 9650 1750
+NoConn ~ 9650 1900
+NoConn ~ 9650 2050
+NoConn ~ 9650 2200
 $EndSCHEMATC

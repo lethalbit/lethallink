@@ -3,8 +3,8 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
-Title "lethallink"
+Sheet 7 10
+Title "lethallink - External Interface"
 Date "2020-06-13"
 Rev "rev A"
 Comp "Aki Van Ness"
@@ -27,4 +27,36 @@ F 6 "220-2112-ND" H 5550 3250 50  0001 C CNN "DIGIKEY_PN"
 	4    5550 3250
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4650 3200
+NoConn ~ 4650 3300
+NoConn ~ 4650 3400
+NoConn ~ 4650 3500
+NoConn ~ 4650 3600
+NoConn ~ 4650 3700
+NoConn ~ 4650 3800
+NoConn ~ 4650 3900
+NoConn ~ 4650 4000
+NoConn ~ 4650 4100
+NoConn ~ 4650 4200
+NoConn ~ 4650 4300
+NoConn ~ 4650 4400
+NoConn ~ 4650 4500
+NoConn ~ 4650 4600
+NoConn ~ 4650 4700
+NoConn ~ 6450 4700
+NoConn ~ 6450 4600
+NoConn ~ 6450 4500
+NoConn ~ 6450 4400
+NoConn ~ 6450 4300
+NoConn ~ 6450 4200
+NoConn ~ 6450 4100
+NoConn ~ 6450 4000
+NoConn ~ 6450 3900
+NoConn ~ 6450 3800
+NoConn ~ 6450 3700
+NoConn ~ 6450 3600
+NoConn ~ 6450 3500
+NoConn ~ 6450 3400
+NoConn ~ 6450 3300
+NoConn ~ 6450 3200
 $EndSCHEMATC

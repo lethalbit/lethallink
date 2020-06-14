@@ -27,4 +27,37 @@ F 6 "220-2112-ND" H 5850 3150 50  0001 C CNN "DIGIKEY_PN"
 	5    5850 3150
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4950 3100
+NoConn ~ 4950 3200
+NoConn ~ 4950 3300
+NoConn ~ 4950 3400
+NoConn ~ 4950 3500
+NoConn ~ 4950 3600
+NoConn ~ 4950 3700
+NoConn ~ 4950 3800
+NoConn ~ 4950 3900
+NoConn ~ 4950 4000
+NoConn ~ 4950 4100
+NoConn ~ 4950 4200
+NoConn ~ 4950 4300
+NoConn ~ 4950 4400
+NoConn ~ 4950 4500
+NoConn ~ 4950 4600
+NoConn ~ 4950 4700
+NoConn ~ 6750 4600
+NoConn ~ 6750 4500
+NoConn ~ 6750 4400
+NoConn ~ 6750 4300
+NoConn ~ 6750 4200
+NoConn ~ 6750 4100
+NoConn ~ 6750 4000
+NoConn ~ 6750 3900
+NoConn ~ 6750 3800
+NoConn ~ 6750 3700
+NoConn ~ 6750 3600
+NoConn ~ 6750 3500
+NoConn ~ 6750 3400
+NoConn ~ 6750 3300
+NoConn ~ 6750 3200
+NoConn ~ 6750 3100
 $EndSCHEMATC
