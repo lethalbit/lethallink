@@ -12,7 +12,7 @@ Hardware:
  ☐ Possibly re-do the supply schematic, it's messy.
  ☐ Double check power supply calculations
 
- ☐ Initial routing of power supply
+ ✔ Initial routing of power supply @done (2020-06-14 22:49)
 
  ☐ Source ESD diodes for USB lines
  ☐ Figure out what to do with VBUS (Pull high?)
