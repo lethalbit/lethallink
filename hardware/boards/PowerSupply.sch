@@ -392,7 +392,7 @@ Wire Wire Line
 	5600 5500 5550 5500
 Connection ~ 5550 5500
 Wire Wire Line
-	5550 5500 5550 5900
+	5550 5500 5550 5700
 Wire Wire Line
 	6050 5100 6050 5300
 Connection ~ 6050 5300
@@ -1663,7 +1663,6 @@ F 5 "C1206C226K9PACTU" H 10600 5400 50  0001 C CNN "MPN"
 	1    10600 5400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6200 5700
 Wire Wire Line
 	6050 3700 6050 3000
 Wire Wire Line
@@ -1671,4 +1670,9 @@ Wire Wire Line
 Connection ~ 6050 3700
 Text Label 5550 3000 0    50   ~ 0
 _12V0
+Wire Wire Line
+	6200 5700 5550 5700
+Connection ~ 5550 5700
+Wire Wire Line
+	5550 5700 5550 5900
 $EndSCHEMATC
