@@ -490,10 +490,10 @@ F1 "BootConfig.sch" 50
 $EndSheet
 Connection ~ 8950 4200
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Device:Ferrite_Bead_Small FB9
 U 1 1 5F410C07
 P 9600 3700
-F 0 "FB?" H 9550 3650 50  0000 R CNN
+F 0 "FB9" H 9550 3650 50  0000 R CNN
 F 1 "220 @ 100Mhz" H 9750 3900 50  0001 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9530 3700 50  0001 C CNN
 F 3 "~" H 9600 3700 50  0001 C CNN
@@ -507,10 +507,10 @@ Wire Wire Line
 	9700 3700 9700 4000
 Connection ~ 9700 4000
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Device:Ferrite_Bead_Small FB8
 U 1 1 5F41D475
 P 9600 3450
-F 0 "FB?" H 9550 3400 50  0000 R CNN
+F 0 "FB8" H 9550 3400 50  0000 R CNN
 F 1 "220 @ 100Mhz" H 9750 3650 50  0001 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9530 3450 50  0001 C CNN
 F 3 "~" H 9600 3450 50  0001 C CNN
@@ -526,10 +526,10 @@ Wire Wire Line
 	10100 2550 10100 4100
 Connection ~ 9300 3900
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Device:Ferrite_Bead_Small FB7
 U 1 1 5F46A338
 P 9200 3600
-F 0 "FB?" H 9400 3650 50  0000 R CNN
+F 0 "FB7" H 9400 3650 50  0000 R CNN
 F 1 "100 @ 100MHz" H 9350 3800 50  0001 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9130 3600 50  0001 C CNN
 F 3 "~" H 9200 3600 50  0001 C CNN
@@ -542,10 +542,10 @@ Connection ~ 9300 3600
 Wire Wire Line
 	9300 3600 9300 3900
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Device:Ferrite_Bead_Small FB6
 U 1 1 5F46A91E
 P 9200 3300
-F 0 "FB?" H 9400 3350 50  0000 R CNN
+F 0 "FB6" H 9400 3350 50  0000 R CNN
 F 1 "100 @ 100MHz" H 9350 3500 50  0001 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9130 3300 50  0001 C CNN
 F 3 "~" H 9200 3300 50  0001 C CNN
@@ -558,10 +558,10 @@ Connection ~ 9300 3300
 Wire Wire Line
 	9300 3300 9300 3600
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Device:Ferrite_Bead_Small FB5
 U 1 1 5F4730D6
 P 9200 3000
-F 0 "FB?" H 9400 3050 50  0000 R CNN
+F 0 "FB5" H 9400 3050 50  0000 R CNN
 F 1 "100 @ 100MHz" H 9350 3200 50  0001 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9130 3000 50  0001 C CNN
 F 3 "~" H 9200 3000 50  0001 C CNN
@@ -574,10 +574,10 @@ Connection ~ 9300 3000
 Wire Wire Line
 	9300 3000 9300 3300
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Device:Ferrite_Bead_Small FB4
 U 1 1 5F479C67
 P 9200 2700
-F 0 "FB?" H 9400 2750 50  0000 R CNN
+F 0 "FB4" H 9400 2750 50  0000 R CNN
 F 1 "100 @ 100MHz" H 9350 2900 50  0001 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9130 2700 50  0001 C CNN
 F 3 "~" H 9200 2700 50  0001 C CNN
