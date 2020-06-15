@@ -13,7 +13,7 @@
   (title_block
     (title "lethallink PCIe DMA Engine and debugger")
     (date 2020-06-13)
-    (rev "rev A")
+    (rev 0)
     (company Aki)
   )
 
@@ -6944,7 +6944,7 @@
       (net 5 GND))
   )
 
-  (gr_text "rev 0" (at 21.8 24.25) (layer F.SilkS)
+  (gr_text "rev 0" (at 24.75 24.35) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.15)))
   )
   (gr_text Lethallink (at 38.25 19.75) (layer F.SilkS) (tstamp 5EDA842D)

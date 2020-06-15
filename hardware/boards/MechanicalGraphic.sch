@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 11
 Title "lethallink - Mechanical and Graphics"
 Date "2020-06-14"
-Rev "rev A"
+Rev "0"
 Comp "Aki"
 Comment1 ""
 Comment2 ""

@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 10 11
 Title "lethallink"
 Date "2020-06-13"
-Rev "rev A"
+Rev "0"
 Comp "Aki Van Ness"
 Comment1 ""
 Comment2 ""

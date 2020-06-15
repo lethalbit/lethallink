@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 4 11
 Title "lethallink - External Interface"
 Date "2020-06-13"
-Rev "rev A"
+Rev "0"
 Comp "Aki Van Ness"
 Comment1 ""
 Comment2 ""

@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 9 11
 Title "lethallink - PCIe Auxiliary Connections"
 Date "2020-06-13"
-Rev "rev A"
+Rev "0"
 Comp "Aki Van Ness"
 Comment1 ""
 Comment2 ""
