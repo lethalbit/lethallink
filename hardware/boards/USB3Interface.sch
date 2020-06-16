@@ -86,41 +86,17 @@ F 6 "GSB343K33HRCT-ND" H 1900 1800 50  0001 C CNN "DIGIKEY_PN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 1200 3750 1200
+	2350 1500 2500 1500
 Wire Wire Line
-	3750 1200 3750 1750
+	2500 1500 2500 1300
 Wire Wire Line
-	3750 1750 2350 1750
+	2500 1300 2650 1300
 Wire Wire Line
-	2350 1850 3700 1850
+	2350 1600 2550 1600
 Wire Wire Line
-	3700 1850 3700 1300
+	2550 1600 2550 1200
 Wire Wire Line
-	3700 1300 3450 1300
-Wire Wire Line
-	3450 1500 3600 1500
-Wire Wire Line
-	3600 1500 3600 2000
-Wire Wire Line
-	3600 2000 2350 2000
-Wire Wire Line
-	2350 1500 2450 1500
-Wire Wire Line
-	2450 1500 2450 1300
-Wire Wire Line
-	2450 1300 2650 1300
-Wire Wire Line
-	2350 1600 2500 1600
-Wire Wire Line
-	2500 1600 2500 1200
-Wire Wire Line
-	2500 1200 2650 1200
-Wire Wire Line
-	3450 1600 3550 1600
-Wire Wire Line
-	3550 1600 3550 2100
-Wire Wire Line
-	2350 2100 3550 2100
+	2550 1200 2650 1200
 $Comp
 L power:GND #PWR0118
 U 1 1 5EDDAAAC
@@ -188,7 +164,6 @@ Connection ~ 1400 2350
 Wire Wire Line
 	1400 2350 1400 2550
 NoConn ~ 1450 1750
-NoConn ~ 1450 1500
 NoConn ~ 2650 1400
 NoConn ~ 6250 1150
 NoConn ~ 6250 1250
@@ -276,7 +251,6 @@ NoConn ~ 7050 4300
 NoConn ~ 7050 4400
 NoConn ~ 7050 4500
 NoConn ~ 7050 4600
-NoConn ~ 7050 4750
 NoConn ~ 7050 4800
 NoConn ~ 7050 4900
 NoConn ~ 7050 5000
@@ -299,4 +273,49 @@ NoConn ~ 8850 4000
 NoConn ~ 8850 3900
 NoConn ~ 8850 3800
 NoConn ~ 8850 3700
+Text HLabel 800  650  0    50   Output ~ 0
+VBUS
+Wire Wire Line
+	1050 650  1050 1500
+Wire Wire Line
+	1050 1500 1450 1500
+Wire Wire Line
+	800  650  1050 650 
+Wire Wire Line
+	2350 1750 3600 1750
+Wire Wire Line
+	3600 1750 3600 1500
+Wire Wire Line
+	3600 1500 3450 1500
+Wire Wire Line
+	2350 1850 3650 1850
+Wire Wire Line
+	3650 1850 3650 1600
+Wire Wire Line
+	3650 1600 3450 1600
+Wire Wire Line
+	2350 2000 3800 2000
+Wire Wire Line
+	3800 2000 3800 1200
+Wire Wire Line
+	3800 1200 3450 1200
+Wire Wire Line
+	2350 2100 3850 2100
+Wire Wire Line
+	3850 2100 3850 1300
+Wire Wire Line
+	3850 1300 3450 1300
+NoConn ~ 7050 4700
+Text Label 2500 1750 0    50   ~ 0
+SSRX-
+Text Label 2500 1850 0    50   ~ 0
+SSRX+
+Text Label 2500 2000 0    50   ~ 0
+SSTX-
+Text Label 2500 2100 0    50   ~ 0
+SSTX+
+Text Label 2350 1600 0    50   ~ 0
+D+
+Text Label 2350 1500 0    50   ~ 0
+D-
 $EndSCHEMATC
