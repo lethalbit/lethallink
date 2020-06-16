@@ -1,4 +1,4 @@
-18412721081991268
+18414313386300352
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -80954,6 +80954,13 @@ USB3_Micro_B_Amphenol
 0
 12
 11
+lethalbit-connectors
+FTSH-105-01-L-DV-K-TR
+http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-footprint.pdf
+
+0
+10
+10
 lethalbit-graphics
 Antifaschistische Aktion_100dpi
 

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 11
+Sheet 2 11
 Title "lethallink"
 Date "2020-06-13"
 Rev "0"
@@ -55,20 +55,6 @@ F 4 "Cypress" H 3050 1700 50  0001 C CNN "MFR"
 F 5 " CYUSB3014-BZXI" H 3050 1700 50  0001 C CNN "MPN"
 F 6 "428-3130-ND" H 3050 1700 50  0001 C CNN "DIGIKEY_PN"
 	3    3050 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L lethalbit:CYUSB3014 U3
-U 4 1 5F335021
-P 6750 1650
-F 0 "U3" H 6750 2448 50  0000 C CNN
-F 1 "CYUSB3014" H 6750 2357 50  0000 C CNN
-F 2 "lethalbit:BGA-121_11x11_10.0x10.0mm" H 6750 2350 50  0001 C CNN
-F 3 "https://www.cypress.com/file/140296/download" H 6750 2350 50  0001 C CNN
-F 4 "Cypress" H 6750 1650 50  0001 C CNN "MFR"
-F 5 " CYUSB3014-BZXI" H 6750 1650 50  0001 C CNN "MPN"
-F 6 "428-3130-ND" H 6750 1650 50  0001 C CNN "DIGIKEY_PN"
-	4    6750 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -165,22 +151,6 @@ Wire Wire Line
 	1400 2350 1400 2550
 NoConn ~ 1450 1750
 NoConn ~ 2650 1400
-NoConn ~ 6250 1150
-NoConn ~ 6250 1250
-NoConn ~ 6250 1350
-NoConn ~ 6250 1500
-NoConn ~ 6250 1600
-NoConn ~ 6250 1700
-NoConn ~ 6250 1800
-NoConn ~ 6250 2000
-NoConn ~ 6250 2100
-NoConn ~ 7250 2100
-NoConn ~ 7250 2000
-NoConn ~ 7250 1550
-NoConn ~ 7250 1450
-NoConn ~ 7250 1350
-NoConn ~ 7250 1250
-NoConn ~ 7250 1150
 NoConn ~ 3700 3550
 NoConn ~ 3700 3650
 NoConn ~ 3700 3750
@@ -273,7 +243,7 @@ NoConn ~ 8850 4000
 NoConn ~ 8850 3900
 NoConn ~ 8850 3800
 NoConn ~ 8850 3700
-Text HLabel 800  650  0    50   Output ~ 0
+Text HLabel 800  650  0    39   Output ~ 0
 VBUS
 Wire Wire Line
 	1050 650  1050 1500

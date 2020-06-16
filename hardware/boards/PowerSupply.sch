@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 11
+Sheet 7 11
 Title "lethallink - Power Supply"
 Date "2020-06-13"
 Rev "0"
@@ -13,13 +13,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1300 1000 0    50   Input ~ 0
+Text HLabel 1300 1000 0    39   Input ~ 0
 12V0
-Text HLabel 1300 1100 0    50   Input ~ 0
+Text HLabel 1300 1100 0    39   Input ~ 0
 3V3
-Text HLabel 1300 1200 0    50   Input ~ 0
+Text HLabel 1300 1200 0    39   Input ~ 0
 3V3_AUX
-Text HLabel 1100 2150 0    50   Input ~ 0
+Text HLabel 1100 2150 0    39   Input ~ 0
 GND
 $Comp
 L power:GND #PWR0109
@@ -102,13 +102,13 @@ Connection ~ 2350 1000
 Wire Wire Line
 	1650 1200 3450 1200
 Connection ~ 1650 1200
-Text HLabel 15100 650  2    50   Output ~ 0
+Text HLabel 15100 650  2    39   Output ~ 0
 1V5
-Text HLabel 15100 850  2    50   Output ~ 0
+Text HLabel 15100 850  2    39   Output ~ 0
 1V8
-Text HLabel 15100 950  2    50   Output ~ 0
+Text HLabel 15100 950  2    39   Output ~ 0
 2V5
-Text HLabel 15100 750  2    50   Output ~ 0
+Text HLabel 15100 750  2    39   Output ~ 0
 1V2
 $Comp
 L power:GND #PWR0110

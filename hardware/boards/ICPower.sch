@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 11
+Sheet 6 11
 Title "lethallink - IC Power Distribution"
 Date "2020-06-13"
 Rev "0"
@@ -298,15 +298,15 @@ Wire Wire Line
 	9600 1700 9600 1650
 Wire Wire Line
 	9600 1650 10000 1650
-Text HLabel 800  700  0    50   Input ~ 0
+Text HLabel 800  700  0    39   Input ~ 0
 3V3
-Text HLabel 800  1000 0    50   Input ~ 0
+Text HLabel 800  1000 0    39   Input ~ 0
 1V5
-Text HLabel 800  900  0    50   Input ~ 0
+Text HLabel 800  900  0    39   Input ~ 0
 1V8
-Text HLabel 800  800  0    50   Input ~ 0
+Text HLabel 800  800  0    39   Input ~ 0
 2V5
-Text HLabel 800  1100 0    50   Input ~ 0
+Text HLabel 800  1100 0    39   Input ~ 0
 1V2
 Wire Wire Line
 	800  700  1950 700 
@@ -681,7 +681,7 @@ Wire Wire Line
 Connection ~ 1650 10450
 Wire Wire Line
 	1650 10450 1650 10500
-Text HLabel 800  1200 0    50   Input ~ 0
+Text HLabel 800  1200 0    39   Input ~ 0
 VBUS
 Wire Wire Line
 	800  1200 1950 1200
