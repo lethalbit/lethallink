@@ -288,4 +288,19 @@ Text Label 2350 1600 0    50   ~ 0
 D+
 Text Label 2350 1500 0    50   ~ 0
 D-
+$Comp
+L lethalbit-memory:W25N01GVZEIG U?
+U 2 1 5FF1D42C
+P 4350 6800
+AR Path="/5EF66251/5FF1D42C" Ref="U?"  Part="2" 
+AR Path="/5F2CAFD2/5FF1D42C" Ref="U6"  Part="2" 
+F 0 "U6" H 4375 7024 39  0000 C CNN
+F 1 "128MiB" H 4375 6949 39  0000 C CNN
+F 2 "lethalbit-memory:WSON-8-1EP-6.0x8.0mm" H 4350 6950 39  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/w25n01gv%20revl%20050918%20unsecured.pdf" H 4350 6950 39  0001 C CNN
+F 4 "Winbond" H 4350 6800 50  0001 C CNN "MFR"
+F 5 "W25N01GVZEIG" H 4350 6800 50  0001 C CNN "MPN"
+	2    4350 6800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
