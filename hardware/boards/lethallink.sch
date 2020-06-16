@@ -14,12 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 14700 700  500  150 
-U 5EDF3898
-F0 "LPDDR3 Cache" 50
-F1 "LPDDR3Cache.sch" 50
-$EndSheet
-$Sheet
 S 14700 2300 500  150 
 U 5F2CAFD2
 F0 "USB3 Interface" 50
@@ -632,4 +626,10 @@ Wire Wire Line
 	8350 4000 9500 4000
 Wire Wire Line
 	8350 3900 9100 3900
+$Sheet
+S 14700 700  500  150 
+U 5EDF3898
+F0 "DDR3 Cache" 50
+F1 "DDR3Cache.sch" 50
+$EndSheet
 $EndSCHEMATC
