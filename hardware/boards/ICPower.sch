@@ -1059,4 +1059,7 @@ Wire Wire Line
 	1650 10550 1650 10600
 Text Label 700  9550 0    39   ~ 0
 _3V3
+NoConn ~ 9100 1800
+NoConn ~ 10750 8450
+NoConn ~ 10750 8550
 $EndSCHEMATC
