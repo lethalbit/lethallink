@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 11
+Sheet 2 11
 Title "lethallink - External Interface"
 Date "2020-06-13"
 Rev "0"
