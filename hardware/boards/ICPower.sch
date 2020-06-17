@@ -1131,25 +1131,17 @@ Wire Wire Line
 Text Label 6550 5500 2    50   ~ 0
 _1V8
 Wire Wire Line
-	6300 4700 6350 4700
-Wire Wire Line
 	6300 4800 6350 4800
-Wire Wire Line
-	6350 4800 6350 4700
-Connection ~ 6350 4700
-Wire Wire Line
-	6350 4700 6550 4700
 Wire Wire Line
 	6300 4900 6350 4900
 Wire Wire Line
 	6350 4900 6350 4800
-Connection ~ 6350 4800
 Wire Wire Line
 	6300 5000 6350 5000
 Wire Wire Line
 	6350 5000 6350 4900
 Connection ~ 6350 4900
-Text Label 6550 4700 2    50   ~ 0
+Text Label 6650 4800 2    50   ~ 0
 _1V8
 Wire Wire Line
 	6350 5300 6350 5400
@@ -1159,12 +1151,22 @@ Connection ~ 6350 5300
 Wire Wire Line
 	6350 5300 6550 5300
 Wire Wire Line
-	6300 5100 6550 5100
-Text Label 6550 5100 2    50   ~ 0
+	6300 5100 6400 5100
+Text Label 6650 4700 2    50   ~ 0
 _3V3
 Wire Wire Line
 	6300 5200 6350 5200
 Wire Wire Line
 	6350 5200 6350 5000
 Connection ~ 6350 5000
+Wire Wire Line
+	6300 4700 6400 4700
+Wire Wire Line
+	6350 4800 6650 4800
+Connection ~ 6350 4800
+Wire Wire Line
+	6400 5100 6400 4700
+Connection ~ 6400 4700
+Wire Wire Line
+	6400 4700 6650 4700
 $EndSCHEMATC
