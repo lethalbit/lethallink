@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 11 11
+Sheet 10 11
 Title "lethallink"
 Date "2020-06-13"
 Rev "0"
@@ -34,7 +34,6 @@ NoConn ~ 5200 4450
 NoConn ~ 5200 5250
 NoConn ~ 5200 5350
 NoConn ~ 5200 5550
-NoConn ~ 5200 5650
 Wire Wire Line
 	7300 4950 9800 4950
 Wire Wire Line
@@ -198,8 +197,6 @@ Wire Wire Line
 	6050 6700 6050 6500
 NoConn ~ 10000 6400
 NoConn ~ 10000 6500
-NoConn ~ 9000 6800
-NoConn ~ 9000 6700
 $Comp
 L lethalbit:CYUSB3014 U?
 U 4 1 5FC667B5
@@ -756,13 +753,13 @@ Wire Wire Line
 	6750 6700 8450 6700
 Wire Wire Line
 	8450 6700 8450 6250
-Text Notes 7500 6800 0    50   ~ 0
+Text Notes 6800 6800 0    50   ~ 0
 I *think* this is correct?
 Wire Wire Line
 	6050 6300 6250 6300
 Text Label 6050 6300 0    50   ~ 0
 _3V3
-Text Notes 6400 7750 0    50   ~ 0
+Text Notes 5350 7200 0    50   ~ 0
 SWD/JTAG Pinout:\n01 - 3v3\n02 - TMS\n03 - GND\n04 - TCK\n05 - GND\n06 - TDO\n07 - NC\n08 - TDI\n09 - GND\n10 - ~PROGRAM/RESET
 Wire Wire Line
 	8450 6250 9000 6250
@@ -965,4 +962,91 @@ Wire Wire Line
 Connection ~ 10150 5950
 Text Notes 10100 5800 0    50   ~ 0
 FSLC[0..2] Set to\n0 0 0 for 19.2MHz\nCrystal input.\n
+Text HLabel 750  700  0    39   Input ~ 0
+1V8
+Wire Wire Line
+	750  700  1250 700 
+Text Label 1250 700  2    50   ~ 0
+_1V8
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 60A975BF
+P 8700 7250
+AR Path="/5EDF9F51/60A975BF" Ref="Q?"  Part="1" 
+AR Path="/5EF66251/60A975BF" Ref="Q7"  Part="1" 
+F 0 "Q7" V 8949 7250 50  0000 C CNN
+F 1 "Q_NMOS_GSD" V 9040 7250 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8900 7350 50  0001 C CNN
+F 3 "~" H 8700 7250 50  0001 C CNN
+F 4 "Diodes Incorporated" V 8700 7250 50  0001 C CNN "MFR"
+F 5 "DMN65D8L-7" V 8700 7250 50  0001 C CNN "MPN"
+	1    8700 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 6700 9000 6700
+Wire Wire Line
+	8800 6700 8800 7050
+Connection ~ 8800 6700
+$Comp
+L power:GND #PWR0136
+U 1 1 60AE0264
+P 8800 7650
+F 0 "#PWR0136" H 8800 7400 50  0001 C CNN
+F 1 "GND" H 8805 7477 50  0000 C CNN
+F 2 "" H 8800 7650 50  0001 C CNN
+F 3 "" H 8800 7650 50  0001 C CNN
+	1    8800 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 7450 8800 7650
+Wire Wire Line
+	8800 6650 8800 6700
+Wire Wire Line
+	8800 6450 8800 6350
+Wire Wire Line
+	8800 6350 8650 6350
+Text Label 8650 6350 0    50   ~ 0
+_1V8
+$Comp
+L Device:R_Small R?
+U 1 1 60B3741A
+P 8250 7250
+AR Path="/5EDF9F51/60B3741A" Ref="R?"  Part="1" 
+AR Path="/5EF66251/60B3741A" Ref="R54"  Part="1" 
+F 0 "R54" H 8309 7296 50  0000 L CNN
+F 1 "10k" H 8309 7205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8250 7250 50  0001 C CNN
+F 3 "~" H 8250 7250 50  0001 C CNN
+F 4 "Vishay Dale" H 8250 7250 50  0001 C CNN "MFR"
+F 5 "CRCW060310K0FKEA" H 8250 7250 50  0001 C CNN "MPN"
+	1    8250 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8350 7250 8500 7250
+Wire Wire Line
+	5200 5650 5050 5650
+Wire Wire Line
+	5050 5650 5050 7250
+Wire Wire Line
+	5050 7250 8150 7250
+$Comp
+L Device:R_Small R55
+U 1 1 60BACCCC
+P 8800 6550
+F 0 "R55" H 8859 6596 50  0000 L CNN
+F 1 "1k" H 8859 6505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8800 6550 50  0001 C CNN
+F 3 "~" H 8800 6550 50  0001 C CNN
+F 4 "Vishay Dale" H 8800 6550 50  0001 C CNN "MFR"
+F 5 "CRCW06031K00FKEAHP" H 8800 6550 50  0001 C CNN "MPN"
+	1    8800 6550
+	1    0    0    -1  
+$EndComp
+Text HLabel 8700 6800 0    39   Output ~ 0
+~PHY_INT
+Wire Wire Line
+	8700 6800 9000 6800
 $EndSCHEMATC

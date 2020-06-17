@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 11
+Sheet 11 11
 Title "lethallink"
 Date "2020-06-13"
 Rev "0"
@@ -339,4 +339,6 @@ $EndComp
 Connection ~ 1050 700 
 NoConn ~ 6950 5950
 NoConn ~ 5900 6150
+Text HLabel 6300 2800 0    39   Input ~ 0
+~PHY_INT
 $EndSCHEMATC
