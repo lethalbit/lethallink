@@ -273,16 +273,16 @@ D-
 $Comp
 L lethalbit-memory:W25N01GVZEIG U?
 U 2 1 5FF1D42C
-P 4350 6800
+P 6400 5900
 AR Path="/5EF66251/5FF1D42C" Ref="U?"  Part="2" 
 AR Path="/5F2CAFD2/5FF1D42C" Ref="U6"  Part="2" 
-F 0 "U6" H 4375 7024 39  0000 C CNN
-F 1 "128MiB" H 4375 6949 39  0000 C CNN
-F 2 "lethalbit-memory:WSON-8-1EP-6.0x8.0mm" H 4350 6950 39  0001 C CNN
-F 3 "https://www.winbond.com/resource-files/w25n01gv%20revl%20050918%20unsecured.pdf" H 4350 6950 39  0001 C CNN
-F 4 "Winbond" H 4350 6800 50  0001 C CNN "MFR"
-F 5 "W25N01GVZEIG" H 4350 6800 50  0001 C CNN "MPN"
-	2    4350 6800
+F 0 "U6" H 6425 6124 39  0000 C CNN
+F 1 "128MiB" H 6425 6049 39  0000 C CNN
+F 2 "lethalbit-memory:WSON-8-1EP-6.0x8.0mm" H 6400 6050 39  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/w25n01gv%20revl%20050918%20unsecured.pdf" H 6400 6050 39  0001 C CNN
+F 4 "Winbond" H 6400 5900 50  0001 C CNN "MFR"
+F 5 "W25N01GVZEIG" H 6400 5900 50  0001 C CNN "MPN"
+	2    6400 5900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -299,4 +299,28 @@ F 6 "428-3130-ND" H 4350 4050 50  0001 C CNN "DIGIKEY_PN"
 	2    4350 4050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6950 6050 7150 6050
+Wire Wire Line
+	7150 6050 7150 5800
+Wire Wire Line
+	7150 5800 5500 5800
+Wire Wire Line
+	5500 5800 5500 5850
+Wire Wire Line
+	5500 5850 5050 5850
+Wire Wire Line
+	5900 5950 5050 5950
+Wire Wire Line
+	5900 6050 5050 6050
+Wire Wire Line
+	6950 6150 7100 6150
+Wire Wire Line
+	7100 6150 7100 6250
+Wire Wire Line
+	7100 6250 5800 6250
+Wire Wire Line
+	5800 6250 5800 6150
+Wire Wire Line
+	5800 6150 5050 6150
 $EndSCHEMATC
