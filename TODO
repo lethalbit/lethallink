@@ -44,6 +44,8 @@ Hardware:
      ☐ AMD
        ☐ ?????? (Need to figure that out)
 
+ ☐ Go through and re-check all the resistor values for the LEDs
+
 Gateware:
  ☐ Sort out the RISC-V Management Core
    ☐ Look into using Lambdasoc / Minerva
