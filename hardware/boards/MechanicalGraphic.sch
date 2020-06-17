@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 11
+Sheet 4 11
 Title "lethallink - Mechanical and Graphics"
 Date "2020-06-14"
 Rev "0"
@@ -77,6 +77,17 @@ F 1 "Fiducial" H 1685 2505 50  0000 L CNN
 F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 1600 2550 50  0001 C CNN
 F 3 "~" H 1600 2550 50  0001 C CNN
 	1    1600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID6
+U 1 1 60C6DEAE
+P 1600 2750
+F 0 "FID6" H 1685 2796 50  0000 L CNN
+F 1 "Fiducial" H 1685 2705 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 1600 2750 50  0001 C CNN
+F 3 "~" H 1600 2750 50  0001 C CNN
+	1    1600 2750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
