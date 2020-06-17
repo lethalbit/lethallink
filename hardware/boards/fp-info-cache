@@ -1,4 +1,4 @@
-18414313386300352
+18415905771771352
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -80898,6 +80898,13 @@ CCM02-2504LFT-T30
 0
 10
 10
+lethalbit
+Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm
+Abracon Miniature Ceramic Smd Crystal ABM10 http://www.abracon.com/Resonators/ABM10.pdf
+SMD SMT crystal Abracon ABM10
+0
+4
+4
 lethalbit
 L_Coilcraft_XxL4020
 L_Coilcraft_XxL4020 https://www.coilcraft.com/pdfs/xfl4020.pdf
