@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 10 11
+Sheet 9 11
 Title "lethallink"
 Date "2020-06-13"
 Rev "0"
@@ -281,13 +281,13 @@ Wire Bus Line
 Wire Bus Line
 	9250 3800 8700 3800
 Text Label 11050 3300 2    50   ~ 0
-DDR_BA[0..2]
+BA[0..2]
 Text Label 11050 5000 2    50   ~ 0
-DDR_A[0..15]
+A[0..15]
 Text Label 8700 4700 0    50   ~ 0
-DDR_DQL[0..7]
+DQL[0..7]
 Text Label 8700 3800 0    50   ~ 0
-DDR_DQU[0..7]
+DQU[0..7]
 $Comp
 L Device:R_Small R37
 U 1 1 5FB43313
