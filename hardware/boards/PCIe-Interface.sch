@@ -17,100 +17,46 @@ Text HLabel 10500 3400 2    50   Input ~ 0
 REFCLK_P
 Text HLabel 10500 3500 2    50   Input ~ 0
 REFCLK_N
-Text HLabel 1400 1900 0    50   Input ~ 0
+Text HLabel 4200 2450 0    50   Input ~ 0
 TX0_P
-Text HLabel 1400 2000 0    50   Input ~ 0
+Text HLabel 4200 2550 0    50   Input ~ 0
 TX0_N
-Text HLabel 1400 2150 0    50   Input ~ 0
+Text HLabel 7800 2550 2    50   Input ~ 0
 TX1_P
-Text HLabel 1400 2250 0    50   Input ~ 0
+Text HLabel 7800 2450 2    50   Input ~ 0
 TX1_N
-Text HLabel 1400 2400 0    50   Input ~ 0
+Text HLabel 4250 4000 0    50   Input ~ 0
 TX2_P
-Text HLabel 1400 2500 0    50   Input ~ 0
+Text HLabel 4250 4100 0    50   Input ~ 0
 TX2_N
-Text HLabel 1400 2650 0    50   Input ~ 0
+Text HLabel 7750 4100 2    50   Input ~ 0
 TX3_P
-Text HLabel 1400 2750 0    50   Input ~ 0
+Text HLabel 7750 4000 2    50   Input ~ 0
 TX3_N
-Text HLabel 2750 3600 0    50   Input ~ 0
+Text HLabel 4200 2250 0    50   Input ~ 0
 RX0_P
-Text HLabel 2750 3700 0    50   Input ~ 0
+Text HLabel 4200 2350 0    50   Input ~ 0
 RX0_N
-Text HLabel 2750 3850 0    50   Input ~ 0
+Text HLabel 7800 2250 2    50   Input ~ 0
 RX1_P
-Text HLabel 2750 3950 0    50   Input ~ 0
+Text HLabel 7800 2350 2    50   Input ~ 0
 RX1_N
-Text HLabel 2750 4100 0    50   Input ~ 0
+Text HLabel 4250 3800 0    50   Input ~ 0
 RX2_P
-Text HLabel 2750 4200 0    50   Input ~ 0
+Text HLabel 4250 3900 0    50   Input ~ 0
 RX2_N
-Text HLabel 2750 4450 0    50   Input ~ 0
+Text HLabel 7750 3800 2    50   Input ~ 0
 RX3_P
-Text HLabel 2750 4550 0    50   Input ~ 0
+Text HLabel 7750 3900 2    50   Input ~ 0
 RX3_N
-$Comp
-L lethalbit:ECP5UM5G-381caBGA U1
-U 9 1 5F0889A2
-P 6050 2300
-F 0 "U1" H 6050 2648 50  0000 C CNN
-F 1 "ECP5UM5G-381caBGA" H 6050 2557 50  0000 C CNN
-F 2 "lethalbit:318caBGA" H 4700 2450 50  0001 C CNN
-F 3 "" H 4700 2450 50  0001 C CNN
-	9    6050 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L lethalbit:ECP5UM5G-381caBGA U1
-U 10 1 5F0889A8
-P 6000 3850
-F 0 "U1" H 6000 4198 50  0000 C CNN
-F 1 "ECP5UM5G-381caBGA" H 6000 4107 50  0000 C CNN
-F 2 "lethalbit:318caBGA" H 4650 4000 50  0001 C CNN
-F 3 "" H 4650 4000 50  0001 C CNN
-	10   6000 3850
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1400 1900
-NoConn ~ 1400 2000
-NoConn ~ 1400 2150
-NoConn ~ 1400 2250
-NoConn ~ 1400 2400
-NoConn ~ 1400 2500
-NoConn ~ 1400 2650
-NoConn ~ 1400 2750
-NoConn ~ 2750 3600
-NoConn ~ 2750 3700
-NoConn ~ 2750 3850
-NoConn ~ 2750 3950
-NoConn ~ 2750 4100
-NoConn ~ 2750 4200
-NoConn ~ 2750 4450
-NoConn ~ 2750 4550
-NoConn ~ 5150 2250
-NoConn ~ 5150 2350
-NoConn ~ 5150 2450
-NoConn ~ 5150 2550
 NoConn ~ 5150 2800
 NoConn ~ 5150 2900
-NoConn ~ 5100 3800
-NoConn ~ 5100 3900
-NoConn ~ 5100 4000
-NoConn ~ 5100 4100
 NoConn ~ 5100 4350
 NoConn ~ 5100 4450
-NoConn ~ 6900 3800
-NoConn ~ 6900 3900
-NoConn ~ 6900 4000
-NoConn ~ 6900 4100
 NoConn ~ 6900 4350
 NoConn ~ 6900 4450
 NoConn ~ 6950 2900
 NoConn ~ 6950 2800
-NoConn ~ 6950 2550
-NoConn ~ 6950 2450
-NoConn ~ 6950 2350
-NoConn ~ 6950 2250
 $Comp
 L lethalbit:SI5330B U7
 U 2 1 5F1A1842
@@ -179,4 +125,230 @@ Text Label 8450 4750 2    50   ~ 0
 REFCLK1+
 Text Label 8450 4850 2    50   ~ 0
 REFCLK1-
+$Comp
+L Device:C_Small C?
+U 1 1 5F46D592
+P 4400 2250
+AR Path="/5EF66188/5F46D592" Ref="C?"  Part="1" 
+AR Path="/5ED4B101/5F46D592" Ref="C66"  Part="1" 
+F 0 "C66" V 4450 2100 50  0000 L CNN
+F 1 "100nF" V 4500 2200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4400 2250 50  0001 C CNN
+F 3 "~" H 4400 2250 50  0001 C CNN
+F 4 "KEMET" H 4400 2250 50  0001 C CNN "MFR"
+F 5 "C0402C104M8PACTU" H 4400 2250 50  0001 C CNN "MPN"
+	1    4400 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F4C2DB2
+P 4500 2350
+AR Path="/5EF66188/5F4C2DB2" Ref="C?"  Part="1" 
+AR Path="/5ED4B101/5F4C2DB2" Ref="C68"  Part="1" 
+F 0 "C68" V 4550 2200 50  0000 L CNN
+F 1 "100nF" V 4700 2400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4500 2350 50  0001 C CNN
+F 3 "~" H 4500 2350 50  0001 C CNN
+F 4 "KEMET" H 4500 2350 50  0001 C CNN "MFR"
+F 5 "C0402C104M8PACTU" H 4500 2350 50  0001 C CNN "MPN"
+	1    4500 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 2250 4300 2250
+Wire Wire Line
+	4200 2350 4400 2350
+$Comp
+L Device:C_Small C?
+U 1 1 5F524C27
+P 7600 2250
+AR Path="/5EF66188/5F524C27" Ref="C?"  Part="1" 
+AR Path="/5ED4B101/5F524C27" Ref="C73"  Part="1" 
+F 0 "C73" V 7650 2100 50  0000 L CNN
+F 1 "100nF" V 7700 2200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7600 2250 50  0001 C CNN
+F 3 "~" H 7600 2250 50  0001 C CNN
+F 4 "KEMET" H 7600 2250 50  0001 C CNN "MFR"
+F 5 "C0402C104M8PACTU" H 7600 2250 50  0001 C CNN "MPN"
+	1    7600 2250
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F524C2F
+P 7500 2350
+AR Path="/5EF66188/5F524C2F" Ref="C?"  Part="1" 
+AR Path="/5ED4B101/5F524C2F" Ref="C71"  Part="1" 
+F 0 "C71" V 7550 2200 50  0000 L CNN
+F 1 "100nF" V 7700 2400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7500 2350 50  0001 C CNN
+F 3 "~" H 7500 2350 50  0001 C CNN
+F 4 "KEMET" H 7500 2350 50  0001 C CNN "MFR"
+F 5 "C0402C104M8PACTU" H 7500 2350 50  0001 C CNN "MPN"
+	1    7500 2350
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7800 2250 7700 2250
+Wire Wire Line
+	7800 2350 7600 2350
+$Comp
+L Device:C_Small C?
+U 1 1 5F527EEF
+P 4450 3800
+AR Path="/5EF66188/5F527EEF" Ref="C?"  Part="1" 
+AR Path="/5ED4B101/5F527EEF" Ref="C67"  Part="1" 
+F 0 "C67" V 4500 3650 50  0000 L CNN
+F 1 "100nF" V 4550 3750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4450 3800 50  0001 C CNN
+F 3 "~" H 4450 3800 50  0001 C CNN
+F 4 "KEMET" H 4450 3800 50  0001 C CNN "MFR"
+F 5 "C0402C104M8PACTU" H 4450 3800 50  0001 C CNN "MPN"
+	1    4450 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F527EF7
+P 4550 3900
+AR Path="/5EF66188/5F527EF7" Ref="C?"  Part="1" 
+AR Path="/5ED4B101/5F527EF7" Ref="C69"  Part="1" 
+F 0 "C69" V 4600 3750 50  0000 L CNN
+F 1 "100nF" V 4750 3950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4550 3900 50  0001 C CNN
+F 3 "~" H 4550 3900 50  0001 C CNN
+F 4 "KEMET" H 4550 3900 50  0001 C CNN "MFR"
+F 5 "C0402C104M8PACTU" H 4550 3900 50  0001 C CNN "MPN"
+	1    4550 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 3800 4350 3800
+Wire Wire Line
+	4250 3900 4450 3900
+$Comp
+L Device:C_Small C?
+U 1 1 5F52A5F2
+P 7550 3800
+AR Path="/5EF66188/5F52A5F2" Ref="C?"  Part="1" 
+AR Path="/5ED4B101/5F52A5F2" Ref="C72"  Part="1" 
+F 0 "C72" V 7600 3650 50  0000 L CNN
+F 1 "100nF" V 7650 3750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7550 3800 50  0001 C CNN
+F 3 "~" H 7550 3800 50  0001 C CNN
+F 4 "KEMET" H 7550 3800 50  0001 C CNN "MFR"
+F 5 "C0402C104M8PACTU" H 7550 3800 50  0001 C CNN "MPN"
+	1    7550 3800
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F52A5FA
+P 7450 3900
+AR Path="/5EF66188/5F52A5FA" Ref="C?"  Part="1" 
+AR Path="/5ED4B101/5F52A5FA" Ref="C70"  Part="1" 
+F 0 "C70" V 7500 3750 50  0000 L CNN
+F 1 "100nF" V 7650 3950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7450 3900 50  0001 C CNN
+F 3 "~" H 7450 3900 50  0001 C CNN
+F 4 "KEMET" H 7450 3900 50  0001 C CNN "MFR"
+F 5 "C0402C104M8PACTU" H 7450 3900 50  0001 C CNN "MPN"
+	1    7450 3900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7750 3800 7650 3800
+Wire Wire Line
+	7750 3900 7550 3900
+Wire Wire Line
+	7450 3800 6900 3800
+Wire Wire Line
+	7350 3900 6900 3900
+Wire Wire Line
+	4550 3800 5100 3800
+Wire Wire Line
+	4650 3900 5100 3900
+Wire Wire Line
+	7500 2250 6950 2250
+Wire Wire Line
+	7400 2350 6950 2350
+Wire Wire Line
+	4500 2250 5150 2250
+Wire Wire Line
+	4600 2350 5150 2350
+$Comp
+L lethalbit:ECP5UM5G-381caBGA U1
+U 9 1 5F0889A2
+P 6050 2300
+F 0 "U1" H 6050 2648 50  0000 C CNN
+F 1 "ECP5UM5G-381caBGA" H 6050 2557 50  0000 C CNN
+F 2 "lethalbit:318caBGA" H 4700 2450 50  0001 C CNN
+F 3 "" H 4700 2450 50  0001 C CNN
+	9    6050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L lethalbit:ECP5UM5G-381caBGA U1
+U 10 1 5F0889A8
+P 6000 3850
+F 0 "U1" H 6000 4198 50  0000 C CNN
+F 1 "ECP5UM5G-381caBGA" H 6000 4107 50  0000 C CNN
+F 2 "lethalbit:318caBGA" H 4650 4000 50  0001 C CNN
+F 3 "" H 4650 4000 50  0001 C CNN
+	10   6000 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4000 7750 4000
+Wire Wire Line
+	6900 4100 7750 4100
+Wire Wire Line
+	4250 4000 5100 4000
+Wire Wire Line
+	4250 4100 5100 4100
+Wire Wire Line
+	7800 2450 6950 2450
+Wire Wire Line
+	7800 2550 6950 2550
+Wire Wire Line
+	4200 2450 5150 2450
+Wire Wire Line
+	4200 2550 5150 2550
+Text Label 6950 3800 0    50   ~ 0
+RX3+
+Text Label 6950 3900 0    50   ~ 0
+RX3-
+Text Label 6950 4000 0    50   ~ 0
+TX3+
+Text Label 6950 4100 0    50   ~ 0
+TX3-
+Text Label 5050 3800 2    50   ~ 0
+RX2+
+Text Label 5050 3900 2    50   ~ 0
+RX2-
+Text Label 5050 4000 2    50   ~ 0
+TX2+
+Text Label 5050 4100 2    50   ~ 0
+TX2-
+Text Label 5100 2550 2    50   ~ 0
+TX0-
+Text Label 5100 2450 2    50   ~ 0
+TX0+
+Text Label 5100 2350 2    50   ~ 0
+RX0-
+Text Label 5100 2250 2    50   ~ 0
+RX0+
+Text Label 7000 2250 0    50   ~ 0
+RX1+
+Text Label 7000 2350 0    50   ~ 0
+RX1-
+Text Label 7000 2450 0    50   ~ 0
+TX1-
+Text Label 7000 2550 0    50   ~ 0
+TX1-
+Text Label 10100 3400 0    50   ~ 0
+REFCLK+
+Text Label 10100 3500 0    50   ~ 0
+REFCLK-
 $EndSCHEMATC
