@@ -575,11 +575,12 @@ Text Label 7400 4250 2    50   ~ 0
 GPIF_00
 $Comp
 L lethalbit:ECP5UM5G-381caBGA U?
-U 7 1 5FC843C8
+U 7 1 5FD58016
 P 8350 4300
-AR Path="/5EDF3898/5FC843C8" Ref="U?"  Part="7" 
-AR Path="/5FC843C8" Ref="U?"  Part="7" 
-AR Path="/5F2CAFD2/5FC843C8" Ref="U1"  Part="7" 
+AR Path="/5EDF3898/5FD58016" Ref="U?"  Part="7" 
+AR Path="/5FD58016" Ref="U?"  Part="7" 
+AR Path="/5F2CAFD2/5FD58016" Ref="U1"  Part="7" 
+AR Path="/5EF6A128/5FD58016" Ref="U?"  Part="7" 
 F 0 "U1" H 8350 4648 50  0000 C CNN
 F 1 "ECP5UM5G-381caBGA" H 8350 4557 50  0000 C CNN
 F 2 "lethalbit:318caBGA" H 7000 4450 50  0001 C CNN

@@ -3383,7 +3383,7 @@
     )
   )
 
-  (module lethalbit:318caBGA (layer F.Cu) (tedit 5EE5DA58) (tstamp 5EF524E4)
+  (module lethalbit:318caBGA locked (layer F.Cu) (tedit 5EE5DA58) (tstamp 5EF524E4)
     (at 91.1 89.75)
     (descr "Lattice ECP5 318caBGA")
     (path /5EF6A128/5FCD2B63)
