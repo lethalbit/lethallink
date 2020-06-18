@@ -20,11 +20,11 @@ Hardware:
 
  ☐ Figure out how on earth to bring up the FPGA
 
- ☐ Start on the schematic component for the PCIe bus connection
+ ✔ Start on the schematic component for the PCIe bus connection @done (2020-06-18 01:23)
    ☐ Route PCIe traces
 
  ✔ Find SPI flash module for gateware and firmware @done (2020-06-14 15:53)
- ☐ Hook up flash to FPGA
+ ✔ Hook up flash to FPGA @done (2020-06-18 01:23)
  ☐ Route flash
 
  ✔ Find LPDDR3 module (8GiB?) for cache (ECC?) [Depends on LPDDR core] @done (2020-06-14 15:06)
@@ -34,6 +34,7 @@ Hardware:
 
  ☐ Settle on data exfiltration interface (Just use USB3? Gigabit Serial?)
 
+ ☐ Properly figure out the interface between the FPGA and PHY
 
  ☐ Design hardware debug interface (high speed level-shifters needed most likely) (Mezzanine boards?)
    ☐ Generic GPIO based (JTAG, etc. minimal Glasgow-like)
