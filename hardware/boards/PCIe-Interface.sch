@@ -33,21 +33,21 @@ Text HLabel 1400 2650 0    50   Input ~ 0
 TX3_P
 Text HLabel 1400 2750 0    50   Input ~ 0
 TX3_N
-Text HLabel 1400 3000 0    50   Input ~ 0
+Text HLabel 2750 3600 0    50   Input ~ 0
 RX0_P
-Text HLabel 1400 3100 0    50   Input ~ 0
+Text HLabel 2750 3700 0    50   Input ~ 0
 RX0_N
-Text HLabel 1400 3250 0    50   Input ~ 0
+Text HLabel 2750 3850 0    50   Input ~ 0
 RX1_P
-Text HLabel 1400 3350 0    50   Input ~ 0
+Text HLabel 2750 3950 0    50   Input ~ 0
 RX1_N
-Text HLabel 1400 3500 0    50   Input ~ 0
+Text HLabel 2750 4100 0    50   Input ~ 0
 RX2_P
-Text HLabel 1400 3600 0    50   Input ~ 0
+Text HLabel 2750 4200 0    50   Input ~ 0
 RX2_N
-Text HLabel 1400 3850 0    50   Input ~ 0
+Text HLabel 2750 4450 0    50   Input ~ 0
 RX3_P
-Text HLabel 1400 3950 0    50   Input ~ 0
+Text HLabel 2750 4550 0    50   Input ~ 0
 RX3_N
 $Comp
 L lethalbit:ECP5UM5G-381caBGA U1
@@ -79,14 +79,14 @@ NoConn ~ 1400 2400
 NoConn ~ 1400 2500
 NoConn ~ 1400 2650
 NoConn ~ 1400 2750
-NoConn ~ 1400 3000
-NoConn ~ 1400 3100
-NoConn ~ 1400 3250
-NoConn ~ 1400 3350
-NoConn ~ 1400 3500
-NoConn ~ 1400 3600
-NoConn ~ 1400 3850
-NoConn ~ 1400 3950
+NoConn ~ 2750 3600
+NoConn ~ 2750 3700
+NoConn ~ 2750 3850
+NoConn ~ 2750 3950
+NoConn ~ 2750 4100
+NoConn ~ 2750 4200
+NoConn ~ 2750 4450
+NoConn ~ 2750 4550
 NoConn ~ 5150 2250
 NoConn ~ 5150 2350
 NoConn ~ 5150 2450
