@@ -171,4 +171,12 @@ Wire Wire Line
 	8550 4850 8550 3850
 Wire Wire Line
 	8550 3850 8650 3850
+Text Label 8450 3200 2    50   ~ 0
+REFCLK0+
+Text Label 8450 3300 2    50   ~ 0
+REFCLK0-
+Text Label 8450 4750 2    50   ~ 0
+REFCLK1+
+Text Label 8450 4850 2    50   ~ 0
+REFCLK1-
 $EndSCHEMATC
