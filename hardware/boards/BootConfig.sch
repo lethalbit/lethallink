@@ -1152,4 +1152,18 @@ Wire Wire Line
 	4850 4000 4850 4850
 Wire Wire Line
 	4800 3600 4800 4950
+Text Label 7350 5350 0    50   ~ 0
+TDO
+Text Label 7350 5450 0    50   ~ 0
+TCK
+Text Label 7350 5550 0    50   ~ 0
+TDI
+Text Label 7350 5650 0    50   ~ 0
+TMS
+Text Label 6800 6700 0    50   ~ 0
+~RESET
+Text Label 7750 4100 0    50   ~ 0
+~INIT
+Text Label 7400 4750 0    50   ~ 0
+DONE
 $EndSCHEMATC
