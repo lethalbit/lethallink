@@ -22,7 +22,6 @@ NoConn ~ 4950 2350
 NoConn ~ 4950 2450
 NoConn ~ 4950 2750
 NoConn ~ 4950 2850
-NoConn ~ 4950 2950
 NoConn ~ 4950 3050
 NoConn ~ 4950 3150
 NoConn ~ 4950 3350
@@ -55,10 +54,6 @@ NoConn ~ 5000 4800
 NoConn ~ 5000 5000
 NoConn ~ 5000 5100
 NoConn ~ 5000 5200
-NoConn ~ 5000 5300
-NoConn ~ 5000 5400
-NoConn ~ 6800 5200
-NoConn ~ 6800 5100
 $Comp
 L lethalbit-memory:IS43TR16256B-125KBL U4
 U 2 1 5F1DEF98
@@ -357,13 +352,13 @@ DQU6
 Text Label 9400 3000 2    50   ~ 0
 DQU7
 Entry Wire Line
-	4700 3250 4600 3150
+	4700 2950 4600 2850
 Entry Wire Line
 	4700 2650 4600 2550
 Entry Wire Line
 	4700 2550 4600 2450
 Wire Wire Line
-	4950 3250 4700 3250
+	4950 2950 4700 2950
 Wire Wire Line
 	4950 2550 4700 2550
 Wire Wire Line
@@ -372,75 +367,63 @@ Wire Bus Line
 	4600 2450 4300 2450
 Text Label 4300 2450 0    50   ~ 0
 BA[0..2]
-Text Label 4900 3250 2    50   ~ 0
+Text Label 4900 2950 2    50   ~ 0
 BA0
 Text Label 4900 2550 2    50   ~ 0
 BA1
 Text Label 4900 2650 2    50   ~ 0
 BA2
-Wire Bus Line
-	4600 1750 4300 1750
-Text Label 4300 1750 0    50   ~ 0
-A[0..15]
-Entry Wire Line
-	4700 1950 4600 1850
-Wire Wire Line
-	4950 1950 4700 1950
-Text Label 4900 1950 2    50   ~ 0
-A0
-Wire Bus Line
-	4600 1750 4600 1850
 Text Label 7450 3650 2    50   ~ 0
 A[0..15]
 Entry Wire Line
-	7050 4700 7150 4600
+	7050 4000 7150 3900
 Wire Wire Line
-	6800 4700 7050 4700
-Entry Wire Line
-	7050 4800 7150 4700
-Wire Wire Line
-	6800 4800 7050 4800
-Entry Wire Line
-	7050 5300 7150 5200
-Wire Wire Line
-	6800 5300 7050 5300
-Entry Wire Line
-	7050 5400 7150 5300
-Wire Wire Line
-	6800 5400 7050 5400
-Wire Bus Line
-	7150 3650 7450 3650
-Text Label 6850 4700 0    50   ~ 0
-A1
-Text Label 6850 4800 0    50   ~ 0
-A11
-Text Label 6850 5300 0    50   ~ 0
-A6
-Text Label 6850 5400 0    50   ~ 0
-A8
-Entry Wire Line
-	7050 4300 7150 4200
-Wire Wire Line
-	6800 4300 7050 4300
+	6800 4000 7050 4000
 Entry Wire Line
 	7050 5000 7150 4900
 Wire Wire Line
 	6800 5000 7050 5000
 Entry Wire Line
-	7050 4400 7150 4300
-Wire Wire Line
-	6800 4400 7050 4400
-Entry Wire Line
 	7050 4500 7150 4400
 Wire Wire Line
 	6800 4500 7050 4500
-Text Label 6850 4300 0    50   ~ 0
-A7
-Text Label 6850 4400 0    50   ~ 0
-A10
-Text Label 6850 4500 0    50   ~ 0
-A12
+Entry Wire Line
+	7050 4700 7150 4600
+Wire Wire Line
+	6800 4700 7050 4700
+Wire Bus Line
+	7150 3650 7450 3650
+Text Label 6850 4000 0    50   ~ 0
+A1
 Text Label 6850 5000 0    50   ~ 0
+A11
+Text Label 6850 4500 0    50   ~ 0
+A6
+Text Label 6850 4700 0    50   ~ 0
+A8
+Entry Wire Line
+	7050 4600 7150 4500
+Wire Wire Line
+	6800 4600 7050 4600
+Entry Wire Line
+	7050 4300 7150 4200
+Wire Wire Line
+	6800 4300 7050 4300
+Entry Wire Line
+	7050 4900 7150 4800
+Wire Wire Line
+	6800 4900 7050 4900
+Entry Wire Line
+	7050 5100 7150 5000
+Wire Wire Line
+	6800 5100 7050 5100
+Text Label 6850 4600 0    50   ~ 0
+A7
+Text Label 6850 4900 0    50   ~ 0
+A10
+Text Label 6850 5100 0    50   ~ 0
+A12
+Text Label 6850 4300 0    50   ~ 0
 A4
 Entry Wire Line
 	7050 4200 7150 4100
@@ -451,45 +434,43 @@ Entry Wire Line
 Wire Wire Line
 	6800 4100 7050 4100
 Entry Wire Line
-	7050 4000 7150 3900
+	7050 4800 7150 4700
 Wire Wire Line
-	6800 4000 7050 4000
+	6800 4800 7050 4800
 Entry Wire Line
-	7050 3900 7150 3800
+	7050 4400 7150 4300
 Wire Wire Line
-	6800 3900 7050 3900
-Text Label 6850 3900 0    50   ~ 0
+	6800 4400 7050 4400
+Text Label 6850 4400 0    50   ~ 0
 A5
-Text Label 6850 4000 0    50   ~ 0
+Text Label 6850 4800 0    50   ~ 0
 A9
 Text Label 6850 4100 0    50   ~ 0
 A2
 Text Label 6850 4200 0    50   ~ 0
 A3
 Entry Wire Line
-	7050 4900 7150 4800
+	4750 5300 4650 5200
 Wire Wire Line
-	6800 4900 7050 4900
+	5000 5300 4750 5300
 Entry Wire Line
-	7050 4600 7150 4500
+	7050 5200 7150 5100
 Wire Wire Line
-	6800 4600 7050 4600
-Text Label 6850 4600 0    50   ~ 0
+	6800 5200 7050 5200
+Text Label 6850 5200 0    50   ~ 0
 A13
-Text Label 6850 4900 0    50   ~ 0
+Text Label 4950 5300 2    50   ~ 0
 A14
-Text Label 4350 3650 0    50   ~ 0
+Text Label 4350 5150 0    50   ~ 0
 A[0..15]
 Wire Bus Line
-	4650 3650 4350 3650
+	4650 5150 4350 5150
 Entry Wire Line
-	4750 4900 4650 4800
+	4750 5400 4650 5300
 Wire Wire Line
-	5000 4900 4750 4900
-Text Label 4950 4900 2    50   ~ 0
-A4
-Wire Bus Line
-	4650 3650 4650 4800
+	5000 5400 4750 5400
+Text Label 4950 5400 2    50   ~ 0
+A15
 $Comp
 L lethalbit:ECP5UM5G-381caBGA U?
 U 4 1 5FCBABF4
@@ -525,10 +506,148 @@ F 6 "220-2112-ND" H 5850 1800 50  0001 C CNN "DIGIKEY_PN"
 	5    5850 1800
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	4600 2450 4600 3150
+$Comp
+L lethalbit:AX3 X?
+U 1 1 5FE30290
+P 8100 5450
+AR Path="/5EDAB834/5FE30290" Ref="X?"  Part="1" 
+AR Path="/5EF6A128/5FE30290" Ref="X?"  Part="1" 
+AR Path="/5EDF3898/5FE30290" Ref="X2"  Part="1" 
+F 0 "X2" H 8100 5825 50  0000 C CNN
+F 1 "AX3" H 8100 5734 50  0000 C CNN
+F 2 "lethalbit:AX3" H 7750 5750 50  0001 C CNN
+F 3 "https://abracon.com/datasheets/AX3.pdf" H 7750 5750 50  0001 C CNN
+F 4 "Abracon LLC" H 8100 5450 50  0001 C CNN "MFR"
+F 5 "AX3DCF1-100.0000" H 8100 5450 50  0001 C CNN "MPN"
+	1    8100 5450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FE30298
+P 7350 5350
+AR Path="/5EDAB834/5FE30298" Ref="R?"  Part="1" 
+AR Path="/5EF6A128/5FE30298" Ref="R?"  Part="1" 
+AR Path="/5EDF3898/5FE30298" Ref="R58"  Part="1" 
+F 0 "R58" V 7250 5300 50  0000 L CNN
+F 1 "100" V 7450 5250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7350 5350 50  0001 C CNN
+F 3 "~" H 7350 5350 50  0001 C CNN
+F 4 "Vishay Dale" H 7350 5350 50  0001 C CNN "MFR"
+F 5 "RCS0402100RFKED" V 7350 5350 50  0001 C CNN "MPN"
+	1    7350 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 5400 7200 5400
+Wire Wire Line
+	7200 5400 7200 5500
+Wire Wire Line
+	7200 5500 7350 5500
+Wire Wire Line
+	7500 5500 7500 5400
+Wire Wire Line
+	7500 5400 7800 5400
+Wire Wire Line
+	7800 5300 7500 5300
+Wire Wire Line
+	7500 5300 7500 5200
+Wire Wire Line
+	7500 5200 7350 5200
+Wire Wire Line
+	7200 5200 7200 5300
+Wire Wire Line
+	7200 5300 6800 5300
+Wire Wire Line
+	7350 5200 7350 5250
+Connection ~ 7350 5200
+Wire Wire Line
+	7350 5200 7200 5200
+Wire Wire Line
+	7350 5450 7350 5500
+Connection ~ 7350 5500
+Wire Wire Line
+	7350 5500 7500 5500
+$Comp
+L power:GND #PWR?
+U 1 1 5FE302AE
+P 8500 5750
+AR Path="/5EDAB834/5FE302AE" Ref="#PWR?"  Part="1" 
+AR Path="/5EF6A128/5FE302AE" Ref="#PWR?"  Part="1" 
+AR Path="/5EDF3898/5FE302AE" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 8500 5500 50  0001 C CNN
+F 1 "GND" H 8505 5577 50  0000 C CNN
+F 2 "" H 8500 5750 50  0001 C CNN
+F 3 "" H 8500 5750 50  0001 C CNN
+	1    8500 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 5600 8500 5600
+Wire Wire Line
+	8500 5600 8500 5750
+$Comp
+L Device:C_Small C?
+U 1 1 5FE302B8
+P 8750 5550
+AR Path="/5EDF9F51/5FE302B8" Ref="C?"  Part="1" 
+AR Path="/5EDAB834/5FE302B8" Ref="C?"  Part="1" 
+AR Path="/5EF6A128/5FE302B8" Ref="C?"  Part="1" 
+AR Path="/5EDF3898/5FE302B8" Ref="C74"  Part="1" 
+F 0 "C74" H 8658 5504 50  0000 R CNN
+F 1 "0.1uF" H 8658 5595 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8750 5550 50  0001 C CNN
+F 3 "~" H 8750 5550 50  0001 C CNN
+F 4 "KEMET" V 8750 5550 50  0001 C CNN "MFR"
+F 5 "C0603C104M5RACTU" V 8750 5550 50  0001 C CNN "MPN"
+	1    8750 5550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 5600 8600 5600
+Wire Wire Line
+	8600 5600 8600 5700
+Wire Wire Line
+	8600 5700 8750 5700
+Wire Wire Line
+	8750 5700 8750 5650
+Connection ~ 8500 5600
+Wire Wire Line
+	8400 5500 8600 5500
+Wire Wire Line
+	8600 5500 8600 5400
+Wire Wire Line
+	8600 5400 8750 5400
+Wire Wire Line
+	8750 5400 8750 5450
+Wire Wire Line
+	8400 5300 8600 5300
+Wire Wire Line
+	8600 5300 8600 5400
+Connection ~ 8600 5400
+Wire Wire Line
+	8600 5300 8850 5300
+Connection ~ 8600 5300
+Text Label 8850 5300 2    50   ~ 0
+_1V8
+Text Label 7500 5300 0    50   ~ 0
+CLK+
+Text Label 7500 5400 0    50   ~ 0
+CLK-
+Text Label 6850 3900 0    50   ~ 0
+A0
+Wire Wire Line
+	6800 3900 7050 3900
+Entry Wire Line
+	7050 3900 7150 3800
+NoConn ~ 4950 3250
+NoConn ~ 5000 4900
 Wire Bus Line
 	10700 3100 10700 3300
+Wire Bus Line
+	4650 5150 4650 5300
+Wire Bus Line
+	4600 2450 4600 2850
 Wire Bus Line
 	9100 3100 9100 3800
 Wire Bus Line
@@ -536,5 +655,5 @@ Wire Bus Line
 Wire Bus Line
 	10700 3500 10700 5000
 Wire Bus Line
-	7150 3650 7150 5300
+	7150 3650 7150 5100
 $EndSCHEMATC

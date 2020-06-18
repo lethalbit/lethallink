@@ -450,25 +450,17 @@ $EndComp
 Wire Wire Line
 	5200 5050 4700 5050
 Wire Wire Line
-	4700 5050 4700 3950
-Wire Wire Line
 	4700 3950 7250 3950
 Wire Wire Line
 	7250 3950 7250 3600
 Wire Wire Line
 	5200 5150 4750 5150
-Wire Wire Line
-	4750 3500 4750 5150
 NoConn ~ 5200 4750
 NoConn ~ 5200 4650
 Wire Wire Line
 	5200 4950 4800 4950
 Wire Wire Line
-	4800 4950 4800 3600
-Wire Wire Line
 	5200 4850 4850 4850
-Wire Wire Line
-	4850 4850 4850 4000
 Wire Wire Line
 	4850 4000 7300 4000
 Wire Wire Line
@@ -487,8 +479,6 @@ Wire Wire Line
 	4750 3500 5250 3500
 Wire Wire Line
 	5200 5450 4900 5450
-Wire Wire Line
-	4900 5450 4900 3400
 Wire Wire Line
 	4900 3400 5650 3400
 Wire Wire Line
@@ -512,8 +502,6 @@ Wire Wire Line
 	7000 2800 7250 2800
 Wire Wire Line
 	7250 3050 7250 2800
-Wire Wire Line
-	7400 4150 7400 3500
 $Comp
 L Device:R_Small R42
 U 1 1 5FEDBD32
@@ -1152,4 +1140,16 @@ Wire Wire Line
 Connection ~ 8000 7250
 Wire Wire Line
 	8000 7250 8150 7250
+Wire Wire Line
+	4900 3400 4900 5450
+Wire Wire Line
+	7400 3500 7400 4150
+Wire Wire Line
+	4700 3950 4700 5050
+Wire Wire Line
+	4750 3500 4750 5150
+Wire Wire Line
+	4850 4000 4850 4850
+Wire Wire Line
+	4800 3600 4800 4950
 $EndSCHEMATC
