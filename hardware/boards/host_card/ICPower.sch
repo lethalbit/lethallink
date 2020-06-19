@@ -1408,7 +1408,7 @@ U 3 1 5F2B0555
 P 14400 2950
 F 0 "J6" H 14400 3525 50  0000 C CNN
 F 1 "SODIMM_260" H 14400 3434 50  0000 C CNN
-F 2 "lethalbit-connectors:TE_SODIMM_260" H 14400 3300 50  0001 C CNN
+F 2 "lethalbit-connectors:lethallink_Debug_Module_Mount" H 14400 3300 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2309413&DocType=Customer+Drawing&DocLang=English" H 14400 3300 50  0001 C CNN
 F 4 "TE Connectivity AMP Connectors" H 14400 2950 50  0001 C CNN "MFR"
 F 5 "2309413-1" H 14400 2950 50  0001 C CNN "MPN"
@@ -1421,7 +1421,7 @@ U 4 1 5F2B71A4
 P 14400 6700
 F 0 "J6" H 14400 7275 50  0000 C CNN
 F 1 "SODIMM_260" H 14400 7184 50  0000 C CNN
-F 2 "lethalbit-connectors:TE_SODIMM_260" H 14400 7050 50  0001 C CNN
+F 2 "lethalbit-connectors:lethallink_Debug_Module_Mount" H 14400 7050 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2309413&DocType=Customer+Drawing&DocLang=English" H 14400 7050 50  0001 C CNN
 F 4 "TE Connectivity AMP Connectors" H 14400 6700 50  0001 C CNN "MFR"
 F 5 "2309413-1" H 14400 6700 50  0001 C CNN "MPN"
