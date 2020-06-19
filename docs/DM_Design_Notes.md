@@ -19,6 +19,9 @@ Below you can see a sketch of the profile for the daughtercards:
 **NOTE:** This drawing is not to scale, for a to-scale drawing with all the measurements see the SolveSpace CAD files in the [`docs/cad/`](../docs/cad/) directory. Alternatively, you can inspect the [lethallink KiCad library](../docs/eda) where there is a footprint and schematic part. Or, lastly, use inspect one of the [debug modules](../hardware/boards), or use the [debug module template KiCad project](../hardware/boards/template_dm).
 
 
-![lethallink Debug module daughtercard](../docs/img/lethallink_dm_outline.svg)
+<p align="center">
+  <img width="426" height="488" src="https://github.com/lethalbit/lethallink/raw/main/docs/img/lethallink_dm_outline.svg">
+</p>
+
 
 
