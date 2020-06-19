@@ -28,8 +28,9 @@ Below you can see a sketch of the profile for the daughtercards:
 ### Pinout
 
 The following is a table of the pinout for the debug module:
-| PIN # |PIN NAME| PIN # |PIN NAME| PIN # |PIN NAME|
-+-------+----------------+-------+----------------+-------+----------------+
+
+| PIN # |    PIN NAME    | PIN # |    PIN NAME    | PIN # |    PIN NAME    |
+|-------|----------------|-------|----------------|-------|----------------|
 | `001` | `TODO NO SPEC` | `002` | `TODO NO SPEC` | `003` | `TODO NO SPEC` |
 | `004` | `TODO NO SPEC` | `005` | `TODO NO SPEC` | `006` | `TODO NO SPEC` |
 | `007` | `TODO NO SPEC` | `008` | `TODO NO SPEC` | `009` | `TODO NO SPEC` |
