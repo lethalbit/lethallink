@@ -1402,4 +1402,30 @@ _1V8
 Wire Wire Line
 	9100 2750 9600 2750
 NoConn ~ 9100 2600
+$Comp
+L lethalbit:SODIMM_260 J6
+U 3 1 5F2B0555
+P 14400 2950
+F 0 "J6" H 14400 3525 50  0000 C CNN
+F 1 "SODIMM_260" H 14400 3434 50  0000 C CNN
+F 2 "lethalbit-connectors:TE_SODIMM_260" H 14400 3300 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2309413&DocType=Customer+Drawing&DocLang=English" H 14400 3300 50  0001 C CNN
+F 4 "TE Connectivity AMP Connectors" H 14400 2950 50  0001 C CNN "MFR"
+F 5 "2309413-1" H 14400 2950 50  0001 C CNN "MPN"
+	3    14400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L lethalbit:SODIMM_260 J6
+U 4 1 5F2B71A4
+P 14400 6700
+F 0 "J6" H 14400 7275 50  0000 C CNN
+F 1 "SODIMM_260" H 14400 7184 50  0000 C CNN
+F 2 "lethalbit-connectors:TE_SODIMM_260" H 14400 7050 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2309413&DocType=Customer+Drawing&DocLang=English" H 14400 7050 50  0001 C CNN
+F 4 "TE Connectivity AMP Connectors" H 14400 6700 50  0001 C CNN "MFR"
+F 5 "2309413-1" H 14400 6700 50  0001 C CNN "MPN"
+	4    14400 6700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

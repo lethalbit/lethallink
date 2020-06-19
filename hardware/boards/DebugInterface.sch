@@ -30,7 +30,6 @@ NoConn ~ 4950 4400
 NoConn ~ 4950 4500
 NoConn ~ 4950 4600
 NoConn ~ 4950 4700
-NoConn ~ 6750 4600
 NoConn ~ 6750 4500
 NoConn ~ 6750 4400
 NoConn ~ 6750 4300
@@ -61,6 +60,33 @@ F 4 "Lattice" H 5850 3150 50  0001 C CNN "MFR"
 F 5 "LFE5UM5G-85F-8BG381I" H 5850 3150 50  0001 C CNN "MPN"
 F 6 "220-2112-ND" H 5850 3150 50  0001 C CNN "DIGIKEY_PN"
 	3    5850 3150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6750 4600
+$Comp
+L lethalbit:SODIMM_260 J6
+U 1 1 5F29016C
+P 10100 1850
+F 0 "J6" H 10100 2425 50  0000 C CNN
+F 1 "SODIMM_260" H 10100 2334 50  0000 C CNN
+F 2 "lethalbit-connectors:TE_SODIMM_260" H 10100 2200 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2309413&DocType=Customer+Drawing&DocLang=English" H 10100 2200 50  0001 C CNN
+F 4 "TE Connectivity AMP Connectors" H 10100 1850 50  0001 C CNN "MFR"
+F 5 "2309413-1" H 10100 1850 50  0001 C CNN "MPN"
+	1    10100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L lethalbit:SODIMM_260 J6
+U 2 1 5F297503
+P 10100 5450
+F 0 "J6" H 10100 6025 50  0000 C CNN
+F 1 "SODIMM_260" H 10100 5934 50  0000 C CNN
+F 2 "lethalbit-connectors:TE_SODIMM_260" H 10100 5800 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2309413&DocType=Customer+Drawing&DocLang=English" H 10100 5800 50  0001 C CNN
+F 4 "TE connectivity AMP Connectors" H 10100 5450 50  0001 C CNN "MFR"
+F 5 "2309413-1" H 10100 5450 50  0001 C CNN "MPN"
+	2    10100 5450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
