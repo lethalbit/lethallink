@@ -10,12 +10,15 @@ This allows for a substantial amount of IO and power to be provided to the daugh
 
 ## Electromechanical Specification
 
-The electromechanical specification for the DM daughtercards follows much of normal specification for a DDR4 SODIMM with 260 positions, however it is longer and has a mounting hole for a 8mm tall M3 standoff.
+The electromechanical specification for the DM daughtercards follows much of normal specification for a DDR4 SODIMM with 260 positions, however it is longer and has a mounting hole for two `8mm` tall `M3` standoffs.
+
+It's rough dimensions are `80mm` long by `69.60mm` wide, with the two `M3` mounting holes `4.5mm` from the side and bottom of each corner.
 
 Below you can see a sketch of the profile for the daughtercards:
 
 **NOTE:** This drawing is not to scale, for a to-scale drawing with all the measurements see the SolveSpace CAD files in the [`docs/cad/`](../docs/cad/) directory. Alternatively, you can inspect the [lethallink KiCad library](../docs/eda) where there is a footprint and schematic part. Or, lastly, use inspect one of the [debug modules](../hardware/boards), or use the [debug module template KiCad project](../hardware/boards/template_dm).
 
-<center>
-	![lethallink Debug module daughtercard](../docs/img/lethallink_dm_outline.svg)
-</center>
+
+![lethallink Debug module daughtercard](../docs/img/lethallink_dm_outline.svg)
+
+
