@@ -666,12 +666,12 @@ Wire Wire Line
 	5650 3300 5650 3200
 Wire Wire Line
 	5650 3200 6000 3200
-Wire Bus Line
-	3150 3400 3150 4950
-Wire Bus Line
-	9000 2000 9000 3550
 Text Label 6000 3200 2    50   ~ 0
 _1V8
 Text Notes 5900 3750 0    50   ~ 0
 PHY Boot config\n0 0 X - Sync ADMux\n1 0 X - Async ADMux\n1 1 X - USB\n1 X 0 - SPI, USB On failure
+Wire Bus Line
+	3150 3400 3150 4950
+Wire Bus Line
+	9000 2000 9000 3550
 $EndSCHEMATC

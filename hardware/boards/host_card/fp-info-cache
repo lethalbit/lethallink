@@ -1,4 +1,4 @@
-18420683270087416
+18422275846832416
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -80982,13 +80982,6 @@ TE_SODIMM_260
 0
 262
 261
-lethalbit-connectors
-lethallink_Debug_Module_Mount
-
-
-0
-280
-262
 lethalbit-graphics
 Antifaschistische Aktion_100dpi
 
@@ -81129,3 +81122,17 @@ PCIe x16 Card-Edge Retention-Clip
 0
 165
 165
+lethallink
+lethallink_debug_module
+
+
+0
+278
+261
+lethallink
+lethallink_debug_module_mount
+
+
+0
+280
+262
