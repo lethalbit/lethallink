@@ -90,4 +90,28 @@ F 3 "~" H 1600 2750 50  0001 C CNN
 	1    1600 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5EEC9E4D
+P 1650 3750
+F 0 "H?" H 1750 3799 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1750 3708 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1650 3750 50  0001 C CNN
+F 3 "~" H 1650 3750 50  0001 C CNN
+	1    1650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EECB465
+P 1650 4200
+F 0 "#PWR?" H 1650 3950 50  0001 C CNN
+F 1 "GND" H 1655 4027 50  0000 C CNN
+F 2 "" H 1650 4200 50  0001 C CNN
+F 3 "" H 1650 4200 50  0001 C CNN
+	1    1650 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3850 1650 4200
 $EndSCHEMATC
