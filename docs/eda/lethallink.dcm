@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP lethallink_debug_module
+F https://github.com/lethalbit/lethallink/blob/main/docs/DM_Design_Notes.md
+$ENDCMP
+#
+#End Doc Library
