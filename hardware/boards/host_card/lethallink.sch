@@ -405,21 +405,6 @@ $EndComp
 Connection ~ 4300 4350
 Wire Wire Line
 	5450 2700 5450 2800
-$Comp
-L Device:Ferrite_Bead_Small FB10
-U 1 1 5F74D6CA
-P 9150 3900
-F 0 "FB10" H 9450 3900 50  0000 R CNN
-F 1 "220 @ 100Mhz" H 9300 4100 50  0001 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9080 3900 50  0001 C CNN
-F 3 "~" H 9150 3900 50  0001 C CNN
-F 4 "Murata Electronics" H 9150 3900 50  0001 C CNN "MFR"
-F 5 "BLM18AG221SN1D" H 9150 3900 50  0001 C CNN "MPN"
-	1    9150 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9150 4050 9150 4000
 Wire Wire Line
 	9000 4050 9150 4050
 Wire Wire Line
@@ -580,8 +565,6 @@ Wire Wire Line
 NoConn ~ 9150 950 
 NoConn ~ 8650 950 
 NoConn ~ 8400 950 
-Wire Wire Line
-	9150 3800 9150 3300
 Wire Wire Line
 	9150 3300 10050 3300
 $Sheet
@@ -784,4 +767,6 @@ $EndComp
 Connection ~ 4650 2850
 Wire Wire Line
 	4650 2850 4650 3150
+Wire Wire Line
+	9150 3300 9150 4050
 $EndSCHEMATC

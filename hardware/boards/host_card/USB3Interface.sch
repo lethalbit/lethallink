@@ -150,25 +150,21 @@ Wire Wire Line
 Wire Wire Line
 	800  700  1050 700 
 Wire Wire Line
-	2350 1800 3600 1800
-Wire Wire Line
 	3600 1800 3600 1550
 Wire Wire Line
 	3600 1550 3450 1550
-Wire Wire Line
-	2350 1900 3650 1900
 Wire Wire Line
 	3650 1900 3650 1650
 Wire Wire Line
 	3650 1650 3450 1650
 Wire Wire Line
-	2350 2050 3800 2050
+	2350 2050 3150 2050
 Wire Wire Line
 	3800 2050 3800 1250
 Wire Wire Line
 	3800 1250 3450 1250
 Wire Wire Line
-	2350 2150 3850 2150
+	2350 2150 3050 2150
 Wire Wire Line
 	3850 2150 3850 1350
 Wire Wire Line
@@ -670,6 +666,46 @@ Text Label 6000 3200 2    50   ~ 0
 _1V8
 Text Notes 5900 3750 0    50   ~ 0
 PHY Boot config\n0 0 X - Sync ADMux\n1 0 X - Async ADMux\n1 1 X - USB\n1 X 0 - SPI, USB On failure
+Wire Wire Line
+	2350 1900 3650 1900
+Wire Wire Line
+	2350 1800 3600 1800
+$Comp
+L Device:C_Small C?
+U 1 1 5F3166F0
+P 3150 2150
+AR Path="/5EF66188/5F3166F0" Ref="C?"  Part="1" 
+AR Path="/5ED4B101/5F3166F0" Ref="C?"  Part="1" 
+AR Path="/5F2CAFD2/5F3166F0" Ref="C77"  Part="1" 
+F 0 "C77" V 3200 1950 50  0000 L CNN
+F 1 "0.1uF" V 3350 2250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3150 2150 50  0001 C CNN
+F 3 "~" H 3150 2150 50  0001 C CNN
+F 4 "KEMET" H 3150 2150 50  0001 C CNN "MFR"
+F 5 "C0402C104M8PACTU" H 3150 2150 50  0001 C CNN "MPN"
+	1    3150 2150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F3166E8
+P 3250 2050
+AR Path="/5EF66188/5F3166E8" Ref="C?"  Part="1" 
+AR Path="/5ED4B101/5F3166E8" Ref="C?"  Part="1" 
+AR Path="/5F2CAFD2/5F3166E8" Ref="C78"  Part="1" 
+F 0 "C78" V 3300 1850 50  0000 L CNN
+F 1 "0.1uF" V 3350 2050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3250 2050 50  0001 C CNN
+F 3 "~" H 3250 2050 50  0001 C CNN
+F 4 "KEMET" H 3250 2050 50  0001 C CNN "MFR"
+F 5 "C0402C104M8PACTU" H 3250 2050 50  0001 C CNN "MPN"
+	1    3250 2050
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3250 2150 3850 2150
+Wire Wire Line
+	3350 2050 3800 2050
 Wire Bus Line
 	3150 3400 3150 4950
 Wire Bus Line
