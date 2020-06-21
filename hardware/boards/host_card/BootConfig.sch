@@ -1041,7 +1041,7 @@ U 1 1 60CB5062
 P 6150 2400
 F 0 "J4" H 6200 2817 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 6200 2726 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 6150 2400 50  0001 C CNN
+F 2 "lethalbit-connectors:FTSH-105-01-L-DV-K-TR" H 6150 2400 50  0001 C CNN
 F 3 "~" H 6150 2400 50  0001 C CNN
 	1    6150 2400
 	1    0    0    -1  

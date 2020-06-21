@@ -240,7 +240,7 @@ AR Path="/5EF66251/60F06E66" Ref="J?"  Part="1"
 AR Path="/5F2CAFD2/60F06E66" Ref="J5"  Part="1" 
 F 0 "J5" H 6400 7150 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 6400 7250 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 6350 6800 50  0001 C CNN
+F 2 "lethalbit-connectors:FTSH-105-01-L-DV-K-TR" H 6350 6800 50  0001 C CNN
 F 3 "~" H 6350 6800 50  0001 C CNN
 	1    6350 6800
 	1    0    0    1   

@@ -90,4 +90,15 @@ F 3 "~" H 1600 2750 50  0001 C CNN
 	1    1600 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:Fiducial FID7
+U 1 1 5F2E662A
+P 1600 2950
+F 0 "FID7" H 1685 2996 50  0000 L CNN
+F 1 "Fiducial" H 1685 2905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 1600 2950 50  0001 C CNN
+F 3 "~" H 1600 2950 50  0001 C CNN
+	1    1600 2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
