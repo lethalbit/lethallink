@@ -36,7 +36,6 @@ Wire Wire Line
 	5050 4150 5650 4150
 Wire Wire Line
 	4300 4350 5850 4350
-Connection ~ 5450 4250
 Wire Wire Line
 	4650 4050 5850 4050
 Wire Wire Line
@@ -53,32 +52,6 @@ F5 "1V2" I L 8350 4150 39
 F6 "1V5" I L 8350 4050 39 
 F7 "VBUS" I R 9000 4050 39 
 $EndSheet
-$Comp
-L Device:Ferrite_Bead_Small FB3
-U 1 1 5F57A174
-P 5350 4250
-F 0 "FB3" H 5300 4200 50  0000 R CNN
-F 1 "220 @ 100Mhz" H 5500 4450 50  0001 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5280 4250 50  0001 C CNN
-F 3 "~" H 5350 4250 50  0001 C CNN
-F 4 "Murata Electronics" H 5350 4250 50  0001 C CNN "MFR"
-F 5 "BLM18AG221SN1D" H 5350 4250 50  0001 C CNN "MPN"
-	1    5350 4250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB2
-U 1 1 5F579DEB
-P 4950 4150
-F 0 "FB2" H 4900 4100 50  0000 R CNN
-F 1 "220 @ 100Mhz" H 5100 4350 50  0001 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4880 4150 50  0001 C CNN
-F 3 "~" H 4950 4150 50  0001 C CNN
-F 4 "Murata Electronics" H 4950 4150 50  0001 C CNN "MFR"
-F 5 "BLM18AG221SN1D" H 4950 4150 50  0001 C CNN "MPN"
-	1    4950 4150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5650 4150 5850 4150
 Connection ~ 5650 4150
@@ -99,19 +72,6 @@ Wire Wire Line
 Connection ~ 7000 4050
 Wire Wire Line
 	7000 4050 8350 4050
-$Comp
-L Device:Ferrite_Bead_Small FB1
-U 1 1 5EEA5842
-P 4550 4050
-F 0 "FB1" H 4750 4100 50  0000 R CNN
-F 1 "100 @ 100MHz" H 4700 4250 50  0001 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 4050 50  0001 C CNN
-F 3 "~" H 4550 4050 50  0001 C CNN
-F 4 "Murata Electronics" H 4550 4050 50  0001 C CNN "MFR"
-F 5 "BLM18KG101TN1D" H 4550 4050 50  0001 C CNN "MPN"
-	1    4550 4050
-	0    -1   -1   0   
-$EndComp
 $Sheet
 S 5850 4000 950  450 
 U 5EDF9F51
@@ -443,124 +403,8 @@ F 3 "" H 4650 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4300 4350
-$Comp
-L Device:Ferrite_Bead_Small FB9
-U 1 1 5F410C07
-P 4950 3850
-F 0 "FB9" H 4900 3800 50  0000 R CNN
-F 1 "220 @ 100Mhz" H 5100 4050 50  0001 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4880 3850 50  0001 C CNN
-F 3 "~" H 4950 3850 50  0001 C CNN
-F 4 "Murata Electronics" H 4950 3850 50  0001 C CNN "MFR"
-F 5 "BLM18AG221SN1D" H 4950 3850 50  0001 C CNN "MPN"
-	1    4950 3850
-	0    1    1    0   
-$EndComp
-Connection ~ 5050 3850
-Wire Wire Line
-	5050 3850 5050 4150
-Connection ~ 5050 4150
-$Comp
-L Device:Ferrite_Bead_Small FB8
-U 1 1 5F41D475
-P 4950 3600
-F 0 "FB8" H 4900 3550 50  0000 R CNN
-F 1 "220 @ 100Mhz" H 5100 3800 50  0001 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4880 3600 50  0001 C CNN
-F 3 "~" H 4950 3600 50  0001 C CNN
-F 4 "Murata Electronics" H 4950 3600 50  0001 C CNN "MFR"
-F 5 "BLM18AG221SN1D" H 4950 3600 50  0001 C CNN "MPN"
-	1    4950 3600
-	0    1    1    0   
-$EndComp
-Connection ~ 5050 3600
-Wire Wire Line
-	5050 3600 5050 3850
 Wire Wire Line
 	5450 2700 5450 2800
-Connection ~ 4650 4050
-$Comp
-L Device:Ferrite_Bead_Small FB7
-U 1 1 5F46A338
-P 4550 3750
-F 0 "FB7" H 4750 3800 50  0000 R CNN
-F 1 "100 @ 100MHz" H 4700 3950 50  0001 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 3750 50  0001 C CNN
-F 3 "~" H 4550 3750 50  0001 C CNN
-F 4 "Murata Electronics" H 4550 3750 50  0001 C CNN "MFR"
-F 5 "BLM18KG101TN1D" H 4550 3750 50  0001 C CNN "MPN"
-	1    4550 3750
-	0    -1   -1   0   
-$EndComp
-Connection ~ 4650 3750
-Wire Wire Line
-	4650 3750 4650 4050
-$Comp
-L Device:Ferrite_Bead_Small FB6
-U 1 1 5F46A91E
-P 4550 3450
-F 0 "FB6" H 4750 3500 50  0000 R CNN
-F 1 "100 @ 100MHz" H 4700 3650 50  0001 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 3450 50  0001 C CNN
-F 3 "~" H 4550 3450 50  0001 C CNN
-F 4 "Murata Electronics" H 4550 3450 50  0001 C CNN "MFR"
-F 5 "BLM18KG101TN1D" H 4550 3450 50  0001 C CNN "MPN"
-	1    4550 3450
-	0    -1   -1   0   
-$EndComp
-Connection ~ 4650 3450
-Wire Wire Line
-	4650 3450 4650 3750
-$Comp
-L Device:Ferrite_Bead_Small FB5
-U 1 1 5F4730D6
-P 4550 3150
-F 0 "FB5" H 4750 3200 50  0000 R CNN
-F 1 "100 @ 100MHz" H 4700 3350 50  0001 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 3150 50  0001 C CNN
-F 3 "~" H 4550 3150 50  0001 C CNN
-F 4 "Murata Electronics" H 4550 3150 50  0001 C CNN "MFR"
-F 5 "BLM18KG101TN1D" H 4550 3150 50  0001 C CNN "MPN"
-	1    4550 3150
-	0    -1   -1   0   
-$EndComp
-Connection ~ 4650 3150
-Wire Wire Line
-	4650 3150 4650 3450
-$Comp
-L Device:Ferrite_Bead_Small FB4
-U 1 1 5F479C67
-P 4550 2850
-F 0 "FB4" H 4750 2900 50  0000 R CNN
-F 1 "100 @ 100MHz" H 4700 3050 50  0001 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 2850 50  0001 C CNN
-F 3 "~" H 4550 2850 50  0001 C CNN
-F 4 "Murata Electronics" H 4550 2850 50  0001 C CNN "MFR"
-F 5 "BLM18KG101TN1D" H 4550 2850 50  0001 C CNN "MPN"
-	1    4550 2850
-	0    -1   -1   0   
-$EndComp
-Connection ~ 4650 2850
-Wire Wire Line
-	4650 2850 4650 3150
-Wire Wire Line
-	4450 2850 4450 3150
-Wire Wire Line
-	4450 3450 4450 3750
-Wire Wire Line
-	4450 3150 4450 3450
-Connection ~ 4450 3150
-Connection ~ 4450 3450
-Wire Wire Line
-	4450 3750 4450 4050
-Connection ~ 4450 3750
-Connection ~ 4450 4050
-Wire Wire Line
-	4850 3600 4850 3850
-Wire Wire Line
-	4850 3850 4850 4150
-Connection ~ 4850 3850
-Connection ~ 4850 4150
 $Comp
 L Device:Ferrite_Bead_Small FB10
 U 1 1 5F74D6CA
@@ -653,8 +497,6 @@ F 3 "~" H 4650 2750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 4650 2750
-Wire Wire Line
-	4650 2750 4650 2850
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 6050B2D3
@@ -667,8 +509,6 @@ F 3 "~" H 5050 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 5050 2800
-Wire Wire Line
-	5050 2800 5050 3600
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 6050B60E
@@ -784,4 +624,164 @@ Wire Wire Line
 Connection ~ 9900 2700
 Wire Wire Line
 	9900 2700 10050 2700
+Wire Wire Line
+	4450 2850 4450 3150
+Wire Wire Line
+	4650 2750 4650 2850
+Wire Wire Line
+	4850 3600 4850 3850
+Wire Wire Line
+	5050 2800 5050 3600
+Connection ~ 5450 4250
+$Comp
+L Device:Ferrite_Bead_Small FB3
+U 1 1 5F57A174
+P 5350 4250
+F 0 "FB3" H 5300 4200 50  0000 R CNN
+F 1 "33 @ 100Mhz" H 5500 4450 50  0001 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5280 4250 50  0001 C CNN
+F 3 "~" H 5350 4250 50  0001 C CNN
+F 4 "Murata Electronics" H 5350 4250 50  0001 C CNN "MFR"
+F 5 "BLM15PX330SN1D" H 5350 4250 50  0001 C CNN "MPN"
+	1    5350 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB9
+U 1 1 5EFC20C8
+P 4950 4150
+F 0 "FB9" H 4900 4100 50  0000 R CNN
+F 1 "33 @ 100Mhz" H 5100 4350 50  0001 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4880 4150 50  0001 C CNN
+F 3 "~" H 4950 4150 50  0001 C CNN
+F 4 "Murata Electronics" H 4950 4150 50  0001 C CNN "MFR"
+F 5 "BLM15PX330SN1D" H 4950 4150 50  0001 C CNN "MPN"
+	1    4950 4150
+	0    1    1    0   
+$EndComp
+Connection ~ 5050 4150
+Connection ~ 4850 4150
+$Comp
+L Device:Ferrite_Bead_Small FB7
+U 1 1 5EFC24FC
+P 4950 3600
+F 0 "FB7" H 4900 3550 50  0000 R CNN
+F 1 "33 @ 100Mhz" H 5100 3800 50  0001 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4880 3600 50  0001 C CNN
+F 3 "~" H 4950 3600 50  0001 C CNN
+F 4 "Murata Electronics" H 4950 3600 50  0001 C CNN "MFR"
+F 5 "BLM15PX330SN1D" H 4950 3600 50  0001 C CNN "MPN"
+	1    4950 3600
+	0    1    1    0   
+$EndComp
+Connection ~ 5050 3600
+Wire Wire Line
+	5050 3600 5050 3850
+$Comp
+L Device:Ferrite_Bead_Small FB8
+U 1 1 5EFC3129
+P 4950 3850
+F 0 "FB8" H 4900 3800 50  0000 R CNN
+F 1 "33 @ 100Mhz" H 5100 4050 50  0001 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4880 3850 50  0001 C CNN
+F 3 "~" H 4950 3850 50  0001 C CNN
+F 4 "Murata Electronics" H 4950 3850 50  0001 C CNN "MFR"
+F 5 "BLM15PX330SN1D" H 4950 3850 50  0001 C CNN "MPN"
+	1    4950 3850
+	0    1    1    0   
+$EndComp
+Connection ~ 5050 3850
+Wire Wire Line
+	5050 3850 5050 4150
+Connection ~ 4850 3850
+Wire Wire Line
+	4850 3850 4850 4150
+$Comp
+L Device:Ferrite_Bead_Small FB6
+U 1 1 5EFC353B
+P 4550 4050
+F 0 "FB6" H 4500 4000 50  0000 R CNN
+F 1 "33 @ 100Mhz" H 4700 4250 50  0001 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4480 4050 50  0001 C CNN
+F 3 "~" H 4550 4050 50  0001 C CNN
+F 4 "Murata Electronics" H 4550 4050 50  0001 C CNN "MFR"
+F 5 "BLM15PX330SN1D" H 4550 4050 50  0001 C CNN "MPN"
+	1    4550 4050
+	0    1    1    0   
+$EndComp
+Connection ~ 4650 4050
+Connection ~ 4450 4050
+$Comp
+L Device:Ferrite_Bead_Small FB5
+U 1 1 5EFC39E3
+P 4550 3750
+F 0 "FB5" H 4500 3700 50  0000 R CNN
+F 1 "33 @ 100Mhz" H 4700 3950 50  0001 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4480 3750 50  0001 C CNN
+F 3 "~" H 4550 3750 50  0001 C CNN
+F 4 "Murata Electronics" H 4550 3750 50  0001 C CNN "MFR"
+F 5 "BLM15PX330SN1D" H 4550 3750 50  0001 C CNN "MPN"
+	1    4550 3750
+	0    1    1    0   
+$EndComp
+Connection ~ 4650 3750
+Wire Wire Line
+	4650 3750 4650 4050
+Connection ~ 4450 3750
+Wire Wire Line
+	4450 3750 4450 4050
+$Comp
+L Device:Ferrite_Bead_Small FB4
+U 1 1 5EFC3DE1
+P 4550 3450
+F 0 "FB4" H 4500 3400 50  0000 R CNN
+F 1 "33 @ 100Mhz" H 4700 3650 50  0001 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4480 3450 50  0001 C CNN
+F 3 "~" H 4550 3450 50  0001 C CNN
+F 4 "Murata Electronics" H 4550 3450 50  0001 C CNN "MFR"
+F 5 "BLM15PX330SN1D" H 4550 3450 50  0001 C CNN "MPN"
+	1    4550 3450
+	0    1    1    0   
+$EndComp
+Connection ~ 4650 3450
+Wire Wire Line
+	4650 3450 4650 3750
+Connection ~ 4450 3450
+Wire Wire Line
+	4450 3450 4450 3750
+$Comp
+L Device:Ferrite_Bead_Small FB2
+U 1 1 5EFC41A3
+P 4550 3150
+F 0 "FB2" H 4500 3100 50  0000 R CNN
+F 1 "33 @ 100Mhz" H 4700 3350 50  0001 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4480 3150 50  0001 C CNN
+F 3 "~" H 4550 3150 50  0001 C CNN
+F 4 "Murata Electronics" H 4550 3150 50  0001 C CNN "MFR"
+F 5 "BLM15PX330SN1D" H 4550 3150 50  0001 C CNN "MPN"
+	1    4550 3150
+	0    1    1    0   
+$EndComp
+Connection ~ 4650 3150
+Wire Wire Line
+	4650 3150 4650 3450
+Connection ~ 4450 3150
+Wire Wire Line
+	4450 3150 4450 3450
+$Comp
+L Device:Ferrite_Bead_Small FB1
+U 1 1 5EFC45BE
+P 4550 2850
+F 0 "FB1" H 4500 2800 50  0000 R CNN
+F 1 "33 @ 100Mhz" H 4700 3050 50  0001 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4480 2850 50  0001 C CNN
+F 3 "~" H 4550 2850 50  0001 C CNN
+F 4 "Murata Electronics" H 4550 2850 50  0001 C CNN "MFR"
+F 5 "BLM15PX330SN1D" H 4550 2850 50  0001 C CNN "MPN"
+	1    4550 2850
+	0    1    1    0   
+$EndComp
+Connection ~ 4650 2850
+Wire Wire Line
+	4650 2850 4650 3150
 $EndSCHEMATC
