@@ -707,38 +707,6 @@ Entry Wire Line
 Entry Wire Line
 	3600 10350 3700 10450
 Wire Wire Line
-	3350 10350 3600 10350
-Wire Wire Line
-	3350 10250 3600 10250
-Wire Wire Line
-	3350 10150 3600 10150
-Wire Wire Line
-	3350 10050 3600 10050
-Wire Wire Line
-	3350 9950 3600 9950
-Wire Wire Line
-	3350 9850 3600 9850
-Wire Wire Line
-	3350 9750 3600 9750
-Wire Wire Line
-	3350 9650 3600 9650
-Wire Wire Line
-	3350 9550 3600 9550
-Wire Wire Line
-	3350 9450 3600 9450
-Wire Wire Line
-	3350 9350 3600 9350
-Wire Wire Line
-	3350 9250 3600 9250
-Wire Wire Line
-	3350 9150 3600 9150
-Wire Wire Line
-	3350 9050 3600 9050
-Wire Wire Line
-	3350 8850 3600 8850
-Wire Wire Line
-	3350 8950 3600 8950
-Wire Wire Line
 	3350 8450 3600 8450
 Wire Wire Line
 	3350 8550 3600 8550
@@ -758,18 +726,6 @@ Text Label 3400 8550 0    50   ~ 0
 BA1
 Text Label 3400 8650 0    50   ~ 0
 BA2
-Text Label 3400 9850 0    50   ~ 0
-A10
-Text Label 3400 9950 0    50   ~ 0
-A11
-Text Label 3400 10050 0    50   ~ 0
-A12
-Text Label 3400 10150 0    50   ~ 0
-A13
-Text Label 3400 10250 0    50   ~ 0
-A14
-Text Label 3400 10350 0    50   ~ 0
-A15
 Entry Wire Line
 	2100 8550 2200 8450
 Entry Wire Line
@@ -919,6 +875,70 @@ NoConn ~ 12850 3650
 NoConn ~ 12850 3750
 NoConn ~ 12850 3850
 NoConn ~ 12850 3950
+Wire Wire Line
+	3350 10350 3600 10350
+Wire Wire Line
+	3350 10250 3600 10250
+Wire Wire Line
+	3350 10150 3600 10150
+Wire Wire Line
+	3350 10050 3600 10050
+Wire Wire Line
+	3350 9950 3600 9950
+Wire Wire Line
+	3350 9850 3600 9850
+Wire Wire Line
+	3350 9750 3600 9750
+Wire Wire Line
+	3350 9650 3600 9650
+Wire Wire Line
+	3350 9550 3600 9550
+Wire Wire Line
+	3350 9450 3600 9450
+Wire Wire Line
+	3350 9350 3600 9350
+Wire Wire Line
+	3350 9250 3600 9250
+Wire Wire Line
+	3350 9150 3600 9150
+Wire Wire Line
+	3350 9050 3600 9050
+Wire Wire Line
+	3350 8850 3600 8850
+Wire Wire Line
+	3350 8950 3600 8950
+Text Label 3400 8850 0    50   ~ 0
+A0
+Text Label 3400 8950 0    50   ~ 0
+A1
+Text Label 3400 9050 0    50   ~ 0
+A2
+Text Label 3400 9150 0    50   ~ 0
+A3
+Text Label 3400 9250 0    50   ~ 0
+A4
+Text Label 3400 9350 0    50   ~ 0
+A5
+Text Label 3400 9450 0    50   ~ 0
+A6
+Text Label 3400 9550 0    50   ~ 0
+A7
+Text Label 3400 9650 0    50   ~ 0
+A8
+Text Label 3400 9750 0    50   ~ 0
+A9
+Text Label 3400 9850 0    50   ~ 0
+A10
+Text Label 3400 9950 0    50   ~ 0
+A11
+Text Label 3400 10050 0    50   ~ 0
+A12
+Text Label 3400 10150 0    50   ~ 0
+A13
+Text Label 3400 10250 0    50   ~ 0
+A14
+Text Label 3400 10350 0    50   ~ 0
+A15
 Wire Bus Line
 	6600 8550 6600 8750
 Wire Bus Line
