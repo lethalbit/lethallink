@@ -1038,13 +1038,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J4
 U 1 1 60CB5062
-P 6150 2400
-F 0 "J4" H 6200 2817 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 6200 2726 50  0000 C CNN
-F 2 "lethalbit-connectors:FTSH-105-01-L-DV-K-TR" H 6150 2400 50  0001 C CNN
-F 3 "~" H 6150 2400 50  0001 C CNN
-	1    6150 2400
-	1    0    0    -1  
+P 6250 2400
+F 0 "J4" H 6300 2817 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 6300 2726 50  0000 C CNN
+F 2 "lethalbit-connectors:FTSH-105-01-L-DV-K-TR" H 6250 2400 50  0001 C CNN
+F 3 "~" H 6250 2400 50  0001 C CNN
+	1    6250 2400
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5950 2600 5650 2600
@@ -1130,7 +1130,7 @@ Connection ~ 8100 4650
 Wire Wire Line
 	8100 4650 8450 4650
 Text Notes 5600 1850 0    50   ~ 0
-SPI Flash Pinout\n01 - ~PROGRAM~\n02 - ~INIT~\n03 - 3v3\n04 - GND\n05 - ~WP~/IO2\n06 - DI/IO0\n07 - DO/IO1\n08 - CLK\n09 - ~CS~\n10 - ~HOLD~/IO3\n
+SPI Flash Pinout\n01 - ~INIT~\n02 - ~PROGRAM~\n03 - GND\n04 - 3v3\n05 - DI/IO0\n06 - ~WP~/IO2\n07 - CLK\n08 - DO/IO1\n09 - ~HOLD~/IO3\n10 - ~CS~\n
 Text HLabel 7900 7400 0    39   Input ~ 0
 ~PHY_RESET
 Wire Wire Line
@@ -1143,7 +1143,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 3400 4900 5450
 Wire Wire Line
-	7400 3500 7400 4150
+	7400 3500 7400 3700
 Wire Wire Line
 	4700 3950 4700 5050
 Wire Wire Line
@@ -1166,4 +1166,49 @@ Text Label 7750 4100 0    50   ~ 0
 ~INIT
 Text Label 7400 4750 0    50   ~ 0
 DONE
+Text HLabel 3500 3400 0    39   Input ~ 0
+~FPGA_CS
+Text HLabel 3500 3500 0    39   Input ~ 0
+FPGA_DO
+Text HLabel 3500 3600 0    39   Input ~ 0
+FPGA_DI
+Text HLabel 3500 3700 0    39   Input ~ 0
+FPGA_CLK
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J7
+U 1 1 5FC575A5
+P 3900 3500
+F 0 "J7" H 3950 3817 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 3950 3726 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 3900 3500 50  0001 C CNN
+F 3 "~" H 3900 3500 50  0001 C CNN
+	1    3900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3400 3700 3400
+Wire Wire Line
+	3500 3500 3700 3500
+Wire Wire Line
+	3500 3600 3700 3600
+Wire Wire Line
+	3500 3700 3700 3700
+Wire Wire Line
+	4200 3400 4900 3400
+Connection ~ 4900 3400
+Wire Wire Line
+	4200 3500 4750 3500
+Connection ~ 4750 3500
+Wire Wire Line
+	4200 3600 4700 3600
+Wire Wire Line
+	4700 3600 4700 3950
+Connection ~ 4700 3950
+Wire Wire Line
+	4200 3700 7400 3700
+Connection ~ 7400 3700
+Wire Wire Line
+	7400 3700 7400 4150
+Text Notes 3300 3050 0    50   ~ 0
+FPGA SPI flash USB PHY jumper.\n\nClose to enable DFU for gateware
 $EndSCHEMATC

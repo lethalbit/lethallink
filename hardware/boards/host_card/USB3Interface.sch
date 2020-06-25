@@ -123,7 +123,6 @@ NoConn ~ 1450 1800
 NoConn ~ 2650 1450
 NoConn ~ 5050 6450
 NoConn ~ 5050 6350
-NoConn ~ 5050 6250
 NoConn ~ 5050 4150
 NoConn ~ 5050 4050
 NoConn ~ 5050 3950
@@ -231,15 +230,15 @@ Text HLabel 3450 5250 0    39   Input ~ 0
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J?
 U 1 1 60F06E66
-P 6350 6800
+P 6450 6800
 AR Path="/5EF66251/60F06E66" Ref="J?"  Part="1" 
 AR Path="/5F2CAFD2/60F06E66" Ref="J5"  Part="1" 
-F 0 "J5" H 6400 7150 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 6400 7250 50  0000 C CNN
-F 2 "lethalbit-connectors:FTSH-105-01-L-DV-K-TR" H 6350 6800 50  0001 C CNN
-F 3 "~" H 6350 6800 50  0001 C CNN
-	1    6350 6800
-	1    0    0    1   
+F 0 "J5" H 6500 7150 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 6500 7250 50  0000 C CNN
+F 2 "lethalbit-connectors:FTSH-105-01-L-DV-K-TR" H 6450 6800 50  0001 C CNN
+F 3 "~" H 6450 6800 50  0001 C CNN
+	1    6450 6800
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0138
@@ -275,25 +274,19 @@ Connection ~ 7100 6250
 Wire Wire Line
 	7100 6250 5500 6250
 Wire Wire Line
-	6150 6600 5850 6600
-Wire Wire Line
 	5850 6600 5850 5950
 Connection ~ 5850 5950
 Wire Wire Line
 	5850 5950 5050 5950
 Wire Wire Line
 	5800 6050 5800 6700
-Wire Wire Line
-	5800 6700 6150 6700
 Connection ~ 5800 6050
 Wire Wire Line
-	5800 6050 5050 6050
+	5800 6050 5400 6050
 Wire Wire Line
 	5900 6150 5750 6150
 Wire Wire Line
 	5750 6150 5750 6800
-Wire Wire Line
-	5750 6800 6150 6800
 Wire Wire Line
 	6050 7000 6150 7000
 Wire Wire Line
@@ -305,8 +298,6 @@ Wire Wire Line
 Connection ~ 6900 7000
 Wire Wire Line
 	6900 7000 6900 7050
-Wire Wire Line
-	6150 6900 5750 6900
 Text Label 5750 6900 0    50   ~ 0
 _3V3
 Text HLabel 800  3300 0    39   Input ~ 0
@@ -316,7 +307,7 @@ Wire Wire Line
 Text Label 1050 3300 2    50   ~ 0
 _3V3
 Text Notes 7300 7000 0    50   ~ 0
-SPI Flash Pinout\n01 - ~PHY_RESET~\n02 - GND\n03 - 3v3\n04 - GND\n05 - ~WP~/IO2\n06 - DI/IO0\n07 - DO/IO1\n08 - CLK\n09 - ~CS~\n10 - ~HOLD~/IO3\n
+SPI Flash Pinout\n01 - GND\n02 - ~PHY_RESET~\n03 - GND\n04 - 3v3\n05 - DI/IO0\n06 - ~WP~/IO2\n07 - CLK\n08 - DO/IO1\n09 - ~HOLD~/IO3\n10 - ~CS~\n
 Entry Wire Line
 	9000 3550 9100 3650
 Entry Wire Line
@@ -556,7 +547,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 5850 5050 5850
 Wire Wire Line
-	5500 5800 7150 5800
+	5500 5800 5600 5800
 Wire Wire Line
 	7150 5800 7150 6050
 NoConn ~ 5050 5750
@@ -794,6 +785,39 @@ F 3 "" H 2750 900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2750 800  2750 900 
+Wire Wire Line
+	5750 6900 6150 6900
+Wire Wire Line
+	5750 6800 6150 6800
+Wire Wire Line
+	5800 6700 6150 6700
+Wire Wire Line
+	5850 6600 6150 6600
+Text HLabel 5300 6400 3    39   Input ~ 0
+~FPGA_CS
+Text HLabel 5400 6400 3    39   Input ~ 0
+FPGA_DO
+Text HLabel 5500 6400 3    39   Input ~ 0
+FPGA_DI
+Text HLabel 5600 6400 3    39   Input ~ 0
+FPGA_CLK
+Wire Wire Line
+	5500 6250 5500 6400
+Connection ~ 5500 6250
+Wire Wire Line
+	5400 6050 5400 6400
+Connection ~ 5400 6050
+Wire Wire Line
+	5400 6050 5050 6050
+Wire Wire Line
+	5600 5800 5600 6400
+Connection ~ 5600 5800
+Wire Wire Line
+	5600 5800 7150 5800
+Wire Wire Line
+	5050 6250 5300 6250
+Wire Wire Line
+	5300 6250 5300 6400
 Wire Bus Line
 	3150 3400 3150 4950
 Wire Bus Line
