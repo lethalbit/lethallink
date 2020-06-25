@@ -30,22 +30,26 @@ Hardware:
  ✔ Find LPDDR3 module (8GiB?) for cache (ECC?) [Depends on LPDDR core] @done (2020-06-14 15:06)
    SODIMM? Need a memory controller
  ☐ Hook up RAM to FPGA
+ ☐ Stick with 2, go back down to 1 module? How do we route it?
  ☐ Route RAM (ugh)
 
  ☐ Settle on data exfiltration interface (Just use USB3? Gigabit Serial?)
 
  ☐ Properly figure out the interface between the FPGA and PHY
 
- ☐ Design hardware debug interface (high speed level-shifters needed most likely) (Mezzanine boards?)
-   ☐ Generic GPIO based (JTAG, etc. minimal Glasgow-like)
-   ☐ Specialized
-     ☐ Intel
-       ☐ SVT
-       ☐ ITP-XDP
-     ☐ AMD
-       ☐ ?????? (Need to figure that out)
+ ☐ Design hardware debug interface
+   ☐ Formally define the debug module spec
+     ☐ Generic GPIO based (JTAG, etc. minimal Glasgow-like)
+     ☐ Specialized
+       ☐ Intel
+         ☐ SVT
+         ☐ ITP-XDP
+       ☐ AMD
+         ☐ ?????? (Need to figure that out)
 
  ☐ Go through and re-check all the resistor values for the LEDs
+
+ ☐ Verify schematics
 
 Gateware:
  ☐ Sort out the RISC-V Management Core
