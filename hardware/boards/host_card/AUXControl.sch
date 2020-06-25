@@ -27,11 +27,11 @@ Text HLabel 7050 2250 2    39   Input ~ 0
 PCIe_SMCLK
 Text HLabel 7050 2150 2    39   Input ~ 0
 PCIe_SMDAT
-Text HLabel 1100 1700 0    39   Input ~ 0
+Text HLabel 7100 1850 2    39   Input ~ 0
 PERST#
-Text HLabel 1100 1800 0    39   Input ~ 0
+Text HLabel 7100 1750 2    39   Input ~ 0
 WAKE#
-Text HLabel 1100 1900 0    39   Input ~ 0
+Text HLabel 7100 1650 2    39   Input ~ 0
 CLKREQ#
 NoConn ~ 5000 1750
 NoConn ~ 5000 1850
@@ -44,17 +44,11 @@ NoConn ~ 5000 2650
 NoConn ~ 5000 2750
 NoConn ~ 5000 2850
 NoConn ~ 5000 2950
-NoConn ~ 6800 1650
-NoConn ~ 6800 1750
-NoConn ~ 6800 1850
 NoConn ~ 6800 2050
 NoConn ~ 6800 2350
 NoConn ~ 6800 2450
 NoConn ~ 6800 2550
 NoConn ~ 6800 2650
-NoConn ~ 1100 1700
-NoConn ~ 1100 1800
-NoConn ~ 1100 1900
 NoConn ~ 5000 3050
 NoConn ~ 5000 3150
 NoConn ~ 6800 2750
@@ -95,4 +89,10 @@ Wire Wire Line
 	4700 2450 5000 2450
 Wire Wire Line
 	4700 1650 5000 1650
+Wire Wire Line
+	6800 1650 7100 1650
+Wire Wire Line
+	6800 1750 7100 1750
+Wire Wire Line
+	6800 1850 7100 1850
 $EndSCHEMATC
