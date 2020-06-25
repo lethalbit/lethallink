@@ -13,19 +13,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1100 750  0    39   Input ~ 0
+Text HLabel 7100 2850 2    39   Input ~ 0
 PCIe_TCK
-Text HLabel 1100 850  0    39   Input ~ 0
+Text HLabel 7100 3050 2    39   Input ~ 0
 PCIe_TDI
-Text HLabel 1100 950  0    39   Input ~ 0
+Text HLabel 4700 1650 0    39   Input ~ 0
 PCIe_TDO
-Text HLabel 1100 1050 0    39   Input ~ 0
+Text HLabel 4700 2450 0    39   Input ~ 0
 PCIe_TMS
-Text HLabel 1100 1150 0    39   Input ~ 0
+Text HLabel 7100 1950 2    39   Input ~ 0
 PCIe_TRST#
-Text HLabel 1100 1350 0    39   Input ~ 0
+Text HLabel 7050 2250 2    39   Input ~ 0
 PCIe_SMCLK
-Text HLabel 1100 1450 0    39   Input ~ 0
+Text HLabel 7050 2150 2    39   Input ~ 0
 PCIe_SMDAT
 Text HLabel 1100 1700 0    39   Input ~ 0
 PERST#
@@ -33,7 +33,6 @@ Text HLabel 1100 1800 0    39   Input ~ 0
 WAKE#
 Text HLabel 1100 1900 0    39   Input ~ 0
 CLKREQ#
-NoConn ~ 5000 1650
 NoConn ~ 5000 1750
 NoConn ~ 5000 1850
 NoConn ~ 5000 1950
@@ -41,8 +40,6 @@ NoConn ~ 5000 2050
 NoConn ~ 5000 2150
 NoConn ~ 5000 2250
 NoConn ~ 5000 2350
-NoConn ~ 5000 2450
-NoConn ~ 5000 2550
 NoConn ~ 5000 2650
 NoConn ~ 5000 2750
 NoConn ~ 5000 2850
@@ -50,24 +47,24 @@ NoConn ~ 5000 2950
 NoConn ~ 6800 1650
 NoConn ~ 6800 1750
 NoConn ~ 6800 1850
-NoConn ~ 6800 1950
 NoConn ~ 6800 2050
-NoConn ~ 6800 2150
-NoConn ~ 6800 2250
 NoConn ~ 6800 2350
 NoConn ~ 6800 2450
 NoConn ~ 6800 2550
 NoConn ~ 6800 2650
-NoConn ~ 1100 750 
-NoConn ~ 1100 850 
-NoConn ~ 1100 950 
-NoConn ~ 1100 1050
-NoConn ~ 1100 1150
-NoConn ~ 1100 1350
-NoConn ~ 1100 1450
 NoConn ~ 1100 1700
 NoConn ~ 1100 1800
 NoConn ~ 1100 1900
+NoConn ~ 5000 3050
+NoConn ~ 5000 3150
+NoConn ~ 6800 2750
+NoConn ~ 6800 2950
+NoConn ~ 6800 3150
+NoConn ~ 6800 3250
+Wire Wire Line
+	6800 2250 7050 2250
+Wire Wire Line
+	6800 2150 7050 2150
 $Comp
 L lethalbit:ECP5UM5G-381caBGA U?
 U 6 1 5FD7443A
@@ -87,12 +84,15 @@ F 6 "220-2112-ND" H 5900 1700 50  0001 C CNN "DIGIKEY_PN"
 	6    5900 1700
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 5000 3050
-NoConn ~ 5000 3150
-NoConn ~ 6800 2750
-NoConn ~ 6800 2850
-NoConn ~ 6800 2950
-NoConn ~ 6800 3050
-NoConn ~ 6800 3150
-NoConn ~ 6800 3250
+NoConn ~ 5000 2550
+Wire Wire Line
+	6800 3050 7100 3050
+Wire Wire Line
+	6800 2850 7100 2850
+Wire Wire Line
+	6800 1950 7100 1950
+Wire Wire Line
+	4700 2450 5000 2450
+Wire Wire Line
+	4700 1650 5000 1650
 $EndSCHEMATC
