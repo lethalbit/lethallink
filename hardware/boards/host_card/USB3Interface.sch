@@ -44,7 +44,7 @@ $EndComp
 Wire Wire Line
 	2350 1550 2500 1550
 Wire Wire Line
-	2500 1550 2500 1350
+	2500 1550 2500 1400
 Wire Wire Line
 	2500 1350 2650 1350
 Wire Wire Line
@@ -758,6 +758,42 @@ Wire Wire Line
 	2600 2500 2550 2500
 Wire Wire Line
 	2550 2500 2550 2600
+$Comp
+L lethalbit:RClamp0512 D12
+U 1 1 5FB167E7
+P 2450 850
+F 0 "D12" H 2508 1125 50  0000 C CNN
+F 1 "RClamp0512" H 2508 1034 50  0000 C CNN
+F 2 "lethalbit:RClamp0512" H 2450 1000 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Semtech%20PDFs/RCLAMP0512TQ_Rev6_12-17-15.pdf" H 2450 1000 50  0001 C CNN
+F 4 "Sametech" H 2450 850 50  0001 C CNN "MFR"
+F 5 "RCLAMP0512TQTCT" H 2450 850 50  0001 C CNN "MPN"
+	1    2450 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1050 2350 1400
+Wire Wire Line
+	2350 1400 2500 1400
+Connection ~ 2500 1400
+Wire Wire Line
+	2500 1400 2500 1350
+Wire Wire Line
+	2550 1050 2550 1250
+Connection ~ 2550 1250
+$Comp
+L power:GND #PWR0147
+U 1 1 5FB26D21
+P 2750 900
+F 0 "#PWR0147" H 2750 650 50  0001 C CNN
+F 1 "GND" H 2755 727 50  0000 C CNN
+F 2 "" H 2750 900 50  0001 C CNN
+F 3 "" H 2750 900 50  0001 C CNN
+	1    2750 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 800  2750 900 
 Wire Bus Line
 	3150 3400 3150 4950
 Wire Bus Line
