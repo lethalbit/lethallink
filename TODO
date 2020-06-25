@@ -14,12 +14,12 @@ Hardware:
 
  ✔ Initial routing of power supply @done (2020-06-14 22:49)
 
- ☐ Source ESD diodes for USB lines
- ☐ Figure out what to do with VBUS (Pull high?)
+ ✔ Source ESD diodes for USB lines @done (2020-06-25 04:43)
+ ✔ Figure out what to do with VBUS (Pull high?) @done (2020-06-25 04:43)
    It's weird because we're a USB device, but like, self-powered, This also calls into question what to do with GND.
 
  ☐ Figure out how on earth to bring up the FPGA
-
+ ☐ Finish adding all the bypass caps and hooking up the rest of the FPGA banks to power so we can finally route power around.
  ✔ Start on the schematic component for the PCIe bus connection @done (2020-06-18 01:23)
    ✔ Route PCIe traces @done (2020-06-21 15:56)
 
