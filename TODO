@@ -25,7 +25,7 @@ Hardware:
 
  ✔ Find SPI flash module for gateware and firmware @done (2020-06-14 15:53)
  ✔ Hook up flash to FPGA @done (2020-06-18 01:23)
- ☐ Route flash
+ ☐ Route flash for both the PHY and FPGA
 
  ✔ Find LPDDR3 module (8GiB?) for cache (ECC?) [Depends on LPDDR core] @done (2020-06-14 15:06)
    SODIMM? Need a memory controller
@@ -54,6 +54,7 @@ Hardware:
 Gateware:
  ☐ Sort out the RISC-V Management Core
    ☐ Look into using Lambdasoc / Minerva
+     In this case I might just forgo Lambdadoc as a whole and integrate the Minerva core from it manually, this would allow me to do things like add an MMU as well as handle the code generation
 
  ☐ Sort out PCIe DMA engine
    ☐ Look into litepcie (migen, would need port)
