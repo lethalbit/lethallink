@@ -212,7 +212,7 @@ F 3 "~" H 1050 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1050 700 
-Text HLabel 3450 5250 0    39   Input ~ 0
+Text HLabel 11150 2750 2    39   Input ~ 0
 ~PHY_INT
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J?
@@ -410,7 +410,7 @@ DQ1
 Text Label 3300 3550 0    50   ~ 0
 DQ0
 Wire Wire Line
-	3450 5250 3700 5250
+	11150 2750 10900 2750
 Wire Wire Line
 	5500 5800 5500 5850
 Wire Wire Line
@@ -675,80 +675,70 @@ Wire Wire Line
 	5050 6250 5300 6250
 Wire Wire Line
 	5300 6250 5300 6400
-Text Label 11450 2350 2    50   ~ 0
+Text Label 11450 2850 2    50   ~ 0
 ALE
 Wire Wire Line
-	10900 2350 11450 2350
-Text Label 11450 2250 2    50   ~ 0
+	10900 2850 11450 2850
+Text Label 11450 3650 2    50   ~ 0
 OE
-Text Label 11450 2150 2    50   ~ 0
+Text Label 11450 2650 2    50   ~ 0
 WE_D
 Wire Wire Line
-	10900 2150 11450 2150
-Wire Wire Line
-	10900 2250 11450 2250
+	10900 3650 11450 3650
 Text Label 9600 2150 0    50   ~ 0
 DQ0
-Text Label 9600 2250 0    50   ~ 0
-DQ1
-Text Label 9600 2350 0    50   ~ 0
+Text Label 9600 2950 0    50   ~ 0
 DQ2
-Text Label 9600 2450 0    50   ~ 0
-DQ3
-Text Label 9600 2550 0    50   ~ 0
-DQ4
 Text Label 9600 2650 0    50   ~ 0
+DQ3
+Text Label 9600 3050 0    50   ~ 0
+DQ4
+Text Label 9600 3150 0    50   ~ 0
 DQ5
 Text Label 9600 2750 0    50   ~ 0
 DQ6
-Text Label 9600 2850 0    50   ~ 0
+Text Label 9600 2550 0    50   ~ 0
 DQ7
-Text Label 9600 2950 0    50   ~ 0
+Text Label 9600 2850 0    50   ~ 0
 DQ8
-Text Label 9600 3050 0    50   ~ 0
+Text Label 11000 2550 0    50   ~ 0
 DQ9
-Text Label 9600 3150 0    50   ~ 0
+Text Label 11000 2150 0    50   ~ 0
 DQ10
-Text Label 9600 3250 0    50   ~ 0
+Text Label 11000 2250 0    50   ~ 0
 DQ11
-Text Label 9600 3350 0    50   ~ 0
+Text Label 11000 2350 0    50   ~ 0
 DQ12
-Text Label 9600 3450 0    50   ~ 0
+Text Label 11000 2450 0    50   ~ 0
 DQ13
-Text Label 9600 3550 0    50   ~ 0
-DQ14
-Text Label 9600 3650 0    50   ~ 0
+Text Label 9600 3250 0    50   ~ 0
 DQ15
 Wire Wire Line
-	10000 3650 9550 3650
-Wire Wire Line
-	10000 3550 9550 3550
-Wire Wire Line
-	10000 3450 9550 3450
-Wire Wire Line
-	10000 3350 9550 3350
-Wire Wire Line
 	10000 3250 9550 3250
+Wire Wire Line
+	11550 2450 10900 2450
+Wire Wire Line
+	10900 2350 11550 2350
+Wire Wire Line
+	11550 2250 10900 2250
+Wire Wire Line
+	10900 2150 11550 2150
+Wire Wire Line
+	10900 2550 11550 2550
+Wire Wire Line
+	10000 2850 9550 2850
+Wire Wire Line
+	10000 2550 9550 2550
+Wire Wire Line
+	10000 2750 9550 2750
 Wire Wire Line
 	10000 3150 9550 3150
 Wire Wire Line
 	10000 3050 9550 3050
 Wire Wire Line
-	10000 2950 9550 2950
-Wire Wire Line
-	10000 2850 9550 2850
-Wire Wire Line
-	10000 2750 9550 2750
-Wire Wire Line
 	10000 2650 9550 2650
 Wire Wire Line
-	10000 2550 9550 2550
-Wire Wire Line
-	10000 2450 9550 2450
-Wire Wire Line
-	10000 2350 9550 2350
-Wire Wire Line
-	10000 2250 9550 2250
+	10000 2950 9550 2950
 Wire Wire Line
 	10000 2150 9550 2150
 Text Label 9450 2000 2    50   ~ 0
@@ -776,40 +766,32 @@ $EndComp
 Entry Wire Line
 	9450 2050 9550 2150
 Entry Wire Line
-	9450 2150 9550 2250
-Entry Wire Line
-	9450 2250 9550 2350
-Entry Wire Line
-	9450 2350 9550 2450
-Entry Wire Line
-	9450 2450 9550 2550
+	9450 2850 9550 2950
 Entry Wire Line
 	9450 2550 9550 2650
 Entry Wire Line
-	9450 2650 9550 2750
-Entry Wire Line
-	9450 2750 9550 2850
-Entry Wire Line
-	9450 2850 9550 2950
-Entry Wire Line
 	9450 2950 9550 3050
+Entry Wire Line
+	9450 2450 9550 2550
+Entry Wire Line
+	9450 2650 9550 2750
 Entry Wire Line
 	9450 3050 9550 3150
 Entry Wire Line
+	9450 2750 9550 2850
+Entry Wire Line
+	11650 2450 11550 2550
+Entry Wire Line
+	11650 2050 11550 2150
+Entry Wire Line
+	11650 2150 11550 2250
+Entry Wire Line
+	11650 2250 11550 2350
+Entry Wire Line
+	12800 2800 12700 2900
+Entry Wire Line
 	9450 3150 9550 3250
-Entry Wire Line
-	9450 3250 9550 3350
-Entry Wire Line
-	9450 3350 9550 3450
-Entry Wire Line
-	9450 3450 9550 3550
-Entry Wire Line
-	9450 3550 9550 3650
-NoConn ~ 10900 2450
-NoConn ~ 10900 2550
-NoConn ~ 10900 2650
-NoConn ~ 10900 2750
-NoConn ~ 10900 2850
+NoConn ~ 3700 5250
 NoConn ~ 10900 2950
 NoConn ~ 10900 3050
 NoConn ~ 10900 3150
@@ -817,9 +799,35 @@ NoConn ~ 10900 3250
 NoConn ~ 10900 3350
 NoConn ~ 10900 3450
 NoConn ~ 10900 3550
-NoConn ~ 10900 3650
+Text Label 11650 2000 0    50   ~ 0
+DQ[0..15]
+Wire Bus Line
+	11650 2000 12000 2000
+Entry Wire Line
+	11650 2350 11550 2450
+Wire Wire Line
+	10900 2650 11450 2650
+Entry Wire Line
+	9450 3350 9550 3450
+Wire Wire Line
+	10000 3450 9550 3450
+Text Label 9600 3450 0    50   ~ 0
+DQ14
+Entry Wire Line
+	9450 2350 9550 2450
+Wire Wire Line
+	10000 2450 9550 2450
+Text Label 9600 2450 0    50   ~ 0
+DQ1
+NoConn ~ 10000 2250
+NoConn ~ 10000 2350
+NoConn ~ 10000 3350
+NoConn ~ 10000 3550
+NoConn ~ 10000 3650
+Wire Bus Line
+	11650 2000 11650 2450
+Wire Bus Line
+	9450 2000 9450 3350
 Wire Bus Line
 	3150 3400 3150 4950
-Wire Bus Line
-	9450 2000 9450 3550
 $EndSCHEMATC

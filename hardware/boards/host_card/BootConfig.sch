@@ -18,49 +18,21 @@ NoConn ~ 5200 5250
 NoConn ~ 5200 5350
 NoConn ~ 5200 5550
 Wire Wire Line
-	7300 4950 9800 4950
-Wire Wire Line
 	7300 5050 9550 5050
-Wire Wire Line
-	7300 5150 9300 5150
 $Comp
 L power:GND #PWR0120
 U 1 1 5F051E7C
-P 10600 5250
-F 0 "#PWR0120" H 10600 5000 50  0001 C CNN
-F 1 "GND" H 10605 5077 50  0000 C CNN
-F 2 "" H 10600 5250 50  0001 C CNN
-F 3 "" H 10600 5250 50  0001 C CNN
-	1    10600 5250
+P 10000 5250
+F 0 "#PWR0120" H 10000 5000 50  0001 C CNN
+F 1 "GND" H 10005 5077 50  0000 C CNN
+F 2 "" H 10000 5250 50  0001 C CNN
+F 3 "" H 10000 5250 50  0001 C CNN
+	1    10000 5250
 	1    0    0    -1  
 $EndComp
+Connection ~ 10000 5150
 Wire Wire Line
-	10500 4950 10600 4950
-Wire Wire Line
-	10600 4950 10600 5050
-Wire Wire Line
-	10500 5050 10600 5050
-Connection ~ 10600 5050
-Wire Wire Line
-	10600 5050 10600 5150
-Wire Wire Line
-	10500 5150 10600 5150
-Connection ~ 10600 5150
-Wire Wire Line
-	10600 5150 10600 5250
-$Comp
-L Device:R_Small R36
-U 1 1 5F07FA1E
-P 9800 4500
-F 0 "R36" H 9859 4546 50  0000 L CNN
-F 1 "1k" H 9859 4455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9800 4500 50  0001 C CNN
-F 3 "~" H 9800 4500 50  0001 C CNN
-F 4 "Vishay Dale" H 9800 4500 50  0001 C CNN "MFR"
-F 5 "CRCW06031K00FKEAHP" H 9800 4500 50  0001 C CNN "MPN"
-	1    9800 4500
-	1    0    0    -1  
-$EndComp
+	10000 5150 10000 5250
 $Comp
 L Device:R_Small R9
 U 1 1 5F08A3EE
@@ -74,45 +46,11 @@ F 5 "CRCW06031K00FKEAHP" H 9550 4500 50  0001 C CNN "MPN"
 	1    9550 4500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R8
-U 1 1 5F08AA7C
-P 9300 4500
-F 0 "R8" H 9359 4546 50  0000 L CNN
-F 1 "1k" H 9359 4455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9300 4500 50  0001 C CNN
-F 3 "~" H 9300 4500 50  0001 C CNN
-F 4 "Vishay Dale" H 9300 4500 50  0001 C CNN "MFR"
-F 5 "CRCW06031K00FKEAHP" H 9300 4500 50  0001 C CNN "MPN"
-	1    9300 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9300 4600 9300 5150
-Connection ~ 9300 5150
-Wire Wire Line
-	9300 5150 9900 5150
 Wire Wire Line
 	9550 4600 9550 5050
-Connection ~ 9550 5050
-Wire Wire Line
-	9550 5050 9900 5050
-Wire Wire Line
-	9800 4600 9800 4950
-Connection ~ 9800 4950
-Wire Wire Line
-	9800 4950 9900 4950
-Wire Wire Line
-	9300 4400 9300 4250
-Wire Wire Line
-	9300 4250 9550 4250
-Wire Wire Line
-	9800 4250 9800 4400
 Wire Wire Line
 	9550 4400 9550 4250
 Connection ~ 9550 4250
-Wire Wire Line
-	9550 4250 9800 4250
 Wire Wire Line
 	9550 4250 9550 4150
 $Comp
@@ -340,21 +278,6 @@ Wire Wire Line
 Connection ~ 7250 6600
 Wire Wire Line
 	7250 6600 7600 6600
-$Comp
-L Switch:SW_DIP_x04 SW1
-U 1 1 5EF8C546
-P 10200 5050
-F 0 "SW1" H 10200 5517 50  0000 C CNN
-F 1 "SW_DIP_x03" H 10200 5426 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W8.61mm_P2.54mm_LowProfile" H 10200 5050 50  0001 C CNN
-F 3 "~" H 10200 5050 50  0001 C CNN
-F 4 "Würth Elektronik" H 10200 5050 50  0001 C CNN "MFR"
-F 5 "418121270804" H 10200 5050 50  0001 C CNN "MPN"
-	1    10200 5050
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10500 4850
-NoConn ~ 9900 4850
 Wire Wire Line
 	7400 4550 7400 4350
 $Comp
@@ -516,10 +439,8 @@ Wire Wire Line
 Connection ~ 5000 3600
 Wire Wire Line
 	5000 3600 5550 3600
-Text Notes 10750 4600 0    50   ~ 0
-CFG[0..2] should be\n0 1 0 for SPI master.
-Text Notes 10750 4950 0    50   ~ 0
-This should just be replaced with the proper\npull-ups/downs to statically configure,\nbut for rev 0 lets let it be configurable.
+Text Notes 9700 4850 0    50   ~ 0
+CFG[0..2] should be\n0 1 0 for SPI primary.
 $Comp
 L power:GND #PWR0128
 U 1 1 6021C990
@@ -557,9 +478,6 @@ Wire Wire Line
 	8450 4650 8700 4650
 Wire Wire Line
 	8450 4300 8450 4250
-Wire Wire Line
-	8450 4250 9300 4250
-Connection ~ 9300 4250
 $Comp
 L Device:LED D10
 U 1 1 6023CC12
@@ -1211,4 +1129,12 @@ F 6 "220-2112-ND" H 6200 4500 50  0001 C CNN "DIGIKEY_PN"
 	8    6200 4500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8450 4250 9550 4250
+Wire Wire Line
+	10000 4950 10000 5150
+Wire Wire Line
+	7300 4950 10000 4950
+Wire Wire Line
+	7300 5150 10000 5150
 $EndSCHEMATC
