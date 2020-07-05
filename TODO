@@ -32,6 +32,8 @@ Hardware:
  ☐ Hook up RAM to FPGA
  ☐ Stick with 2, go back down to 1 module? How do we route it?
  ☐ Route RAM (ugh)
+ ☐ Figure out wtaf is up with the DDR3 parts and why there is not clock out
+ ☐ Fix the damn FPGA part symbol so it's actually correct
 
  ☐ Settle on data exfiltration interface (Just use USB3? Gigabit Serial?)
 
