@@ -13,40 +13,40 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 4950 3100
-NoConn ~ 4950 3200
-NoConn ~ 4950 3300
-NoConn ~ 4950 3400
-NoConn ~ 4950 3500
-NoConn ~ 4950 3600
-NoConn ~ 4950 3700
-NoConn ~ 4950 3800
-NoConn ~ 4950 3900
-NoConn ~ 4950 4000
-NoConn ~ 4950 4100
-NoConn ~ 4950 4200
-NoConn ~ 4950 4300
-NoConn ~ 4950 4400
-NoConn ~ 4950 4500
-NoConn ~ 4950 4600
-NoConn ~ 4950 4700
-NoConn ~ 6750 4500
-NoConn ~ 6750 4400
-NoConn ~ 6750 4300
-NoConn ~ 6750 4200
-NoConn ~ 6750 4100
-NoConn ~ 6750 4000
-NoConn ~ 6750 3900
-NoConn ~ 6750 3800
-NoConn ~ 6750 3700
-NoConn ~ 6750 3600
-NoConn ~ 6750 3500
-NoConn ~ 6750 3400
-NoConn ~ 6750 3300
-NoConn ~ 6750 3200
-NoConn ~ 6750 3100
+NoConn ~ 5350 3100
+NoConn ~ 5350 3200
+NoConn ~ 5350 3300
+NoConn ~ 5350 3400
+NoConn ~ 5350 3500
+NoConn ~ 5350 3600
+NoConn ~ 5350 3700
+NoConn ~ 5350 3800
+NoConn ~ 5350 3900
+NoConn ~ 5350 4000
+NoConn ~ 5350 4100
+NoConn ~ 5350 4200
+NoConn ~ 5350 4300
+NoConn ~ 5350 4400
+NoConn ~ 5350 4500
+NoConn ~ 5350 4600
+NoConn ~ 5350 4700
+NoConn ~ 6350 4500
+NoConn ~ 6350 4400
+NoConn ~ 6350 4300
+NoConn ~ 6350 4200
+NoConn ~ 6350 4100
+NoConn ~ 6350 4000
+NoConn ~ 6350 3900
+NoConn ~ 6350 3800
+NoConn ~ 6350 3700
+NoConn ~ 6350 3600
+NoConn ~ 6350 3500
+NoConn ~ 6350 3400
+NoConn ~ 6350 3300
+NoConn ~ 6350 3200
+NoConn ~ 6350 3100
 $Comp
-L lethalbit:ECP5UM5G-381caBGA U?
+L lethalbit:LFE5UM5G-85F-8BG381I U?
 U 3 1 610DED19
 P 5850 3150
 AR Path="/610DED19" Ref="U?"  Part="3" 
@@ -62,7 +62,7 @@ F 6 "220-2112-ND" H 5850 3150 50  0001 C CNN "DIGIKEY_PN"
 	3    5850 3150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6750 4600
+NoConn ~ 6350 4600
 $Comp
 L lethalbit:SODIMM_260 J6
 U 1 1 5F29016C

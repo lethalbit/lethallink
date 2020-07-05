@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L lethalbit:ECP5UM5G-381caBGA U?
+L lethalbit:LFE5UM5G-85F-8BG381I U?
 U 1 1 5F21FED7
 P 8500 1700
 AR Path="/5F21FED7" Ref="U?"  Part="1" 

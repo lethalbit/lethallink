@@ -13,54 +13,54 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 7100 2850 2    39   Input ~ 0
+Text HLabel 6650 2850 2    39   Input ~ 0
 PCIe_TCK
-Text HLabel 7100 3050 2    39   Input ~ 0
+Text HLabel 6650 3050 2    39   Input ~ 0
 PCIe_TDI
-Text HLabel 4700 1650 0    39   Input ~ 0
+Text HLabel 5150 1650 0    39   Input ~ 0
 PCIe_TDO
-Text HLabel 4700 2450 0    39   Input ~ 0
+Text HLabel 5150 2450 0    39   Input ~ 0
 PCIe_TMS
-Text HLabel 7100 1950 2    39   Input ~ 0
+Text HLabel 6650 1950 2    39   Input ~ 0
 PCIe_TRST#
-Text HLabel 7050 2250 2    39   Input ~ 0
+Text HLabel 6600 2250 2    39   Input ~ 0
 PCIe_SMCLK
-Text HLabel 7050 2150 2    39   Input ~ 0
+Text HLabel 6600 2150 2    39   Input ~ 0
 PCIe_SMDAT
-Text HLabel 7100 1850 2    39   Input ~ 0
+Text HLabel 6650 1850 2    39   Input ~ 0
 PERST#
-Text HLabel 7100 1750 2    39   Input ~ 0
+Text HLabel 6650 1750 2    39   Input ~ 0
 WAKE#
-Text HLabel 7100 1650 2    39   Input ~ 0
+Text HLabel 6650 1650 2    39   Input ~ 0
 CLKREQ#
-NoConn ~ 5000 1750
-NoConn ~ 5000 1850
-NoConn ~ 5000 1950
-NoConn ~ 5000 2050
-NoConn ~ 5000 2150
-NoConn ~ 5000 2250
-NoConn ~ 5000 2350
-NoConn ~ 5000 2650
-NoConn ~ 5000 2750
-NoConn ~ 5000 2850
-NoConn ~ 5000 2950
-NoConn ~ 6800 2050
-NoConn ~ 6800 2350
-NoConn ~ 6800 2450
-NoConn ~ 6800 2550
-NoConn ~ 6800 2650
-NoConn ~ 5000 3050
-NoConn ~ 5000 3150
-NoConn ~ 6800 2750
-NoConn ~ 6800 2950
-NoConn ~ 6800 3150
-NoConn ~ 6800 3250
+NoConn ~ 5450 1750
+NoConn ~ 5450 1850
+NoConn ~ 5450 1950
+NoConn ~ 5450 2050
+NoConn ~ 5450 2150
+NoConn ~ 5450 2250
+NoConn ~ 5450 2350
+NoConn ~ 5450 2650
+NoConn ~ 5450 2750
+NoConn ~ 5450 2850
+NoConn ~ 5450 2950
+NoConn ~ 6350 2050
+NoConn ~ 6350 2350
+NoConn ~ 6350 2450
+NoConn ~ 6350 2550
+NoConn ~ 6350 2650
+NoConn ~ 5450 3050
+NoConn ~ 5450 3150
+NoConn ~ 6350 2750
+NoConn ~ 6350 2950
+NoConn ~ 6350 3150
+NoConn ~ 6350 3250
 Wire Wire Line
-	6800 2250 7050 2250
+	6350 2250 6600 2250
 Wire Wire Line
-	6800 2150 7050 2150
+	6350 2150 6600 2150
 $Comp
-L lethalbit:ECP5UM5G-381caBGA U?
+L lethalbit:LFE5UM5G-85F-8BG381I U?
 U 6 1 5FD7443A
 P 5900 1700
 AR Path="/5EDF3898/5FD7443A" Ref="U?"  Part="6" 
@@ -78,21 +78,21 @@ F 6 "220-2112-ND" H 5900 1700 50  0001 C CNN "DIGIKEY_PN"
 	6    5900 1700
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 5000 2550
+NoConn ~ 5450 2550
 Wire Wire Line
-	6800 3050 7100 3050
+	6350 3050 6650 3050
 Wire Wire Line
-	6800 2850 7100 2850
+	6350 2850 6650 2850
 Wire Wire Line
-	6800 1950 7100 1950
+	6350 1950 6650 1950
 Wire Wire Line
-	4700 2450 5000 2450
+	5150 2450 5450 2450
 Wire Wire Line
-	4700 1650 5000 1650
+	5150 1650 5450 1650
 Wire Wire Line
-	6800 1650 7100 1650
+	6350 1650 6650 1650
 Wire Wire Line
-	6800 1750 7100 1750
+	6350 1750 6650 1750
 Wire Wire Line
-	6800 1850 7100 1850
+	6350 1850 6650 1850
 $EndSCHEMATC

@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name lethallink)(type Legacy)(uri /pool/abyss/Projects/lethallink/docs/eda/lethallink.lib)(options "")(descr ""))
+  (lib (name lethallink-rescue)(type Legacy)(uri ${KIPRJMOD}/lethallink-rescue.lib)(options "")(descr ""))
 )

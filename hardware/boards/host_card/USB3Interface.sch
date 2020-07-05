@@ -675,10 +675,6 @@ Wire Wire Line
 	5050 6250 5300 6250
 Wire Wire Line
 	5300 6250 5300 6400
-Wire Bus Line
-	3150 3400 3150 4950
-Wire Bus Line
-	9000 2000 9000 3550
 Text Label 11900 2350 2    50   ~ 0
 ALE
 Wire Wire Line
@@ -760,7 +756,7 @@ DQ[0..15]
 Wire Bus Line
 	9000 2000 8650 2000
 $Comp
-L lethalbit:ECP5UM5G-381caBGA U?
+L lethalbit:LFE5UM5G-85F-8BG381I U?
 U 7 1 5FD58016
 P 10450 2200
 AR Path="/5EDF3898/5FD58016" Ref="U?"  Part="7" 
@@ -822,4 +818,8 @@ NoConn ~ 11350 3350
 NoConn ~ 11350 3450
 NoConn ~ 11350 3550
 NoConn ~ 11350 3650
+Wire Bus Line
+	3150 3400 3150 4950
+Wire Bus Line
+	9000 2000 9000 3550
 $EndSCHEMATC
