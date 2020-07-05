@@ -127,19 +127,6 @@ NoConn ~ 5050 4150
 NoConn ~ 5050 4050
 NoConn ~ 5050 3950
 NoConn ~ 5050 3850
-NoConn ~ 11350 3650
-NoConn ~ 11350 3550
-NoConn ~ 11350 3450
-NoConn ~ 11350 3350
-NoConn ~ 11350 3250
-NoConn ~ 11350 3150
-NoConn ~ 11350 3050
-NoConn ~ 11350 2950
-NoConn ~ 11350 2850
-NoConn ~ 11350 2750
-NoConn ~ 11350 2650
-NoConn ~ 11350 2550
-NoConn ~ 11350 2450
 Text HLabel 800  700  0    39   Output ~ 0
 VBUS
 Wire Wire Line
@@ -309,60 +296,6 @@ _3V3
 Text Notes 7300 7000 0    50   ~ 0
 SPI Flash Pinout\n01 - GND\n02 - ~PHY_RESET~\n03 - GND\n04 - 3v3\n05 - DI/IO0\n06 - ~WP~/IO2\n07 - CLK\n08 - DO/IO1\n09 - ~HOLD~/IO3\n10 - ~CS~\n
 Entry Wire Line
-	9000 3550 9100 3650
-Entry Wire Line
-	9000 3450 9100 3550
-Entry Wire Line
-	9000 3350 9100 3450
-Entry Wire Line
-	9000 3250 9100 3350
-Entry Wire Line
-	9000 3150 9100 3250
-Entry Wire Line
-	9000 3050 9100 3150
-Entry Wire Line
-	9000 2950 9100 3050
-Entry Wire Line
-	9000 2850 9100 2950
-Entry Wire Line
-	9000 2750 9100 2850
-Entry Wire Line
-	9000 2650 9100 2750
-Entry Wire Line
-	9000 2550 9100 2650
-Entry Wire Line
-	9000 2450 9100 2550
-Entry Wire Line
-	9000 2350 9100 2450
-Entry Wire Line
-	9000 2250 9100 2350
-Entry Wire Line
-	9000 2150 9100 2250
-Entry Wire Line
-	9000 2050 9100 2150
-$Comp
-L lethalbit:ECP5UM5G-381caBGA U?
-U 7 1 5FD58016
-P 10450 2200
-AR Path="/5EDF3898/5FD58016" Ref="U?"  Part="7" 
-AR Path="/5FD58016" Ref="U?"  Part="7" 
-AR Path="/5F2CAFD2/5FD58016" Ref="U1"  Part="7" 
-AR Path="/5EF6A128/5FD58016" Ref="U?"  Part="7" 
-F 0 "U1" H 10450 2548 50  0000 C CNN
-F 1 "ECP5UM5G-381caBGA" H 10450 2457 50  0000 C CNN
-F 2 "lethalbit:318caBGA" H 9100 2350 50  0001 C CNN
-F 3 "" H 9100 2350 50  0001 C CNN
-F 4 "Lattice" H 10450 2200 50  0001 C CNN "MFR"
-F 5 "LFE5UM5G-85F-8BG381I" H 10450 2200 50  0001 C CNN "MPN"
-F 6 "220-2112-ND" H 10450 2200 50  0001 C CNN "DIGIKEY_PN"
-	7    10450 2200
-	1    0    0    -1  
-$EndComp
-Wire Bus Line
-	9000 2000 8650 2000
-Text Label 9000 2000 2    50   ~ 0
-DQ[0..15]
-Entry Wire Line
 	3250 5050 3150 4950
 Entry Wire Line
 	3250 4950 3150 4850
@@ -477,70 +410,6 @@ DQ1
 Text Label 3300 3550 0    50   ~ 0
 DQ0
 Wire Wire Line
-	9550 2150 9100 2150
-Wire Wire Line
-	9550 2250 9100 2250
-Wire Wire Line
-	9550 2350 9100 2350
-Wire Wire Line
-	9550 2450 9100 2450
-Wire Wire Line
-	9550 2550 9100 2550
-Wire Wire Line
-	9550 2650 9100 2650
-Wire Wire Line
-	9550 2750 9100 2750
-Wire Wire Line
-	9550 2850 9100 2850
-Wire Wire Line
-	9550 2950 9100 2950
-Wire Wire Line
-	9550 3050 9100 3050
-Wire Wire Line
-	9550 3150 9100 3150
-Wire Wire Line
-	9550 3250 9100 3250
-Wire Wire Line
-	9550 3350 9100 3350
-Wire Wire Line
-	9550 3450 9100 3450
-Wire Wire Line
-	9550 3550 9100 3550
-Wire Wire Line
-	9550 3650 9100 3650
-Text Label 9150 3650 0    50   ~ 0
-DQ15
-Text Label 9150 3550 0    50   ~ 0
-DQ14
-Text Label 9150 3450 0    50   ~ 0
-DQ13
-Text Label 9150 3350 0    50   ~ 0
-DQ12
-Text Label 9150 3250 0    50   ~ 0
-DQ11
-Text Label 9150 3150 0    50   ~ 0
-DQ10
-Text Label 9150 3050 0    50   ~ 0
-DQ9
-Text Label 9150 2950 0    50   ~ 0
-DQ8
-Text Label 9150 2850 0    50   ~ 0
-DQ7
-Text Label 9150 2750 0    50   ~ 0
-DQ6
-Text Label 9150 2650 0    50   ~ 0
-DQ5
-Text Label 9150 2550 0    50   ~ 0
-DQ4
-Text Label 9150 2450 0    50   ~ 0
-DQ3
-Text Label 9150 2350 0    50   ~ 0
-DQ2
-Text Label 9150 2250 0    50   ~ 0
-DQ1
-Text Label 9150 2150 0    50   ~ 0
-DQ0
-Wire Wire Line
 	3450 5250 3700 5250
 Wire Wire Line
 	5500 5800 5500 5850
@@ -588,18 +457,6 @@ OE
 Text Label 3150 6250 0    50   ~ 0
 ALE
 NoConn ~ 3700 5150
-Wire Wire Line
-	11350 2250 11900 2250
-Wire Wire Line
-	11350 2150 11900 2150
-Text Label 11900 2150 2    50   ~ 0
-WE_D
-Text Label 11900 2250 2    50   ~ 0
-OE
-Wire Wire Line
-	11350 2350 11900 2350
-Text Label 11900 2350 2    50   ~ 0
-ALE
 Wire Wire Line
 	5050 3650 5500 3650
 Text Label 5500 3550 2    50   ~ 0
@@ -822,4 +679,147 @@ Wire Bus Line
 	3150 3400 3150 4950
 Wire Bus Line
 	9000 2000 9000 3550
+Text Label 11900 2350 2    50   ~ 0
+ALE
+Wire Wire Line
+	11350 2350 11900 2350
+Text Label 11900 2250 2    50   ~ 0
+OE
+Text Label 11900 2150 2    50   ~ 0
+WE_D
+Wire Wire Line
+	11350 2150 11900 2150
+Wire Wire Line
+	11350 2250 11900 2250
+Text Label 9150 2150 0    50   ~ 0
+DQ0
+Text Label 9150 2250 0    50   ~ 0
+DQ1
+Text Label 9150 2350 0    50   ~ 0
+DQ2
+Text Label 9150 2450 0    50   ~ 0
+DQ3
+Text Label 9150 2550 0    50   ~ 0
+DQ4
+Text Label 9150 2650 0    50   ~ 0
+DQ5
+Text Label 9150 2750 0    50   ~ 0
+DQ6
+Text Label 9150 2850 0    50   ~ 0
+DQ7
+Text Label 9150 2950 0    50   ~ 0
+DQ8
+Text Label 9150 3050 0    50   ~ 0
+DQ9
+Text Label 9150 3150 0    50   ~ 0
+DQ10
+Text Label 9150 3250 0    50   ~ 0
+DQ11
+Text Label 9150 3350 0    50   ~ 0
+DQ12
+Text Label 9150 3450 0    50   ~ 0
+DQ13
+Text Label 9150 3550 0    50   ~ 0
+DQ14
+Text Label 9150 3650 0    50   ~ 0
+DQ15
+Wire Wire Line
+	9550 3650 9100 3650
+Wire Wire Line
+	9550 3550 9100 3550
+Wire Wire Line
+	9550 3450 9100 3450
+Wire Wire Line
+	9550 3350 9100 3350
+Wire Wire Line
+	9550 3250 9100 3250
+Wire Wire Line
+	9550 3150 9100 3150
+Wire Wire Line
+	9550 3050 9100 3050
+Wire Wire Line
+	9550 2950 9100 2950
+Wire Wire Line
+	9550 2850 9100 2850
+Wire Wire Line
+	9550 2750 9100 2750
+Wire Wire Line
+	9550 2650 9100 2650
+Wire Wire Line
+	9550 2550 9100 2550
+Wire Wire Line
+	9550 2450 9100 2450
+Wire Wire Line
+	9550 2350 9100 2350
+Wire Wire Line
+	9550 2250 9100 2250
+Wire Wire Line
+	9550 2150 9100 2150
+Text Label 9000 2000 2    50   ~ 0
+DQ[0..15]
+Wire Bus Line
+	9000 2000 8650 2000
+$Comp
+L lethalbit:ECP5UM5G-381caBGA U?
+U 7 1 5FD58016
+P 10450 2200
+AR Path="/5EDF3898/5FD58016" Ref="U?"  Part="7" 
+AR Path="/5FD58016" Ref="U?"  Part="7" 
+AR Path="/5F2CAFD2/5FD58016" Ref="U1"  Part="7" 
+AR Path="/5EF6A128/5FD58016" Ref="U?"  Part="7" 
+F 0 "U1" H 10450 2548 50  0000 C CNN
+F 1 "ECP5UM5G-381caBGA" H 10450 2457 50  0000 C CNN
+F 2 "lethalbit:318caBGA" H 9100 2350 50  0001 C CNN
+F 3 "" H 9100 2350 50  0001 C CNN
+F 4 "Lattice" H 10450 2200 50  0001 C CNN "MFR"
+F 5 "LFE5UM5G-85F-8BG381I" H 10450 2200 50  0001 C CNN "MPN"
+F 6 "220-2112-ND" H 10450 2200 50  0001 C CNN "DIGIKEY_PN"
+	7    10450 2200
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	9000 2050 9100 2150
+Entry Wire Line
+	9000 2150 9100 2250
+Entry Wire Line
+	9000 2250 9100 2350
+Entry Wire Line
+	9000 2350 9100 2450
+Entry Wire Line
+	9000 2450 9100 2550
+Entry Wire Line
+	9000 2550 9100 2650
+Entry Wire Line
+	9000 2650 9100 2750
+Entry Wire Line
+	9000 2750 9100 2850
+Entry Wire Line
+	9000 2850 9100 2950
+Entry Wire Line
+	9000 2950 9100 3050
+Entry Wire Line
+	9000 3050 9100 3150
+Entry Wire Line
+	9000 3150 9100 3250
+Entry Wire Line
+	9000 3250 9100 3350
+Entry Wire Line
+	9000 3350 9100 3450
+Entry Wire Line
+	9000 3450 9100 3550
+Entry Wire Line
+	9000 3550 9100 3650
+NoConn ~ 11350 2450
+NoConn ~ 11350 2550
+NoConn ~ 11350 2650
+NoConn ~ 11350 2750
+NoConn ~ 11350 2850
+NoConn ~ 11350 2950
+NoConn ~ 11350 3050
+NoConn ~ 11350 3150
+NoConn ~ 11350 3250
+NoConn ~ 11350 3350
+NoConn ~ 11350 3450
+NoConn ~ 11350 3550
+NoConn ~ 11350 3650
 $EndSCHEMATC
