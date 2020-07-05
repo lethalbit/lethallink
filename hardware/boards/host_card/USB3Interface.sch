@@ -788,8 +788,6 @@ Entry Wire Line
 Entry Wire Line
 	11650 2250 11550 2350
 Entry Wire Line
-	12800 2800 12700 2900
-Entry Wire Line
 	9450 3150 9550 3250
 NoConn ~ 3700 5250
 NoConn ~ 10900 2950
