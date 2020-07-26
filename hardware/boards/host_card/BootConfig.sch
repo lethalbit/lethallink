@@ -944,6 +944,8 @@ F 0 "J4" H 6300 2817 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 6300 2726 50  0000 C CNN
 F 2 "lethalbit-connectors:FTSH-105-01-L-DV-K-TR" H 6250 2400 50  0001 C CNN
 F 3 "~" H 6250 2400 50  0001 C CNN
+F 4 "Samtec" H 6250 2400 50  0001 C CNN "MFR"
+F 5 "FTSH-105-01-L-DV-K-TR" H 6250 2400 50  0001 C CNN "MPN"
 	1    6250 2400
 	-1   0    0    -1  
 $EndComp
@@ -1054,7 +1056,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 3600 4800 4950
 Text Label 7350 5350 0    50   ~ 0
-TDO
+FPGA_TDO
 Text Label 7350 5450 0    50   ~ 0
 TCK
 Text Label 7350 5550 0    50   ~ 0
@@ -1137,4 +1139,6 @@ Wire Wire Line
 	7300 4950 10000 4950
 Wire Wire Line
 	7300 5150 10000 5150
+Text Label 8800 5950 0    50   ~ 0
+TDO
 $EndSCHEMATC
