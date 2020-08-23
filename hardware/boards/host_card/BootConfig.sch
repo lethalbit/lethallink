@@ -574,8 +574,6 @@ Wire Wire Line
 	7300 4750 8350 4750
 Wire Wire Line
 	8550 3350 9150 3350
-Wire Wire Line
-	9150 3350 9150 4350
 Connection ~ 9150 4650
 $Comp
 L Device:LED D8
@@ -1141,4 +1139,16 @@ Wire Wire Line
 	7300 5150 10000 5150
 Text Label 8800 5950 0    50   ~ 0
 TDO
+Wire Wire Line
+	9150 3350 9150 4350
+Text HLabel 7800 4850 0    39   Output ~ 0
+FPGA_DONE
+Wire Wire Line
+	7800 4850 8100 4850
+Text Label 8100 4850 2    50   ~ 0
+DONE
+Text Label 10350 6200 0    50   ~ 0
+XTAL+
+Text Label 10350 6300 0    50   ~ 0
+XTAL-
 $EndSCHEMATC

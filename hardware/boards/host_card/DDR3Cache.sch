@@ -306,7 +306,7 @@ AR Path="/5EDAB834/5FE30290" Ref="X?"  Part="1"
 AR Path="/5EF6A128/5FE30290" Ref="X?"  Part="1" 
 AR Path="/5EDF3898/5FE30290" Ref="X2"  Part="1" 
 F 0 "X2" H 3600 5375 50  0000 C CNN
-F 1 "AX3" H 3600 5284 50  0000 C CNN
+F 1 "100MHz" H 3600 5284 50  0000 C CNN
 F 2 "lethalbit:AX3" H 3250 5300 50  0001 C CNN
 F 3 "https://abracon.com/datasheets/AX3.pdf" H 3250 5300 50  0001 C CNN
 F 4 "Abracon LLC" H 3600 5000 50  0001 C CNN "MFR"
@@ -1017,24 +1017,24 @@ Wire Bus Line
 Text Label 7050 3550 2    50   ~ 0
 A[0..15]
 Wire Wire Line
-	8200 4950 8450 4950
+	5050 3000 5300 3000
 Wire Wire Line
 	6650 5850 6250 5850
 Wire Wire Line
-	8200 5050 8450 5050
+	5050 3100 5300 3100
 Wire Wire Line
 	5000 5850 5350 5850
 Wire Wire Line
 	6650 5950 6250 5950
 Wire Wire Line
 	5000 5950 5350 5950
-Text Label 8200 4950 0    50   ~ 0
+Text Label 5050 3000 0    50   ~ 0
 DMU0
 Text Label 6650 5850 2    50   ~ 0
 DQSU0+
 Text Label 6650 5950 2    50   ~ 0
 DQSU0-
-Text Label 8200 5050 0    50   ~ 0
+Text Label 5050 3100 0    50   ~ 0
 DML0
 Text Label 5000 5850 0    50   ~ 0
 DQSL0+
@@ -1153,15 +1153,13 @@ Wire Wire Line
 Text Label 6650 5050 2    50   ~ 0
 ~CS0
 Wire Wire Line
-	8450 5200 8200 5200
+	6200 3900 6450 3900
 Wire Wire Line
-	8450 5300 8200 5300
-Text Label 8200 5200 0    50   ~ 0
+	6200 4000 6450 4000
+Text Label 6450 3900 2    50   ~ 0
 CK+
-Text Label 8200 5300 0    50   ~ 0
+Text Label 6450 4000 2    50   ~ 0
 CK-
-Text Notes 8050 4800 0    50   ~ 0
-Wat do with these?\n
 Wire Wire Line
 	5150 4950 5150 5150
 Wire Wire Line
@@ -1174,6 +1172,89 @@ Wire Wire Line
 	5250 5050 5350 5050
 Wire Wire Line
 	4500 4850 5250 4850
+Text Notes 5250 2550 0    50   ~ 0
+TODO: DDR3 Termination\n\n
+Wire Wire Line
+	9750 6150 9750 5750
+Text Label 9750 5750 3    50   ~ 0
+CK+
+Text Label 10050 5750 3    50   ~ 0
+CK-
+$Comp
+L Device:C_Small C?
+U 1 1 5F4CA25E
+P 9900 6700
+AR Path="/5EF66188/5F4CA25E" Ref="C?"  Part="1" 
+AR Path="/5EDF3898/5F4CA25E" Ref="C83"  Part="1" 
+F 0 "C83" H 9992 6746 50  0000 L CNN
+F 1 "10nF" H 9992 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9900 6700 50  0001 C CNN
+F 3 "~" H 9900 6700 50  0001 C CNN
+F 4 "KEMET" H 9900 6700 50  0001 C CNN "MFR"
+F 5 "C0402C103M5RACTU" H 9900 6700 50  0001 C CNN "MPN"
+	1    9900 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0148
+U 1 1 5F4DD7B5
+P 9900 6950
+F 0 "#PWR0148" H 9900 6700 50  0001 C CNN
+F 1 "GND" H 9905 6777 50  0000 C CNN
+F 2 "" H 9900 6950 50  0001 C CNN
+F 3 "" H 9900 6950 50  0001 C CNN
+	1    9900 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 6800 9900 6950
+Wire Wire Line
+	9900 6600 9750 6600
+Wire Wire Line
+	9750 6600 9750 6350
+$Comp
+L Device:R_Small R?
+U 1 1 5F57684A
+P 9750 6250
+AR Path="/5EF66251/5F57684A" Ref="R?"  Part="1" 
+AR Path="/5EDF3898/5F57684A" Ref="R8"  Part="1" 
+F 0 "R8" H 9809 6296 50  0000 L CNN
+F 1 "50" H 9809 6205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9750 6250 50  0001 C CNN
+F 3 "~" H 9750 6250 50  0001 C CNN
+F 4 "Vishay Thin Film" H 9750 6250 50  0001 C CNN "MFR"
+F 5 "FC0402E50R0BST1" H 9750 6250 50  0001 C CNN "MPN"
+	1    9750 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 5750 10050 6150
+Wire Wire Line
+	10050 6350 10050 6600
+Wire Wire Line
+	10050 6600 9900 6600
+Connection ~ 9900 6600
+$Comp
+L Device:R_Small R?
+U 1 1 5F5BAC4B
+P 10050 6250
+AR Path="/5EF66251/5F5BAC4B" Ref="R?"  Part="1" 
+AR Path="/5EDF3898/5F5BAC4B" Ref="R36"  Part="1" 
+F 0 "R36" H 10109 6296 50  0000 L CNN
+F 1 "50" H 10109 6205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10050 6250 50  0001 C CNN
+F 3 "~" H 10050 6250 50  0001 C CNN
+F 4 "Vishay Thin Film" H 10050 6250 50  0001 C CNN "MFR"
+F 5 "FC0402E50R0BST1" H 10050 6250 50  0001 C CNN "MPN"
+	1    10050 6250
+	1    0    0    -1  
+$EndComp
+Text HLabel 5900 2250 0    50   Input ~ 0
+~DDR_RESET
+Wire Wire Line
+	6150 2250 5900 2250
+Text Label 6150 2250 2    50   ~ 0
+~RESET
 Wire Bus Line
 	6550 2900 6550 3100
 Wire Bus Line
