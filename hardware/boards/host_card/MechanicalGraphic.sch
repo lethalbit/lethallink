@@ -145,4 +145,15 @@ F 3 "~" H 1600 3750 50  0001 C CNN
 	1    1600 3750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:Fiducial FID12
+U 1 1 600FE625
+P 1600 3950
+F 0 "FID12" H 1685 3996 50  0000 L CNN
+F 1 "Fiducial" H 1685 3905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 1600 3950 50  0001 C CNN
+F 3 "~" H 1600 3950 50  0001 C CNN
+	1    1600 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
