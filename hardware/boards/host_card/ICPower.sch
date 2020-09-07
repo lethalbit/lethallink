@@ -1537,11 +1537,7 @@ Wire Wire Line
 Connection ~ 9500 6800
 Connection ~ 9600 6900
 Wire Wire Line
-	8950 6300 9200 6300
-Wire Wire Line
-	8950 6550 9050 6550
-Wire Wire Line
-	8950 7850 9200 7850
+	8950 7850 9050 7850
 $Comp
 L Device:C_Small C?
 U 1 1 5F8A76DC
@@ -1923,4 +1919,18 @@ F 6 "220-2112-ND" H 8500 1700 50  0001 C CNN "DIGIKEY_PN"
 	1    8500 1700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8950 6550 9050 6550
+Wire Wire Line
+	8950 6300 9050 6300
+Wire Wire Line
+	9050 6550 9050 6300
+Connection ~ 9050 6300
+Wire Wire Line
+	9050 6300 9200 6300
+Wire Wire Line
+	9050 8100 9050 7850
+Connection ~ 9050 7850
+Wire Wire Line
+	9050 7850 9200 7850
 $EndSCHEMATC
